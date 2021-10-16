@@ -21,7 +21,7 @@ You will need to learn to work in groups and resolve conflicts on your own. Thes
 
 3. What are our “ground rules”? (Don't make an exhaustive list—stick with just a few.)
 
-   Team members will  have their assigned work done by the deadline and to the best of  their ability.
+   Team members will have their assigned work done by the deadline and to the best of their ability.
 
    Team members agree to treat one another with respect and encourage a diversity of opinions.
 
@@ -38,11 +38,17 @@ You will need to learn to work in groups and resolve conflicts on your own. Thes
 
 5. What roles will we create? Include a description of exactly what each role is responsible for.
 
-   UX Researcher
+   Project Manager: coordinate with the teammates and professors' assignment requirements. Manage the timeline and team communication.
 
-   UX Designer
+   Product Manager: come up with product requirements and cooperate with the team to turn those concepts into actual products following the Scrum framework.
+   
+   UX Researcher: research about what our competitors are doing and their advantages and disadvantages are. Research about how to stay competitive in this area in terms of our UX design.
 
-   Programmer
+   UX Designer: draw wireframes about our design and cooperate with the programmers to achieve them.
+
+   Software Engineer: Write front end components and deploy the web app.
+
+   Each of us we take on many roles to develop our skills in planning, design and programming.
 
 6. How will we hold ourselves and one another accountable? What (exactly) will we say to a team member who appears not to be contributing equally? To a team member who fails to deliver what was promised?
 
@@ -70,7 +76,8 @@ You will need to learn to work in groups and resolve conflicts on your own. Thes
 
 9. What else do we want to include in this contract? (Think about a _fun_ clause... not everything is always about work! Sometimes you need to celebrate your accomplishments!)
 
-TODO
+	This contract is for us to cooperate better and deliver good results.
+	Let's celebrate our achievements at the end of the project!
 
 ## Signed
 
@@ -82,4 +89,4 @@ TODO
 
 - Yangkai He  10/16/2021
 
-- ...
+- Jieyu Chen 10/16/2021
