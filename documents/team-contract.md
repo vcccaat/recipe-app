@@ -1,57 +1,45 @@
-# Team Contract
-
-Working together as a team is critical for your success on this project. Conflicts happen. It's best to develop a plan before conflict arises. This way your team knows exactly the ground rules for dealing with that conflict. You'll be developing a team contract that you'll follow throughout the duration of your project. The team contract is a *living* document. If it's not working, your team should revise it as often as necessary.
-
+Team Contract
+Working together as a team is critical for your success on this project. Conflicts happen. It's best to develop a plan before conflict arises. This way your team knows exactly the ground rules for dealing with that conflict. You'll be developing a team contract that you'll follow throughout the duration of your project. The team contract is a living document. If it's not working, your team should revise it as often as necessary.
 You will need to learn to work in groups and resolve conflicts on your own. These skills will be expected of you by your employer after graduation. Use this project as an opportunity to develop these skills. Lastly, you might want to take note of the issues you encounter and how you solved them. I'm almost certain that you will be asked during an interview about a time you had and conflict and what you did to resolve it.
+Contract
+Your group contract/working agreement should include these elements. Feel free to add other terms, too.
+Team name or project name.
+Sonia Song
+To what goals do we all commit?
+We are all committed to build up and deliver our project in consistently high quality and in a timely fashion. 
+We are all committed to learn and develop our technical skills as well as personal skills throughout building the project.
+We are all committed to contribute equally to this project.
 
-## Contract
-
-**Your group contract/working agreement should include these elements. Feel free to add other terms, too.**
-
-1. Team name or project name.
-
-    TODO
-
-2. To what goals do we all commit?
-
-    TODO
-
-
-3. What are our “ground rules”? (Don't make an exhaustive list—stick with just a few.)
-
-    TODO
-
-4. By what means and how frequently will we meet or communicate?
-
-    TODO
-
-5. What roles will we create? Include a description of exactly what each role is responsible for.
-
-    TODO
-
-6. How will we hold ourselves and one another accountable? What (exactly) will we say to a team member who appears not to be contributing equally? To a team member who fails to deliver what was promised?
-
-    TODO
-
-7. What do we do when we disagree? What approach to conflict to we all agree to uphold?
-
-    TODO
-
-8. What are our procedures for re-visiting this contract?
-
-    TODO
+What are our “ground rules”? (Don't make an exhaustive list—stick with just a few.)
+TODO
+By what means and how frequently will we meet or communicate?
+Weekly by zoom meeting
+What roles will we create? Include a description of exactly what each role is responsible for.
+UX Researcher
+UX Designer 
+Programmer
+ 
+How will we hold ourselves and one another accountable? What (exactly) will we say to a team member who appears not to be contributing equally? To a team member who fails to deliver what was promised?
 
 
-9. What else do we want to include in this contract? (Think about a *fun* clause... not everything is always about work! Sometimes you need to celebrate your accomplishments!)
-
-    TODO
-
-
-## Signed
-
-**Add your full name and the date you signed this contract.**
-
-- TODO
-- TODO
-- TODO
-- ...
+We will need everyone in the team to be responsible for his/her own task and we are open to discuss the assignment according to every team member’s role in the team and skill levels.
+We will have deadlines for each task that every team member agrees on.
+If there’s any issue related to the task including failure of delivery/ passing the deadline/ no status reporting, we will reach out to the team member who is responsible for that task personally or have a team meeting to discuss what to do next to solve the problem. We will have to report it to the professor and the client if we can not come up with a solution for the problem.
+ 
+What do we do when we disagree? What approach to conflict to we all agree to uphold?
+We will need to make sure the tasks that every team member has been actively accepted and no one has issues on accomplishing their work when distributing the tasks. If there’s a conflict on work assignments, we can have a meeting or discuss it through chat to discuss it together or ask other team members to help.
+If there’s a conflict of different opinions on design, we will have a team meeting to discuss it, and the people who share different opinions need to let everyone know their reason like the advantage of their design, and show us what they have done. And we will analyze each option together until we discuss which one to use.
+Make sure we don’t hurt anyone’s feelings during the project and always be nice to each other.
+ 
+What are our procedures for re-visiting this contract?
+If any member of the team comes up with different thoughts about the contract, we will first bring it up on the group chat and then make a team meeting if necessary to discuss the revision.
+Any revision on the team contract needs to be approved by all team members. Any details related to the change need to be known by every team member as well. 
+We will update the revisioned contract and keep the old version for reference. We will also let the professor and client know about it if it’s necessary. 
+What else do we want to include in this contract? (Think about a fun clause... not everything is always about work! Sometimes you need to celebrate your accomplishments!)
+TODO
+Signed
+Add your full name and the date you signed this contract.
+Sonia Song
+TODO
+TODO
+...
