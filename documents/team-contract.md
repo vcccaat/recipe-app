@@ -21,7 +21,7 @@ You will need to learn to work in groups and resolve conflicts on your own. Thes
 
 3. What are our “ground rules”? (Don't make an exhaustive list—stick with just a few.)
 
-TODO
+TOD
 
 4. By what means and how frequently will we meet or communicate?
 
@@ -71,6 +71,6 @@ TODO
 
 - Yingshi Zhu
 
-- Yangkai He
+- Yangkai He  10/16/2021
 
 - ...
