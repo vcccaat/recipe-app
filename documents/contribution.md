@@ -15,3 +15,7 @@ Yangkai He
 Sonia Song
 
 - Worked with team members to conduct team contract
+
+Jieyu Chen
+
+- Worked with team members to conduct team contract
