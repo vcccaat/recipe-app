@@ -21,7 +21,16 @@ You will need to learn to work in groups and resolve conflicts on your own. Thes
 
 3. What are our “ground rules”? (Don't make an exhaustive list—stick with just a few.)
 
-TOD
+   Team members will  have their assigned work done by the deadline and to the best of  their ability.
+
+   Team members agree to treat one another with respect and encourage a diversity of opinions.
+
+   Team member will keep others informed if he or she encounters any issues regarding the project.
+
+   Team members will attend each group meeting on time. 
+	 
+   Team members will take responsibility for the success of the project. 
+
 
 4. By what means and how frequently will we meet or communicate?
 
