@@ -83,7 +83,7 @@ You will need to learn to work in groups and resolve conflicts on your own. Thes
 
 **Add your full name and the date you signed this contract.**
 
-- Sonia Song
+- Sonia Song Oct 16 2021
 
 - Yingshi Zhu Oct 16
 

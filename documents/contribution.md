@@ -11,3 +11,7 @@ Yingshi Zhu
 Yangkai He
 
 - Worked with team members to conduct team contract
+
+Sonia Song
+
+- Worked with team members to conduct team contract
