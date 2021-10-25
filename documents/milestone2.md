@@ -14,3 +14,7 @@ We conducted 15 semi-structured interviews and 6 field studies with several foll
 -   People desire for finding a recipe based on existing ingredients
     
 -   People tend to find a recipe that is quick and easy when time is limited
+
+-   People tend to check their devices (mostly mobile phones) multiple times and desire for keeping the phone safe and clean
+    
+-   People prefer step-by-step instruction with visual presentations
