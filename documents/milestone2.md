@@ -2,3 +2,9 @@
 # Users
 
 Our users are people who need assistance “finding recipes”
+
+## Gathering Information
+
+### Methodologies:
+
+We conducted 15 semi-structured interviews and 6 field studies with several follow-up questions. According to our field studies as well as part of the semi-structured interviews, we conducted an affinity diagram accordingly.
