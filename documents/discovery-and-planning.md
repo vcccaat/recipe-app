@@ -50,8 +50,6 @@ Semi-structured interviews could enable us to find a great number of insights in
 
 ## Problems Identified
 
-How might we provide recipes that allow people to have a quality meal quickly and easily?
-
 - It's hard to find the recipe that exactly match the ingredients that the user wants.
 
 - It's hard to find recipes that can be finished within a desired time period.
@@ -65,6 +63,7 @@ How might we provide recipes that allow people to have a quality meal quickly an
 - Recipes can't be visually presented in a step-by-step way.
 
 - Bad recipes may hurt the users' experience.
+
 
 ## Value Propositions
 
