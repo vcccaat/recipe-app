@@ -8,7 +8,7 @@ Our users are people who need assistance “finding recipes”
 
 We conducted 15 semi-structured interviews and 6 field studies with several follow-up questions. According to our field studies as well as part of the semi-structured interviews, we conducted an affinity diagram accordingly.
 
-The reason we chose to do the semi-structured interviews could enable us to find a great number of insights in a short period. At the same time, it allows the interviewee to give open-ended responses to gain more in-depth information. After refining the goal, using field studies along with contextual interviews enables us to gain focused insights. It let us observe the details about the interaction between participants and the target objects. And since participants would be in a familiar environment, they tend to relax and be authentic.
+Semi-structured interviews could enable us to find a great number of insights in a short period. At the same time, it allows the interviewee to give open-ended responses to gain more in-depth information. After refining the goal, using field studies along with contextual interviews enables us to gain focused insights. It let us observe the details about the interaction between participants and the target objects. And since participants would be in a familiar environment, they tend to relax and be authentic.
 
 ### - Users interviewed:
 
