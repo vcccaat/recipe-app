@@ -11,6 +11,8 @@ Our users are people who need assistance “finding recipes”
 
 We conducted 15 semi-structured interviews and 6 field studies with several follow-up questions. According to our field studies as well as part of the semi-structured interviews, we conducted an affinity diagram accordingly.
 
+The reason we chose to do the semi-structured interviews could enable us to find a great number of insights in a short period. At the same time, it allows the interviewee to give open-ended responses to gain more in-depth information.  After refining the goal, using field studies along with contextual interviews enables us to gain focused insights. It let us observe the details about the interaction between participants and the target objects. And since participants would be in a familiar environment, they tend to relax and be authentic.
+
 ### - Users interviewed:
 
 1. Miss. Cao is a 21 yrs old undergrad student at Cornell University, she lives in the students' dorm and cooks occasionally. Also, she is at an intermediate level on cooking so she checks recipes a lot. As a student, she is kind of busy with school and doesn't have much spare time on cooking so she really wants to cook fast but also taste good, maybe also with a more convenient cooking method because she doesn't have an oven in her dorm. Plus, she is not an experienced cook and it's hard for her to catch the instruction of the recipe sometimes so she wonders there's some sort of instructions that can lead her for the whole process. 
