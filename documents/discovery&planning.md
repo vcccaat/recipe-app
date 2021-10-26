@@ -32,12 +32,13 @@ We conducted 15 semi-structured interviews and 6 field studies with several foll
 
 ![](affinity_diagram.jpg)
 
+
+## Problems Identified
+
 ### Problem
 
 How might we provide recipes that allow people to have a quality meal quickly and easily?
 
-
-## Problems Identified
 
 (Yangkai)
 - It's hard to find the recipe that exactly match the ingredients that the user wants.
