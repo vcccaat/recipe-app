@@ -27,6 +27,11 @@ We conducted 15 semi-structured interviews and 6 field studies with several foll
 
 - People prefer step-by-step instruction with visual presentations
 
+(Jieyu)
+- Many people want to make the most of the ingredients they have.
+
+- Many recipes online require too many ingredients and take too much time.
+
 
 ### Affinity Diagram:
 
@@ -51,6 +56,8 @@ How might we provide recipes that allow people to have a quality meal quickly an
 
 - Recipes can't be visually presented in a step-by-step way.
 
+(Jieyu)
+- Bad recipes may hurt the users' experience.
 
 
 ## Value Propositions
