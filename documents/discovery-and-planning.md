@@ -40,6 +40,10 @@ Semi-structured interviews could enable us to find a great number of insights in
 
 - Many recipes online require too many ingredients and take too much time.
 
+- People prefer to know the exact dosage of the seasonings or sauces rather than 'a lttle' or 'proper amount'.
+
+- People would like to have the instruction for the whole process that can be followed.
+
 ### Affinity Diagram:
 
 ![](affinity_diagram.jpg)
