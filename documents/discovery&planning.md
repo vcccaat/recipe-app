@@ -35,8 +35,6 @@ We conducted 15 semi-structured interviews and 6 field studies with several foll
 
 ## Problems Identified
 
-### Problem
-
 How might we provide recipes that allow people to have a quality meal quickly and easily?
 
 
@@ -57,7 +55,8 @@ How might we provide recipes that allow people to have a quality meal quickly an
 
 ## Value Propositions
 
-  
+Make a quality meal quickly and easily
+
 
 ## Scenarios
 
