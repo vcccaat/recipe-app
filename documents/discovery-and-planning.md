@@ -22,6 +22,8 @@ Semi-structured interviews could enable us to find a great number of insights in
 
 5. Mr. Fan is a 22 yrs old master student at Cornell University, he lives alone in an apartment and usually cooks 6- 7 times a week. He admits he is not good at cooking and he has to rely on a recipe to prepare for a meal. He love to spend sparse time in watching short video, so as he prefers having visual presentations on the cooking procedure, e.g. short cooking video, photos, etc. He usually spends less than 15min to prepare a meal, most of the cases are cooking some pre-made instant food. He has a strong desire to find some simple and tasty recipes that are tailor for students or working-class who don't want to spend too much time on cooking but still want to remain healthy.
 
+6. Mr. Li is a 25 yrs old software engineer, he lives alone in an apartment and usually cooks 7 times a week. He is an intermediate cooker. He loves to spend sparse time finding new tastes and recipes. Meanwhile, he is busy at work. Sp during the weekdays, he prefers to cook a quick and easy meal with existing ingredients.  And explore more tastes during the weekend.
+
 ### - Key takeaways:
 
 - People desire for finding a recipe based on existing ingredients
