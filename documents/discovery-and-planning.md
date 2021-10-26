@@ -24,8 +24,6 @@ Semi-structured interviews could enable us to find a great number of insights in
 
 ### - Key takeaways:
 
-(Sonia)
-
 - People desire for finding a recipe based on existing ingredients
 
 - People tend to find a recipe that is quick and easy when time is limited
@@ -36,7 +34,6 @@ Semi-structured interviews could enable us to find a great number of insights in
 
 - People are willing to explore new taste by trying out recipe app
 
-(Jieyu)
 - Many people want to make the most of the ingredients they have.
 
 - Many recipes online require too many ingredients and take too much time.
@@ -61,7 +58,6 @@ How might we provide recipes that allow people to have a quality meal quickly an
 
 - Recipes can't be visually presented in a step-by-step way.
 
-(Jieyu)
 - Bad recipes may hurt the users' experience.
 
 
@@ -74,11 +70,10 @@ Make a quality meal quickly and easily
 Jason is a final-year student enjoy cooking in his own place but he has a tight time schedule this semester. He have a meeting sheduled at 8pm, and he would like to make a quick dinner using some existing ingrediants in the fridge, preferably can be finished under 15min. He opens a recipe app and want to search for an idea.
 
 ## Persona
+Persona 1 – George: George is a 23-year-old student who needs to save time cooking.
+Persona 2 – Lily: Lily is a 29-year-old designer who wants to save money by making the best use of what she has in her refridgerator.
 
 ## Project Themes
-
-(Jieyu)
-
 1. A scroll bar for users to input the maximum cooking time they have which will be matched with relevant recipes.
 2. Recipe galleries with cooking time.
 3. Recipe detail pages with photos and words.
