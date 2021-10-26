@@ -22,9 +22,9 @@ Semi-structured interviews could enable us to find a great number of insights in
 
 5. Mr. Fan is a 22 yrs old master student at Cornell University, he lives alone in an apartment and usually cooks 6- 7 times a week. He admits he is not good at cooking and he has to rely on a recipe to prepare for a meal. He love to spend sparse time in watching short video, so as he prefers having visual presentations on the cooking procedure, e.g. short cooking video, photos, etc. He usually spends less than 15min to prepare a meal, most of the cases are cooking some pre-made instant food. He has a strong desire to find some simple and tasty recipes that are tailor for students or working-class who don't want to spend too much time on cooking but still want to remain healthy.
 
-### - Key takeaways:
+6. Mr. Li is a 25 yrs old software engineer, he lives alone in an apartment and usually cooks 7 times a week. He is an intermediate cooker. He loves to spend sparse time finding new tastes and recipes. Meanwhile, he is busy at work. Sp during the weekdays, he prefers to cook a quick and easy meal with existing ingredients. And explore more tastes during the weekend.
 
-(Sonia)
+### - Key takeaways:
 
 - People desire for finding a recipe based on existing ingredients
 
@@ -36,11 +36,13 @@ Semi-structured interviews could enable us to find a great number of insights in
 
 - People are willing to explore new taste by trying out recipe app
 
-(Jieyu)
-
 - Many people want to make the most of the ingredients they have.
 
 - Many recipes online require too many ingredients and take too much time.
+
+- People prefer to know the exact dosage of the seasonings or sauces rather than 'a lttle' or 'proper amount'.
+
+- People would like to have the instruction for the whole process that can be followed.
 
 ### Affinity Diagram:
 
@@ -62,8 +64,6 @@ How might we provide recipes that allow people to have a quality meal quickly an
 
 - Recipes can't be visually presented in a step-by-step way.
 
-(Jieyu)
-
 - Bad recipes may hurt the users' experience.
 
 ## Value Propositions
@@ -78,9 +78,10 @@ Amy is a food-science student at Cornell University and she loves to explore new
 
 ## Persona
 
-## Project Themes
+Persona 1 – George: George is a 23-year-old student who needs to save time cooking.
+Persona 2 – Lily: Lily is a 29-year-old designer who wants to save money by making the best use of what she has in her refridgerator.
 
-(Jieyu)
+## Project Themes
 
 1. A scroll bar for users to input the maximum cooking time they have which will be matched with relevant recipes.
 2. Recipe galleries with cooking time.
