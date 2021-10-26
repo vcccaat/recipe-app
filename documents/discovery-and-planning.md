@@ -36,6 +36,12 @@ Semi-structured interviews could enable us to find a great number of insights in
 
 - People are willing to explore new taste by trying out recipe app
 
+(Jieyu)
+
+- Many people want to make the most of the ingredients they have.
+
+- Many recipes online require too many ingredients and take too much time.
+
 ### Affinity Diagram:
 
 ![](affinity_diagram.jpg)
@@ -56,6 +62,10 @@ How might we provide recipes that allow people to have a quality meal quickly an
 
 - Recipes can't be visually presented in a step-by-step way.
 
+(Jieyu)
+
+- Bad recipes may hurt the users' experience.
+
 ## Value Propositions
 
 Make a quality meal quickly and easily
@@ -63,6 +73,8 @@ Make a quality meal quickly and easily
 ## Scenarios
 
 Jason is a final-year student enjoy cooking in his own place but he has a tight time schedule this semester. He have a meeting sheduled at 8pm, and he would like to make a quick dinner using some existing ingrediants in the fridge, preferably can be finished under 15min. He opens a recipe app and want to search for an idea.
+
+Amy is a food-science student at Cornell University and she loves to explore new recipes. She cooks nearly everyday, and she cares about the nutrition and the taste of the meal. She genuinely hopes that there would be one recipe app can meet all her goals.
 
 ## Persona
 
