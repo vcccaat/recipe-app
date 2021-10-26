@@ -28,6 +28,9 @@ We conducted 15 semi-structured interviews and 6 field studies with several foll
 - People prefer step-by-step instruction with visual presentations
 
 
+### Affinity Diagram:
+
+![](affinity_diagram.jpg)
 
 ## Problems Identified
 
