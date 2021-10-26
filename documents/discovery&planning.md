@@ -32,6 +32,11 @@ We conducted 15 semi-structured interviews and 6 field studies with several foll
 
 ![](affinity_diagram.jpg)
 
+### Problem
+
+How might we provide recipes that allow people to have a quality meal quickly and easily?
+
+
 ## Problems Identified
 
 (Yangkai)
