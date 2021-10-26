@@ -1,11 +1,8 @@
-
 ## Users of the Product
 
 Our users are people who need assistance “finding recipes”
 
-
 ## Gathering Information
-
 
 ### - Methodologies:
 
@@ -13,12 +10,10 @@ We conducted 15 semi-structured interviews and 6 field studies with several foll
 
 ### - Users interviewed:
 
-
-
-
 ### - Key takeaways:
 
 (Sonia)
+
 - People desire for finding a recipe based on existing ingredients
 
 - People tend to find a recipe that is quick and easy when time is limited
@@ -27,18 +22,18 @@ We conducted 15 semi-structured interviews and 6 field studies with several foll
 
 - People prefer step-by-step instruction with visual presentations
 
+- People are willing to explore new taste by trying out recipe app
 
 ### Affinity Diagram:
 
 ![](affinity_diagram.jpg)
 
-
 ## Problems Identified
 
 How might we provide recipes that allow people to have a quality meal quickly and easily?
 
-
 (Yangkai)
+
 - It's hard to find the recipe that exactly match the ingredients that the user wants.
 
 - It's hard to find recipes that can be finished within a desired time period.
@@ -51,24 +46,20 @@ How might we provide recipes that allow people to have a quality meal quickly an
 
 - Recipes can't be visually presented in a step-by-step way.
 
-
-
 ## Value Propositions
 
 Make a quality meal quickly and easily
 
-
 ## Scenarios
 
-  
+Jason is a final-year student enjoy cooking in his own place but he has a tight time schedule this semester. He have a meeting sheduled at 8pm, and he would like to make a quick dinner using some existing ingrediants in the fridge, preferably can be finished under 15min. He opens a recipe app and want to search for an idea.
 
 ## Persona
-
-  
 
 ## Project Themes
 
 (Jieyu)
+
 1. A scroll bar for users to input the maximum cooking time they have which will be matched with relevant recipes.
 2. Recipe galleries with cooking time.
 3. Recipe detail pages with photos and words.
