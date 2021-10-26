@@ -19,3 +19,4 @@ Sonia Song
 Jieyu Chen
 
 - Worked with team members to conduct team contract
+- Wrote the personas, project themes, figma, and interview notes
