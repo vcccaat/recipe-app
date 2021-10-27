@@ -6,3 +6,6 @@ All non-app related artifacts must be listed here to be graded. If it's not list
 
 - [Team Contract](documents/team-contract.md)
 - [Contribute](documents/contribution.md)
+- [Interview Notes](documents/interview-notes.md)
+- [Discovery and Planning](documents/discovery-and-planning.md)
+- [Affinity Diagram](documents/affinity_diagram.jpg)

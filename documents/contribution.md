@@ -2,20 +2,44 @@
 
 ## Milestone 1: Teamwork
 
-Yingshi Zhu
+**Yingshi Zhu**
 
 - Worked in team to draft team contract
 - Created teamwork branch and contribution.md
 
-
-Yangkai He
-
-- Worked with team members to conduct team contract
-
-Sonia Song
+**Yangkai He**
 
 - Worked with team members to conduct team contract
 
-Jieyu Chen
+**Sonia Song**
 
 - Worked with team members to conduct team contract
+
+**Jieyu Chen**
+
+- Worked with team members to conduct team contract
+
+
+
+## Milestone 2: Teamwork
+
+**Yingshi Zhu**
+
+- Created teamwork branch and contribution.md
+- Wrote scenarios, figma, interview notes, and summaries for the user interview
+
+**Yangkai He**
+
+- Conducted user interviews, worked on affinity diagrams and identified problems.
+- Brainstormed and discussed about different ideas with the team.
+
+**Sonia Song**
+
+- Wrote the personas, value proposition, figma, and do the affinity daigramming
+
+- Conducted user interviews and field studies
+  
+
+**Jieyu Chen**
+
+- Wrote the personas, project themes, figma, and interview notes
