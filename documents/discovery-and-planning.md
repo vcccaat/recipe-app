@@ -77,8 +77,10 @@ Amy is a food-science student at Cornell University and she loves to explore new
 
 ## Persona
 
-Persona 1 – George: George is a 23-year-old student who needs to save time cooking.
-Persona 2 – Lily: Lily is a 29-year-old designer who wants to save money by making the best use of what she has in her refridgerator.
+![](Persona1.jpg)
+
+![](Persona2.jpg)
+
 
 ## Project Themes
 
