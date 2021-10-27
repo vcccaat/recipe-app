@@ -67,7 +67,8 @@ Semi-structured interviews could enable us to find a great number of insights in
 
 ## Value Propositions
 
-Make a quality meal quickly and easily
+- Make a quality meal quickly and easily
+Provide step-by-step instructions visually
 
 ## Scenarios
 
