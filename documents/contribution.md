@@ -35,6 +35,9 @@
 
 **Sonia Song**
 
+- Wrote the personas, value proposition, figma, and do the affinity daigramming
+
+- Conducted user interviews and field studies
   
 
 **Jieyu Chen**
