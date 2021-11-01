@@ -48,6 +48,9 @@
 ## Milestone 2: Teamwork
 
 **Yingshi Zhu**
+- Reworked scenarios part based on the feedback
+- Drafted design-and-evaluation
+- Updated readme.md
 
 **Yangkai He**
 
