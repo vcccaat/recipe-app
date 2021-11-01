@@ -42,4 +42,19 @@
 
 **Jieyu Chen**
 
+- Brainstormed with the group and conducted user interviews.
 - Wrote the personas, project themes, figma, and interview notes
+
+## Milestone 2: Teamwork
+
+**Yingshi Zhu**
+
+**Yangkai He**
+
+**Sonia Song**
+
+**Jieyu Chen**
+
+- Wrote the rationale for the scenarios. 
+- Drafted sketches of the design and discussed with the team.
+- Reworked the value propositions based on the feedback.

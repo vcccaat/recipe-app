@@ -67,14 +67,13 @@ Semi-structured interviews could enable us to find a great number of insights in
 
 ## Value Propositions
 
-- Make a quality meal quickly and easily
-Provide step-by-step instructions visually
+Facipe enriches people's life by providing high-quality recipes that make the most of their limited time and ingredients. Facipe tells users the possible dishes they can make in a given amount of time. Users can know how to save money and prevent wasting food by entering what they have as ingredients. By providing step-by-step instructions visually, Facipe helps users cook better.
 
 ## Scenarios
 
 Jason is a final-year student enjoy cooking in his own place but he has a tight time schedule this semester. He have a meeting sheduled at 8pm, and he would like to make a quick dinner using some existing ingrediants in the fridge, preferably can be finished under 15min. He opens a recipe app and want to search for an idea.
 
-Amy is a food-science student at Cornell University and she loves to explore new recipes. She cooks nearly everyday, and she cares about the nutrition and the taste of the meal. She genuinely hopes that there would be one recipe app can meet all her goals.
+Amy is a food-science student at Cornell University and she loves to explore new recipes. She cooks nearly everyday, and she cares about the taste of the meal. She genuinely hopes that there would be one recipe app that can meet all her goals.
 
 ## Persona
 
