@@ -33,7 +33,7 @@ Revision:
 ### 6. Scenarios
 Feedback: your scenarios should describe the user while he/she performed the task (not just what task he plans to do). Also, it is good to include a description of what happens after the user performs the task, how do they feel, what are their thoughts.
 
-Revision: 
+Revision: added description of how user performs the task as well as his/her thoughts on this app. 
 
 ## Persuasive Design
 

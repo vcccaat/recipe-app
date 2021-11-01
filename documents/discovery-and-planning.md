@@ -71,9 +71,9 @@ Facipe enriches people's life by providing high-quality recipes that make the mo
 
 ## Scenarios
 
-Jason is a final-year student enjoy cooking in his own place but he has a tight time schedule this semester. He have a meeting sheduled at 8pm, and he would like to make a quick dinner using some existing ingrediants in the fridge, preferably can be finished under 15min. He opens a recipe app and want to search for an idea.
+Jason is a final-year student enjoy cooking in his own place but he has a tight time schedule this semester. He have a meeting sheduled at 8pm, and he would like to make a quick dinner using some avialble ingredients that can save his time. Using Facipe app, Jason can find the ideal recipe by one search, simply input the ingredients' name and time he plans to cook, the app will recommend a list of recipes that satisfy all his constraints. Jason is so glad that he can finish his dinner under 15min without the trouble to buy extra ingredients to prepare for this meal.
 
-Amy is a food-science student at Cornell University and she loves to explore new recipes. She cooks nearly everyday, and she cares about the taste of the meal. She genuinely hopes that there would be one recipe app that can meet all her goals.
+Amy is a food-science student at Cornell University and she loves to explore new recipes. She cooks nearly everyday, and she cares about the taste of the meal. Facipe allows Amy to explore variety of recipes based on her ingredient keywords input. After Amy selects a recipe, the detail page outlines the estimated time takes to cook, uer reviews and rating of this recipe, as well as incorporate with clear instructions with picture demo to guide you step by step on how to make this cuisine. She genuinely think that this recipe app meet all her goals. 
 
 ## Persona
 
