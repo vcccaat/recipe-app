@@ -61,3 +61,4 @@
 - Wrote the rationale for the scenarios. 
 - Drafted sketches of the design and discussed with the team.
 - Reworked the value propositions based on the feedback.
+- Proofread the documents and corrected the grammar errors.
