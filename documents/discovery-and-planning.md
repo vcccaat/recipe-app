@@ -1,6 +1,6 @@
 ## Users of the Product
 
-Our users are people who need assistance “finding recipes”
+Our users are people with limited time for cooking and need help on dealing with the ingredients left in their frige, like college students and officer workers that are busing on working / studying or have tight schedules, to help them make food easier and faster.
 
 ## Gathering Information
 
@@ -57,9 +57,9 @@ Main findings: interviewee prefers to cook a quick and easy meal with existing i
 
 ## Problems Identified
 
-- It's hard to find the recipe that exactly match the ingredients that the user wants.
+- **It's hard to find the recipe that exactly match the ingredients that the user wants. (The problem we are planning on focusing on)**
 
-- It's hard to find recipes that can be finished within a desired time period.
+- **It's hard to find recipes that can be finished within a desired time period. (The problem we are planning on focusing on)**
 
 - Users don't know the health information (like calories, nutrient content, etc.) of the recipe.
 
