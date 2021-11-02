@@ -13,7 +13,7 @@ Revision: Our users are people with limited time for cooking and need help on de
 ### 2. Interview - What methods you used and why the methods are good choices
 Feedback: you didn't explain why you chose to conduct field studies with six users. Did you do them before the semi-structured interviews? Where did they take place? What was the procedure of the field study?
 
-Revision: 
+Revision: We noticed that our methodologies are semi-structured interviews and contextual studies. Since our contextual interview has a session to let people stimulate how they interact with recipes, we design them as field strides. We add the procedure and how we decide the six contextual interviews in the new version.
 
 ### 3. Interview - Provide a brief summary of each user and what you learned from them.
 Feedback: you only did partial work here. You indicated you conducted 15 interviews, you included a summary of only six of them, what about the rest? What about the main findings from the six field studies?
