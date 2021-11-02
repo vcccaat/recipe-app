@@ -13,7 +13,7 @@ Revision: Our users are people with limited time for cooking and need help on de
 ### 2. Interview - What methods you used and why the methods are good choices
 Feedback: you didn't explain why you chose to conduct field studies with six users. Did you do them before the semi-structured interviews? Where did they take place? What was the procedure of the field study?
 
-Revision:
+Revision: 
 
 ### 3. Interview - Provide a brief summary of each user and what you learned from them.
 Feedback: you only did partial work here. You indicated you conducted 15 interviews, you included a summary of only six of them, what about the rest? What about the main findings from the six field studies?
@@ -24,6 +24,21 @@ Revision:
 Feedback: you didn't indicated which one or two key problems you are planning on focusing on.
 
 Revision:
+
+- **It's hard to find the recipe that exactly match the ingredients that the user wants. (The problem we are planning on focusing on)**
+
+- **It's hard to find recipes that can be finished within a desired time period. (The problem we are planning on focusing on)**
+
+- Users don't know the health information (like calories, nutrient content, etc.) of the recipe.
+
+- Users don't want to check their devices multiple times when they are cooking.
+
+- Some recipes don't have clear instructions on the dosage needed for the seasoning / sauce.
+
+- Recipes can't be visually presented in a step-by-step way.
+
+- Bad recipes may hurt the users' experience.
+
 
 ### 5. Value Propositions
 Feedback: Only one value proposition? You could have come up with a few more.
