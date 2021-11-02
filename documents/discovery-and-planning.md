@@ -6,9 +6,9 @@ Our users are people who need assistance “finding recipes”
 
 ### - Methodologies:
 
-We conducted 15 semi-structured interviews and 6 field studies with several follow-up questions. According to our field studies as well as part of the semi-structured interviews, we conducted an affinity diagram accordingly.
+We conducted 15 semi-structured interviews and six contextual interviews with several follow-up questions. According to our contextual interview and part of the semi-structured interviews, we showed an affinity diagram accordingly. We choose the six users from the 15 semi-structured interviews. We continue to do the contextual interview with those willing to participate in the field studies and who have used the recipe needs.  We asked them several questions in the contextual interviews and simulated how they would typically interact with the recipe at their home.
 
-Semi-structured interviews could enable us to find a great number of insights in a short period. At the same time, it allows the interviewee to give open-ended responses to gain more in-depth information. After refining the goal, using field studies along with contextual interviews enables us to gain focused insights. It let us observe the details about the interaction between participants and the target objects. And since participants would be in a familiar environment, they tend to relax and be authentic.
+Semi-structured interviews could enable us to find a significant number of insights in a short period. At the same time, it allows the interviewee to give open-ended responses to gain more in-depth information. After refining the goal, using contextual interviews enables us to gain focused insights. It let us observe the details about the interaction between participants and the target objects. And since participants would be in a familiar environment, they tend to relax and be authentic. Also, in-depth questions enable us to gain real insights.
 
 ### - Users interviewed:
 
