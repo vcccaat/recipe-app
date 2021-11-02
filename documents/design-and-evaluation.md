@@ -18,7 +18,7 @@ Revision: We noticed that our methodologies are semi-structured interviews and c
 ### 3. Interview - Provide a brief summary of each user and what you learned from them.
 Feedback: you only did partial work here. You indicated you conducted 15 interviews, you included a summary of only six of them, what about the rest? What about the main findings from the six field studies?
 
-Revision:  we add main findinds under the user interview section for each of the six field studies.
+Revision: We noticed that our methodologies are semi-structured interviews and contextual studies. Since our contextual interview has a session to let people stimulate how they interact with recipes, we design them as field strides. For the semi-structured interview, we only had 3~4 questions, and many of them didn’t cook. We add the main findings of 6 contextual interviews and semi-structured interviews under the user interview section for each of the six field studies.
 
 ### 4. Problem identification
 Feedback: you didn't indicated which one or two key problems you are planning on focusing on.
