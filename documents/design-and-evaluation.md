@@ -24,20 +24,13 @@ Revision:  we add main findinds under the user interview section for each of the
 Feedback: you didn't indicated which one or two key problems you are planning on focusing on.
 
 Revision:
+we choosed to focus on the first two problems we identified.
 
 - **It's hard to find the recipe that exactly match the ingredients that the user wants. (The problem we are planning on focusing on)**
 
 - **It's hard to find recipes that can be finished within a desired time period. (The problem we are planning on focusing on)**
 
-- Users don't know the health information (like calories, nutrient content, etc.) of the recipe.
 
-- Users don't want to check their devices multiple times when they are cooking.
-
-- Some recipes don't have clear instructions on the dosage needed for the seasoning / sauce.
-
-- Recipes can't be visually presented in a step-by-step way.
-
-- Bad recipes may hurt the users' experience.
 
 
 ### 5. Value Propositions

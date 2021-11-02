@@ -71,6 +71,7 @@ Main findings: interviewee prefers to cook a quick and easy meal with existing i
 
 - Bad recipes may hurt the users' experience.
 
+we choosed to focus on the first two problems we identified.
 
 ## Value Propositions
 
