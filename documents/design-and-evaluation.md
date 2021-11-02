@@ -8,7 +8,7 @@ We made some changes on the discovery-and-planning.md of our milestone 2 submiss
 ### 1. Who are your users? 
 Feedback: You have a good start here. However, based on the users you interviewed (which on their problems and needs, you based your app's focus), the target user description is too broad and should be more specific and aligned with the user group you focused on. According to that description, you should have interviewed users from different age groups, at different locations and cultures, with various professions and careers, etc. 
 
-Revision: 
+Revision: Our users are people with limited time for cooking and need help on dealing with the ingredients left in their frige, like college students and officer workers that are busing on working / studying or have tight schedules, to help them make food easier and faster.
 
 ### 2. Interview - What methods you used and why the methods are good choices
 Feedback: you didn't explain why you chose to conduct field studies with six users. Did you do them before the semi-structured interviews? Where did they take place? What was the procedure of the field study?
