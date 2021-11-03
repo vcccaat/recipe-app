@@ -50,7 +50,7 @@ Feedback: Only one value proposition? You could have come up with a few more.
 Revision: Reworked the propositions by coming up with a more thorough one. Focuses more on how our apps solves the users' pain points.
 
 ## Brainstorming notes and sketches
-![](brainstorm-and-sketches.md)
+![](sketches/brainstorm-and-sketches.md)
 
 ### 6. Scenarios
 Feedback: your scenarios should describe the user while he/she performed the task (not just what task he plans to do). Also, it is good to include a description of what happens after the user performs the task, how do they feel, what are their thoughts.
