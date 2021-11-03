@@ -54,9 +54,6 @@ Feedback: your scenarios should describe the user while he/she performed the tas
 
 Revision: added description of how user performs the task as well as his/her thoughts on this app. 
 
-## Final Sketch
-![](final_sketch.jpg)
-
 ## Persuasive Design
 
 

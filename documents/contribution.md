@@ -45,14 +45,19 @@
 - Brainstormed with the group and conducted user interviews.
 - Wrote the personas, project themes, figma, and interview notes
 
-## Milestone 2: Teamwork
+## Milestone 3: Teamwork
 
 **Yingshi Zhu**
+
 - Reworked scenarios part based on the feedback
 - Drafted design-and-evaluation
 - Updated readme.md
 
 **Yangkai He**
+
+- Made revisions on the discovery and planning based on the feedback
+- Drew the whiteboard brainstorming notes and sketches
+- Conducted the persuasive design of our application
 
 **Sonia Song**
 - Final Sketches
