@@ -1,3 +1,3 @@
 ## Sketches
-![](sketch1.png)
-![](sketch2.png)
+![](sketches/sketch1.png)
+![](sketches/sketch2.png)
