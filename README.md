@@ -17,3 +17,4 @@ Recipe app
 - Milestone 2 [Discovery and Planning](documents/discovery-and-planning.md)
 - [Affinity Diagram](documents/affinity_diagram.jpg)
 - Milestone 3 [design-and-evaluation](documents/design-and-evaluation.md)
+- Brainstorm [brainstorm](documents/brainstorm.md)
