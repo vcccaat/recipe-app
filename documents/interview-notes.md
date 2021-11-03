@@ -278,6 +278,200 @@ Yeah I was going to make a chicken and potato stir fry and I got all the ingredi
  
 - This concludes the interview. Do you have any questions for us? Would you be interested in participating in future studies with us for this project?
 - Only the five members of our team will have access to the audio recording and the notes from today’s meeting. We will change your name and any identifying details in any report we write. When we are done analyzing the data collected during this interview, we will delete the audio recording for your privacy. Thank you so much for your participation in the interview! Have a wonderful day!
+
+#1 
+
+Would you cook?
+
+yes
+
+Would you use recipes to help your cooking?
+
+Not really. My mom taught me most of them. Sometimes might google the recipe
+
+Why not?
+
+Since i get used to eating certain food which i already knew
+
+#2
+
+Would you cook?
+
+no
+
+#3
+
+Would you cook?
+
+Yes
+
+Would you use recipes to help your cooking?
+
+Sure
+
+What do you like about the current product?
+
+I used the google. I like it since it’s informative
+
+ What do you dislike about the current product?
+
+I dislike it since it can not tell what I want. I am super busy these days and just want a quick recipe to do. But I do not know how to find it, and it wastes a lot of time.
+
+#4
+
+Would you cook?
+
+yes
+
+Would you use recipes to help your cooking?
+
+Not really
+
+Why not?
+
+Since I will just cook the extreme easy food due to the time limit
+
+#5
+
+Would you cook?
+
+Yes
+
+Would you use recipes to help your cooking?
+
+Yes 
+
+What do you like about the current product?
+
+I used the red. I like it since it’s informative and also contains many quick meal option
+
+ What do you dislike about the current product?
+
+The information overload but it’s not a recipe app so ….
+
+#6
+
+Would you cook?
+
+Yes
+
+Would you use recipes to help your cooking?
+
+Yes 
+
+What do you like about the current product?
+
+I used xiachufang. I like it since it have what i wna t? I guess…. Like i can find many recipes
+
+ What do you dislike about the current product?
+
+Don’t like the UI
+ 
+#7
+
+Would you cook?
+
+NO
+
+#8
+
+Would you cook?
+
+Yes
+
+Would you use recipes to help your cooking?
+
+Yes 
+
+What do you like about the current product?
+
+I used GOOGLE to search mostly. I like it because you can google almost everything
+
+ What do you dislike about the current product?
+
+The information overload and i still have no idea how to mix and match the ingredients that ti realdy have
+
+#9
+
+Would you cook?
+
+Yes
+
+Would you use recipes to help your cooking?
+
+Not often but I will google it if needed 
+
+What do you like about the current product?
+
+I don;t like it tha tmich but it canwork
+
+ What do you dislike about the current product?
+
+I guess hard to find a diere one: quick and easy and clear
+
+#10
+
+Would you cook?
+
+no
+
+#11
+
+Would you cook?
+
+Yes
+
+Would you use recipes to help your cooking?
+
+Yes 
+
+What do you like about the current product?
+
+I used the red. I like it since it’s informative 
+
+ What do you dislike about the current product?
+
+Spend a lot of time thinking about how to cook by ingredient that I have
+
+#12
+
+Would you cook?
+
+No
+
+#13
+
+Would you cook?
+
+Yes
+
+Would you use recipes to help your cooking?
+
+I THINk so but i will just ask my mom for the recipe
+ 
+#14
+
+Would you cook?
+
+Yes
+
+Would you use recipes to help your cooking?
+
+Yes 
+
+What do you like about the current product?
+
+Iwill just search in the browser or youtube. I like it since it’s informative 
+
+ What do you dislike about the current product?
+
+It sepdns a lot of time on choosing one
+
+#15
+
+Would you cook?
+
+No
  
 
 
