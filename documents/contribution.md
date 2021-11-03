@@ -55,6 +55,10 @@
 **Yangkai He**
 
 **Sonia Song**
+- Final Sketches
+- Participated in brainstorming
+- Reworked the interviews based on the feedback
+- Reworked the methodologies based on the feedback
 
 **Jieyu Chen**
 
