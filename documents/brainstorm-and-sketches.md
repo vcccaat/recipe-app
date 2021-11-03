@@ -9,4 +9,4 @@
 ![](sketches/sketch_whiteboard2.jpeg)
 
 ## Final Sketch
-![](sketches/final_sketch.png)
+![](sketches/final_sketch.jpg)
