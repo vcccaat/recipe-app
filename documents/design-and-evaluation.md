@@ -49,6 +49,9 @@ Feedback: Only one value proposition? You could have come up with a few more.
 
 Revision: Reworked the propositions by coming up with a more thorough one. Focuses more on how our apps solves the users' pain points.
 
+## Brainstorming notes and sketches
+![](brainstorm-and-sketches.md)
+
 ### 6. Scenarios
 Feedback: your scenarios should describe the user while he/she performed the task (not just what task he plans to do). Also, it is good to include a description of what happens after the user performs the task, how do they feel, what are their thoughts.
 
@@ -61,6 +64,9 @@ People might be too lazy to cook and just order food instead (usually junk/fast 
 So our application is going to make the users feel that cooking could be simple and fast, and it’s easy to utilize the ingredients left in their fridge so they would be more willing to cook by themselves instead of ordering takeaways. Also, utilizing the ingredients left in the fridge would prevent wasting. Our features include the time indicator and the time filter that can easily let the user know how long they need to finish the recipe and they can pick the recipe they like in their desired time frame. The feature of searching by ingredients would make the user feel convenient to deal with the ingredients they have in their fridge so they would not feel cooking is a burden anymore. 
 
 We are also going to create a reward system. When the users cook more often or utilize the ingredients more, they would get more points for the badge “fast cooking chief” or “expert of utilizing ingredients” to prompt the user to utilize the ingredients as much as possible and cook by themselves more instead of ordering takeaways.
+
+## Final Sketch
+![](sketches/final_sketch.jpg)
 
 ## Rationale
 Our app name is Facipe. It's main users are those who have limited time in cooking and want to make the best use of the ingredients that they already have. We choose these audience based on our interviews with the users where we learned that people want to find a recipe based on existing ingredients. Moreover, people want step-by-step instructions with visual presentations. They hope that they can know how much time a recipe will take so that they can better manage their schedules. That's why we create Facipe which provides thorough step-by-step recipes to help users make delicious dishes. Each dish is labelled with estimated time and tastes. Users can also see the comments and people's ratings. Let's take a closer look at the scenarios and how our product resolves users' pain points.
