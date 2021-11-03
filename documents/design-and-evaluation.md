@@ -55,6 +55,11 @@ Feedback: your scenarios should describe the user while he/she performed the tas
 Revision: added description of how user performs the task as well as his/her thoughts on this app. 
 
 ## Persuasive Design
+People might be too lazy to cook and just order food instead  (usually junk/fast food so it's not good for their health) because they have tight schedules or just don’t want to spend too much time on cooking, also maybe they have no idea what to do when they see the messy ingredients left in their fridge. 
+
+So our application is going to make the user feel that cooking could be simple and fast, and it’s easy to utilize the ingredients left in their fridge so they would be more willing to cook by themselves instead of ordering takeaways. and utilizing the ingredients left in the fridge would prevent wasting. Our features include the time indicator and the time filter that can easily let the user know how long they need to finish the recipe and they can pick the recipe they like in their desired time frame. The feature of searching by ingredients would let the user feel convenient to deal with the ingredients they have in their fridge so they would not feel cooking is a burden anymore. 
+
+We are also going to create a reward system. When the users cook more often or utilize the ingredients more, they would get more points for the badge “fast cooking chief” or “expert of utilizing ingredients” to prompt the user to utilize the ingredients as much as possible and cook by themselves more instead of ordering takeaways.
 
 
 ## Rationale
