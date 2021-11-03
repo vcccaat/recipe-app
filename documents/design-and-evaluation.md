@@ -1,7 +1,3 @@
-## Brainstorming Note
-![](whiteboard.jpg)
-
-
 ## Revisions to Prior Work
 We made some changes on the discovery-and-planning.md of our milestone 2 submission based on the instructor's feedback, below outlined all changes to our prior work.
 
@@ -40,10 +36,6 @@ we choosed to focus on the first two problems we identified.
 
 - Bad recipes may hurt the users' experience.
 
-we choosed to focus on the first two problems we identified.
-
-
-
 ### 5. Value Propositions
 Feedback: Only one value proposition? You could have come up with a few more.
 
@@ -53,6 +45,9 @@ Revision: Reworked the propositions by coming up with a more thorough one. Focus
 Feedback: your scenarios should describe the user while he/she performed the task (not just what task he plans to do). Also, it is good to include a description of what happens after the user performs the task, how do they feel, what are their thoughts.
 
 Revision: added description of how user performs the task as well as his/her thoughts on this app. 
+
+## Brainstorming notes and sketches
+![](brainstorm-and-sketches.md)
 
 ## Persuasive Design
 People might be too lazy to cook and just order food instead (usually junk/fast food so it's not good for their health) because they have tight schedules or just don’t want to spend too much time on cooking, also maybe they have no idea what to do when they see the messy ingredients left in their fridge. 
