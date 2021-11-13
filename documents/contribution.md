@@ -71,3 +71,16 @@
 - Drafted sketches of the design and discussed with the team.
 - Reworked the value propositions based on the feedback.
 - Proofread the documents and corrected the grammar errors.
+
+## Milestone 4: Teamwork
+
+**Yingshi Zhu**
+
+**Yangkai He**
+
+**Sonia Song**
+
+**Jieyu Chen**
+
+- Implemented two sliders and four table of buttons for ingredients.
+- Wrote mockIngredients.json.
