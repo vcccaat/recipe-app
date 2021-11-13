@@ -16,7 +16,7 @@
       <form class="range-field w-25">
         <input v-model="serving" class="border-0" type="range" min="0" max="100" />
       </form>
-      <span class="font-weight-bold indigo-text ml-2 mt-1">10</span>
+      <span class="font-weight-bold indigo-text ml-2 mt-1"></span>
     </div>  
     <div>{{serving}}</div>
 
