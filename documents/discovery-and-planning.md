@@ -30,7 +30,50 @@ Main findings: interviewee prefers to watch lively video or use recipe with more
 6. Mr. Li is a 25 yrs old software engineer, he lives alone in an apartment and usually cooks 7 times a week. He is an intermediate cooker. He loves to spend sparse time finding new tastes and recipes. Meanwhile, he is busy at work. Sp during the weekdays, he prefers to cook a quick and easy meal with existing ingredients. And explore more tastes during the weekend.
 Main findings: interviewee prefers to cook a quick and easy meal with existing ingredients especially during weekdays.
 
-### Key takeaways:
+### Semi-structured interview 
+
+#1 He is an ECE grad student who learned to cook from his mom
+
+#2 She is a busy student who rarely cooks
+
+#3 She is a frequent cook and wants to have a quick and easy meal recipe
+
+#4 He is a super  busy student and would like to cook extreme easy meals without recipes
+
+#5 He is a senior student in information science and desire recipes of a quick and easy meal
+
+#6 He is a frequent recipe user and has the requirement of the design of the recipes
+
+#7 She is a busy student who doesn’t cook
+
+#8 He is a regular recipe user that desire to cook based on ingredients he already has
+
+#9 She cooks almost every day and wants to have straightforward, quick, and easy recipes
+
+#10 He never cooked
+
+#11 She uses social media to find the recipe and desire to cook by existing ingredients
+
+#12 He is rarely cook
+
+#13 She learns to cook from her mom and rarely uses recipes 
+
+#14 He often cook by himself and want to choose a recipe  ASAP
+
+#15 She rarely cook
+
+
+### The key takeaways from semi-structured interviews:
+
+- People desire a handy recipe app
+
+- People want to make quick meals, especially in the prelim seasons
+
+- People would typically go shopping for ingredients once a week and would choose to cook whatever they have
+
+- People would search for help for good cook/friends
+
+### The key takeaways from contextual interviews:
 
 - People desire for finding a recipe based on existing ingredients
 

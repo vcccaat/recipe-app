@@ -45,16 +45,25 @@
 - Brainstormed with the group and conducted user interviews.
 - Wrote the personas, project themes, figma, and interview notes
 
-## Milestone 2: Teamwork
+## Milestone 3: Teamwork
 
 **Yingshi Zhu**
+
 - Reworked scenarios part based on the feedback
 - Drafted design-and-evaluation
 - Updated readme.md
 
 **Yangkai He**
 
+- Made revisions on the discovery and planning based on the feedback
+- Drew the whiteboard brainstorming notes and sketches
+- Conducted the persuasive design of our application
+
 **Sonia Song**
+- Final Sketches
+- Participated in brainstorming
+- Reworked the interviews based on the feedback
+- Reworked the methodologies based on the feedback
 
 **Jieyu Chen**
 
@@ -62,3 +71,16 @@
 - Drafted sketches of the design and discussed with the team.
 - Reworked the value propositions based on the feedback.
 - Proofread the documents and corrected the grammar errors.
+
+## Milestone 4: Teamwork
+
+**Yingshi Zhu**
+
+**Yangkai He**
+
+**Sonia Song**
+
+**Jieyu Chen**
+
+- Implemented two sliders and four table of buttons for ingredients.
+- Wrote mockIngredients.json.

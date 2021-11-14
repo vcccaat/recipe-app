@@ -1,19 +1,24 @@
-# INFO 4340 Final Project
-## Team name
-Super-sonia
+# super-sonia-project
 
-## Team Members
-Yingshi Zhu, Yangkai He, Sonia Song, Jieyu Chen
+## Project setup
+```
+npm install
+```
 
-## Project Choice
-Recipe app
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
+### Compiles and minifies for production
+```
+npm run build
+```
 
-## Table of Contents
+### Lints and fixes files
+```
+npm run lint
+```
 
-- [Team Contract](documents/team-contract.md)
-- [Contribute](documents/contribution.md)
-- [Interview Notes](documents/interview-notes.md)
-- Milestone 2 [Discovery and Planning](documents/discovery-and-planning.md)
-- [Affinity Diagram](documents/affinity_diagram.jpg)
-- Milestone 3 [design-and-evaluation](documents/design-and-evaluation.md)
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
