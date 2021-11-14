@@ -68,13 +68,16 @@
 			</button>
 		</div>
 		<div class="container">
-			<h3 id="recipe-name">{{ this.recipe['name'] }}</h3>
-			<div class="container">
+      <div class='row'>
+			<div class='col'><h3 class="title">{{ this.recipe['name'] }}</h3></div>
+      <div class='col  text-end align-center'><button type="button" class="btn btn-outline-warning  btn-sm">Rating {{this.recipe['rating']}}</button></div>
+      </div>
+      <div class="container">
 				<div class="row" style="margin: 0px 30px">
 					<div class="col-4">
 						<div class="card">
 							<i class="bi-alarm"></i>
-							{{ this.recipe['time'] }}
+							{{ this.recipe['time'] }} Min
 						</div>
 					</div>
 
@@ -87,6 +90,22 @@
 					</div>
 				</div>
 			</div>
+    </div>
+ 
+    <div class="container">
+         <h5 class="title">Ingredients</h5>
+         <ul>
+           <li v-for="item,index in this.recipe['ingredients']" :key="index" class="text-start">
+             {{item}}
+           </li>
+         </ul>
+        <h5 class="title">Steps</h5>
+         <ul>
+           <li v-for="item,index in this.recipe['steps']" :key="index" class="text-start">
+             {{item}}
+           </li>
+         </ul>
+          <button type="button" class="btn btn-danger ">Upload My Recipe</button>
 		</div>
 	</div>
 </template>
@@ -99,8 +118,13 @@ export default {
 		this.recipe = mockData['Omelet'];
 		this.images = mockData['Omelet']['img'];
 	},
-	methods: {},
-	components: {},
+	methods: {    
+    submitRating(){
+      
+    }},
+	components: {
+
+  },
 	data() {
 		return {
 			recipe: {},
@@ -123,8 +147,9 @@ img {
   object-fit: cover;
   object-position: center;
 }
-#recipe-name {
+.title {
 	text-align: left;
 	margin: 20px 0px;
 }
+
 </style>
