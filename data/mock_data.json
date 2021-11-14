@@ -6,6 +6,7 @@
         "rating": 4.5,
         "time": 10,
         "difficulty": "easy",
+        "serving": "1",
         "ingerdients": [
         "2 large eggs",
         "Kosher salt",
