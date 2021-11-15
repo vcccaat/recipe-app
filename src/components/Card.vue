@@ -3,9 +3,9 @@
     <b-card :img-src="imgsrc" img-alt="Card image" img-left class="mb-3">
       <b-card-text>
         <div class="card-content">
-          <h1>{{ item.name }}</h1>
-          <p>Time: {{ item.time }} min</p>
-          <p>Serving: {{ item.serving }}</p>
+          <h1>{{ recipe.name }}</h1>
+          <p>Time: {{ recipe.time }} min</p>
+          <p>Serving: {{ recipe.serving }}</p>
         </div>
       </b-card-text>
     </b-card>
@@ -17,29 +17,18 @@ export default {
   name: "Card",
   data: function () {
     return {
-      imgsrc: "",
-      item: [],
+      imgsrc: require("/data/" + this.recipe.cover),
     };
   },
   props: {
-    itemInfo: {
-      type: Object,
-    },
+    recipe: Object,
   },
   created() {
+    //this.imgsrc = require("/data/" + this.recipe.cover);
     //this.$set(this.itemInfo); //父组件传值时无法触发子组件watch监听, 利用set方法触发页面重新渲染
   },
   watch: {
-    itemInfo: {
-      immediate: true,
-      handler: function () {
-        this.item = this.itemInfo;
-        this.imgsrc = require("/data/" + this.item.cover);
-        //this.imgsrc = "https://placekitten.com/300/300";
-        console.log("Item info got:", this.item);
-      },
-      deep: true,
-    },
+    // recipe: function () {},
   },
   methods: {},
 };
@@ -61,7 +50,6 @@ export default {
 }
 
 .card-img-left {
-  height: 20%;
   width: 30%;
   object-fit: cover;
   object-position: center;

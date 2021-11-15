@@ -5,10 +5,14 @@
         <b-input-group-prepend is-text>
           <b-icon icon="search"></b-icon>
         </b-input-group-prepend>
-        <b-form-input type="search" v-model="input" placeholder="Type here..."></b-form-input>
-        <b-button variant="primary" v-on:click="send">Search</b-button>
+        <b-form-input
+          type="search"
+          v-model="input"
+          v-on:keyup.enter="sendSearch"
+          placeholder="Type here..."
+        ></b-form-input>
+        <b-button variant="primary" v-on:click="sendSearch">Search</b-button>
       </b-input-group>
-    <el-alert class="errmsg" :title="errMsg" type="error" v-show="showError" show-icon :closable="false"> </el-alert>
     </div>
   </div>
 </template>
@@ -19,30 +23,12 @@ export default {
   data: function () {
     return {
       input: "", // Data properties go here.
-      showError: false,
-      errMsg: "",
     };
   },
   methods: {
-    send: function () {
-      // $emit code goes here
-      let _this = this;
-      // check all the inputs
-      if (
-        this.input.length == 0 ||
-        this.input.split(" ").join("").length == 0 ||
-        this.input == null
-      ) {
-        this.showError = true;
-        this.errMsg = "Please input search content first";
-        setTimeout(function () {
-          _this.showError = false;
-        }, 2000);
-      }
-      else {
-        this.$emit("send", this.input);
-        console.log("Sent input: ", this.input);
-      }
+    sendSearch: function () {
+      this.$emit("search-sent", this.input);
+      console.log("Sent search input: ", this.input);
     },
   },
 };
