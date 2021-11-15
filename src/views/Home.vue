@@ -1,33 +1,39 @@
 <template>
   <div class="home">
-    <p>Time</p>
-    <div class="d-flex justify-content-center my-4">
-      <span class="font-weight-bold indigo-text mr-2 mt-1">0</span>
-      <form class="range-field w-25">
-        <input v-model="time" class="border-0" type="range" min="0" max="100" />
-      </form>
-      <span class="font-weight-bold indigo-text ml-2 mt-1">100</span>
-    </div>  
-    <div>{{time}}</div>
+    <div class="row">
+      <div class="col-sm-4">
+        <p>Time</p>
+        <div class="d-flex justify-content-center my-4">
+          <span class="font-weight-bold indigo-text mr-2 mt-1">0</span>
+          <form class="range-field w-25">
+            <input v-model="time" class="border-0" type="range" min="0" max="100" />
+          </form>
+          <span class="font-weight-bold indigo-text ml-2 mt-1">100</span>
+        </div>  
+        <div>{{time}}</div>
 
-    <p>Serving</p>
-    <div class="d-flex justify-content-center my-4">
-      <span class="font-weight-bold indigo-text mr-2 mt-1">0</span>
-      <form class="range-field w-25">
-        <input v-model="serving" class="border-0" type="range" min="0" max="100" />
-      </form>
-      <span class="font-weight-bold indigo-text ml-2 mt-1"></span>
-    </div>  
-    <div>{{serving}}</div>
+        <p>Serving</p>
+        <div class="d-flex justify-content-center my-4">
+          <span class="font-weight-bold indigo-text mr-2 mt-1">0</span>
+          <form class="range-field w-25">
+            <input v-model="serving" class="border-0" type="range" min="0" max="100" />
+          </form>
+          <span class="font-weight-bold indigo-text ml-2 mt-1"></span>
+        </div>  
+        <div>{{serving}}</div>
 
-    <div class="Diary" v-for="item in ingredients" :key="item.type">
-      <h2>{{item.type}}</h2>
-      <table class="buttons" v-for="i in Math.ceil(item.ingredients.length / 4)" :key="i">
-        <tr>
-          <td v-for="ind in item.ingredients.slice((i-1) * 4, i * 4)" :key="ind"><Button :name="ind" :id="ind"/></td>
-        </tr>
-      </table>
+        <div class="Diary" v-for="item in ingredients" :key="item.type">
+          <h2>{{item.type}}</h2>
+          <table class="buttons" v-for="i in Math.ceil(item.ingredients.length / 4)" :key="i">
+            <tr>
+              <td v-for="ind in item.ingredients.slice((i-1) * 4, i * 4)" :key="ind"><Button :name="ind" :id="ind"/></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="col-sm-8">col-sm-8</div>
     </div>
+    
   </div>
 </template>
 
@@ -72,7 +78,4 @@ export default {
       width: 100%;
   }
 
-  .home {
-    width: 500px
-  }
 </style>
