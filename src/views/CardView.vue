@@ -1,6 +1,5 @@
 <template>
   <div class="cardView">
-    <h1>This is card page, only for testing</h1>
     <div class="searchBar">
       <SearchBar v-show="showSearch" @search-sent="search" />
       <el-alert

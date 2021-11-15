@@ -5,6 +5,7 @@
         <LeftPanel />
       </div>
       <div class="col-sm-8">
+        <RightPanel />
       </div>
     </div>
     
@@ -15,11 +16,13 @@
 // @ is an alias to /src
 import 'bootstrap/dist/css/bootstrap.css'
 import LeftPanel from '@/views/LeftPanel.vue'
+import RightPanel from '@/views/CardView.vue'
 
 export default {
   name: 'Home',
   components: {
-    LeftPanel
+    LeftPanel,
+    RightPanel
   }
 }
 
