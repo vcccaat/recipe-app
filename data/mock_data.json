@@ -24,6 +24,75 @@
             "img/omelet_4.jpg",
             "img/omelet_5.jpg"
         ],
+        "cover": "img/omelet_5.jpg",
+        "steps": [
+        "In a medium bowl, beat eggs until no whites remain, then season with salt, pepper, and a pinch red pepper flakes.",
+        "In a medium non-stick skillet over medium heat, melt butter.",
+        "Pour in eggs and tilt pan so eggs fully cover the entire pan. As eggs start to set, use a rubber spatula to drag cooked edges into center of pan. Tilt pan to let uncooked egg fall to the edge of the pan. ",
+        "Once the bottom is set, but top is still a little wet, sprinkle cheese and chives on one half of omelet.",
+        "Fold other side over cheese and slide omelet onto a plate.  "
+        ]
+    },
+    "Omelet2":{
+        "name": "Omelet2",
+        "tag": "Western",
+        "flavor": "Mild",
+        "rating": 4.5,
+        "time": 10,
+        "difficulty": "Easy",
+        "serving": "1",
+        "ingredients": [
+        "2 large eggs",
+        "Kosher salt",
+        "Freshly ground black pepper",
+        "Pinch red pepper flakes",
+        "2 tbsp. butter",
+        "1/4 c. shredded cheddar",
+        "2 tbsp. freshly chopped chives"
+        ],
+        "num_step":5,
+        "img": [
+            "img/omelet_1.jpg",
+            "img/omelet_2.jpg",
+            "img/omelet_3.jpg",
+            "img/omelet_4.jpg",
+            "img/omelet_5.jpg"
+        ],
+        "cover": "img/omelet_5.jpg",
+        "steps": [
+        "In a medium bowl, beat eggs until no whites remain, then season with salt, pepper, and a pinch red pepper flakes.",
+        "In a medium non-stick skillet over medium heat, melt butter.",
+        "Pour in eggs and tilt pan so eggs fully cover the entire pan. As eggs start to set, use a rubber spatula to drag cooked edges into center of pan. Tilt pan to let uncooked egg fall to the edge of the pan. ",
+        "Once the bottom is set, but top is still a little wet, sprinkle cheese and chives on one half of omelet.",
+        "Fold other side over cheese and slide omelet onto a plate.  "
+        ]
+    },
+    "Omelet3":{
+        "name": "Omelet3",
+        "tag": "Western",
+        "flavor": "Mild",
+        "rating": 4.5,
+        "time": 10,
+        "difficulty": "Easy",
+        "serving": "1",
+        "ingredients": [
+        "2 large eggs",
+        "Kosher salt",
+        "Freshly ground black pepper",
+        "Pinch red pepper flakes",
+        "2 tbsp. butter",
+        "1/4 c. shredded cheddar",
+        "2 tbsp. freshly chopped chives"
+        ],
+        "num_step":5,
+        "img": [
+            "img/omelet_1.jpg",
+            "img/omelet_2.jpg",
+            "img/omelet_3.jpg",
+            "img/omelet_4.jpg",
+            "img/omelet_5.jpg"
+        ],
+        "cover": "img/omelet_5.jpg",
         "steps": [
         "In a medium bowl, beat eggs until no whites remain, then season with salt, pepper, and a pinch red pepper flakes.",
         "In a medium non-stick skillet over medium heat, melt butter.",
