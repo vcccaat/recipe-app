@@ -2,7 +2,7 @@
   <div class="cardView">
     <h1>This is card page, only for testing</h1>
     <div class="searchBar">
-      <SearchBar v-show="showSearch" @send="outputData" />
+      <SearchBar v-show="showSearch" @send="getInput" />
     </div>
 
     <div class="cards" v-for="(item,index) in recipes" :key="index">
@@ -33,9 +33,9 @@ export default {
     this.getRecipes();
   },
   methods: {
-    outputData: function (data) {
+    getInput: function (data) {
       this.inputData = data;
-      console.log("Card Received:", data);
+      console.log("Search Input Received:", data);
     },
     getRecipes: function () {
       this.recipes = RecipeData

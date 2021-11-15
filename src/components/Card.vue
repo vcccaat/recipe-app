@@ -30,7 +30,7 @@ export default {
     //this.$set(this.itemInfo); //父组件传值时无法触发子组件watch监听, 利用set方法触发页面重新渲染
   },
   watch: {
-    test: {
+    itemInfo: {
       immediate: true,
       handler: function () {
         this.item = this.itemInfo;
