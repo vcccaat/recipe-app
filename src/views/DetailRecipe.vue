@@ -11,53 +11,23 @@
 			<div class="carousel-inner">
 				<div class="carousel-item active">
 					<div class="carousel-img">
-						<img src="../../data/img/omelet_5.jpg" class="d-block w-100" alt="omelet_5" />
+						<img :src="require('../../data/' + frontImage)" class="d-block w-100" alt="frontimg" />
 					</div>
 					<div class="carousel-caption d-md-block">
-						<h5>Omelet</h5>
+						<h5>{{this.recipeName}}</h5>
 					</div>
 				</div>
-				<!-- <div class="carousel-item" v-for="(item, index) in images" :key="index">
+				<div class="carousel-item" v-for="(item, index) in carousel" :key="index">
 					<div class="carousel-img">
-						<img :src="'../../data/' + item" class="d-block w-100" :alt="index" />
+						<img :src="require('../../data/' + item)" class="d-block w-100" :alt="index" />
 					</div>
 					<div class="carousel-caption d-md-block">
 						<h5>Step {{ index+1 }}</h5>
 					</div>
-				</div> -->
-				<div class="carousel-item">
-					<div class="carousel-img">
-						<img src="../../data/img/omelet_1.jpg" class="d-block w-100" alt="omelet_1" />
-					</div>
-					<div class="carousel-caption  d-md-block">
-						<h5>Step1</h5>
-					</div>
 				</div>
-				<div class="carousel-item">
-					<div class="carousel-img">
-						<img src="../../data/img/omelet_2.jpg" class="d-block w-100" alt="omelet_2" />
-					</div>
-					<div class="carousel-caption d-md-block">
-						<h5>Step2</h5>
-					</div>
-				</div>
-				<div class="carousel-item">
-					<div class="carousel-img">
-						<img src="../../data/img/omelet_3.jpg" class="d-block w-100" alt="omelet_3" />
-					</div>
-					<div class="carousel-caption d-md-block">
-						<h5>Step3</h5>
-					</div>
-				</div>
-				<div class="carousel-item">
-					<div class="carousel-img">
-						<img src="../../data/img/omelet_4.jpg" class="d-block w-100" alt="omelet_4" />
-					</div>
-					<div class="carousel-caption d-md-block">
-						<h5>Step4</h5>
-					</div>
-				</div>
+			
 			</div>
+			
 			<button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
 				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 				<span class="visually-hidden">Previous</span>
@@ -116,7 +86,8 @@ import mockData from '../../data/mock_data.json';
 export default {
 	created() {
 		this.recipe = mockData['Omelet'];
-		this.images = mockData['Omelet']['img'];
+		this.frontImage = mockData['Omelet']['img'].slice(-1)[0];
+		this.carousel = mockData['Omelet']['img'].slice(0,-1);
 	},
 	methods: {    
     submitRating(){
@@ -128,7 +99,8 @@ export default {
 	data() {
 		return {
 			recipe: {},
-			images: [],
+			carousel: [],
+			recipeName: ''
 		};
 	},
 };
