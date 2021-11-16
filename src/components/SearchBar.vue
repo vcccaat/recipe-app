@@ -1,18 +1,27 @@
 <template>
   <div class="search">
     <div class="bar">
-      <b-input-group size="sm" class="mb-2">
-        <b-input-group-prepend is-text>
-          <b-icon icon="search"></b-icon>
-        </b-input-group-prepend>
-        <b-form-input
-          type="search"
-          v-model="input"
-          v-on:keyup.enter="sendSearch"
-          placeholder="Type here..."
-        ></b-form-input>
-        <b-button variant="primary" v-on:click="sendSearch">Search</b-button>
-      </b-input-group>
+      <el-input
+        size="large"
+        placeholder="Search something..."
+        prefix-icon="el-icon-search"
+        v-model="input"
+        v-on:keyup.enter.native="sendSearch"
+      >
+        <el-button slot="append" v-on:click="sendSearch">Search</el-button>
+      </el-input>
+      <div class="alertbox">
+        <el-alert
+          style="margin-top: 5px"
+          class="errmsg"
+          :title="errMsg"
+          type="error"
+          v-show="showError"
+          show-icon
+          :closable="false"
+        >
+        </el-alert>
+      </div>
     </div>
   </div>
 </template>
@@ -25,6 +34,7 @@ export default {
       input: "", // Data properties go here.
     };
   },
+  props: ["showError", "errMsg"],
   methods: {
     sendSearch: function () {
       this.$emit("search-sent", this.input);
@@ -35,13 +45,16 @@ export default {
 </script>
 
 <style>
-.errmsg {
+.el-alert {
   color: darkred;
   margin: 8px;
 }
 
+.alertbox {
+  height: 50px;
+}
+
 .bar {
-  margin: 100px;
-  margin-bottom: 20px;
+  margin: 0px 100px 20px;
 }
 </style>

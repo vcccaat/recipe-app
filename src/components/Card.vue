@@ -48,10 +48,25 @@ export default {
 .card-content {
   padding: 50px;
 }
-
+/* 
 .card-img-left {
   width: 30%;
   object-fit: cover;
   object-position: center;
+} */
+
+.card-img-left {
+  width: 350px;
+  height: 280px;
+  border: 1px solid lightgray;
+  object-fit: cover;
+  object-position: center;
+  vertical-align: middle;
+}
+.card-img-left img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: auto;
 }
 </style>

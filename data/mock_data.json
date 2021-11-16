@@ -33,8 +33,8 @@
         "Fold other side over cheese and slide omelet onto a plate.  "
         ]
     },
-    "Omelet2":{
-        "name": "Omelet2",
+    "Hamburger":{
+        "name": "Hamburger",
         "tag": "Western",
         "flavor": "Mild",
         "rating": 4.5,
@@ -58,7 +58,7 @@
             "img/omelet_4.jpg",
             "img/omelet_5.jpg"
         ],
-        "cover": "img/omelet_5.jpg",
+        "cover": "img/hamburger.jpeg",
         "steps": [
         "In a medium bowl, beat eggs until no whites remain, then season with salt, pepper, and a pinch red pepper flakes.",
         "In a medium non-stick skillet over medium heat, melt butter.",
@@ -67,14 +67,14 @@
         "Fold other side over cheese and slide omelet onto a plate.  "
         ]
     },
-    "Omelet3":{
-        "name": "Omelet3",
+    "French Fries":{
+        "name": "French Fries",
         "tag": "Western",
         "flavor": "Mild",
         "rating": 4.5,
-        "time": 10,
+        "time": 5,
         "difficulty": "Easy",
-        "serving": "1",
+        "serving": "2",
         "ingredients": [
         "2 large eggs",
         "Kosher salt",
@@ -92,7 +92,7 @@
             "img/omelet_4.jpg",
             "img/omelet_5.jpg"
         ],
-        "cover": "img/omelet_5.jpg",
+        "cover": "img/frenchfries.webp",
         "steps": [
         "In a medium bowl, beat eggs until no whites remain, then season with salt, pepper, and a pinch red pepper flakes.",
         "In a medium non-stick skillet over medium heat, melt butter.",

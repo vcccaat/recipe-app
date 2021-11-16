@@ -1,16 +1,7 @@
 <template>
   <div class="cardView">
     <div class="searchBar">
-      <SearchBar v-show="showSearch" @search-sent="search" />
-      <el-alert
-        class="errmsg"
-        :title="errMsg"
-        type="error"
-        v-show="showError"
-        show-icon
-        :closable="false"
-      >
-      </el-alert>
+      <SearchBar v-show="showSearch" @search-sent="search" :errMsg="errMsg" :showError="showError" />
     </div>
     <div class="cards" v-for="(item, index) in recipeList" :key="index">
       <Card :recipe="item" />
@@ -73,14 +64,14 @@ export default {
         }
 
         // Show message if there's no result found
-        let _this = this;
+        //let _this = this;
         if (JSON.stringify(this.recipeList) == "{}") {
           console.log("no search result");
           this.showError = true;
-          this.errMsg = "Sorry we didn't find any matched recipes";
-          setTimeout(function () {
-            _this.showError = false;
-          }, 3000);
+          this.errMsg = "Sorry, we didn't find any matched recipes";
+          // setTimeout(function () {
+          //   _this.showError = false;
+          // }, 5000);
         }
       }
     },
