@@ -85,9 +85,10 @@ import mockData from '../../data/mock_data.json';
 
 export default {
 	created() {
-		this.recipe = mockData['Omelet'];
-		this.frontImage = mockData['Omelet']['img'].slice(-1)[0];
-		this.carousel = mockData['Omelet']['img'].slice(0,-1);
+		console.log(this.recipeName)
+		this.recipe = mockData[this.recipeName];
+		this.frontImage = mockData[this.recipeName]['img'].slice(-1)[0];
+		this.carousel = mockData[this.recipeName]['img'].slice(0,-1);
 	},
 	methods: {    
     submitRating(){
@@ -100,7 +101,7 @@ export default {
 		return {
 			recipe: {},
 			carousel: [],
-			recipeName: ''
+			recipeName: this.$route.params.name
 		};
 	},
 };

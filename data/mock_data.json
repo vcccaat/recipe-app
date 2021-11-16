@@ -33,38 +33,38 @@
         "Fold other side over cheese and slide omelet onto a plate.  "
         ]
     },
-    "Hamburger":{
-        "name": "Hamburger",
+    "Burger":{
+        "name": "Burger",
         "tag": "Western",
         "flavor": "Mild",
-        "rating": 4.5,
-        "time": 10,
+        "rating": 4.8,
+        "time": 15,
         "difficulty": "Easy",
         "serving": "1",
         "ingredients": [
-        "2 large eggs",
-        "Kosher salt",
-        "Freshly ground black pepper",
-        "Pinch red pepper flakes",
-        "2 tbsp. butter",
-        "1/4 c. shredded cheddar",
-        "2 tbsp. freshly chopped chives"
+        "Beef",
+        "Salt",
+        "Black pepper",
+        "Lettuce",
+        "Cheese",
+        "Tomato"
         ],
         "num_step":5,
         "img": [
-            "img/omelet_1.jpg",
-            "img/omelet_2.jpg",
-            "img/omelet_3.jpg",
-            "img/omelet_4.jpg",
-            "img/omelet_5.jpg"
+            "img/burger1.jpeg",
+            "img/burger2.jpeg",
+            "img/burger3.jpeg",
+            "img/burger4.jpeg"
         ],
         "cover": "img/hamburger.jpeg",
         "steps": [
-        "In a medium bowl, beat eggs until no whites remain, then season with salt, pepper, and a pinch red pepper flakes.",
-        "In a medium non-stick skillet over medium heat, melt butter.",
-        "Pour in eggs and tilt pan so eggs fully cover the entire pan. As eggs start to set, use a rubber spatula to drag cooked edges into center of pan. Tilt pan to let uncooked egg fall to the edge of the pan. ",
-        "Once the bottom is set, but top is still a little wet, sprinkle cheese and chives on one half of omelet.",
-        "Fold other side over cheese and slide omelet onto a plate.  "
+        "The best burgers are made from freshly ground, high-grade beef chuck in an 80/20 mix (meat to fat). ",
+        "Spread the beef out flat and season with salt and pepper. If you have a secret ingredient like Worcestershire sauce or chopped bacon, add it now. ",
+        "Grab 5 to 6 ounces of meat and lightly toss from hand to hand, forming a ball.",
+        "Preheat the grill to medium or medium-high over direct heat. Put the burgers on the grill",
+        "flip when the burger releases from the grate without sticking. ",
+        "For medium burgers, cook for about 5 minutes per side. For well-done, go a little longer.",
+        "To add cheese, move the burgers to the cooler side of the grill, top with cheese and cover the grill for a minute to let the cheese melt. Place the patties on buns, add other toppings and serve."
         ]
     },
     "French Fries":{
