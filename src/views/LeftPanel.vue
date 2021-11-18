@@ -28,7 +28,7 @@
             </tr>
             </table>
         </div>
-        <button type="button" class="btn btn-primary" @click="handleClear">Clear</button>
+        <button type="button" class="btn btn-light" @click="handleClear">Clear</button>
         <button type="button" class="btn btn-primary" @click="handleConfirm">Confirm</button>
     </div>
 </template>
