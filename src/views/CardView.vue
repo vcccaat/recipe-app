@@ -64,14 +64,10 @@ export default {
         }
 
         // Show message if there's no result found
-        //let _this = this;
         if (JSON.stringify(this.recipeList) == "{}") {
           console.log("no search result");
           this.showError = true;
           this.errMsg = "Sorry, we didn't find any matched recipes";
-          // setTimeout(function () {
-          //   _this.showError = false;
-          // }, 5000);
         }
       }
     },

@@ -4,7 +4,7 @@
         <div class="d-flex justify-content-center my-4">
             <span class="font-weight-bold indigo-text mr-2 mt-1">0</span>
             <form class="range-field w-25">
-            <input v-model="time" class="border-0" type="range" min="0" max="100" />
+            <input @change="handleTimeChange" v-model="time" class="border-0" type="range" min="0" max="100" />
             </form>
             <span class="font-weight-bold indigo-text ml-2 mt-1">100</span>
         </div>  
@@ -14,7 +14,7 @@
         <div class="d-flex justify-content-center my-4">
             <span class="font-weight-bold indigo-text mr-2 mt-1">0</span>
             <form class="range-field w-25">
-            <input v-model="serving" class="border-0" type="range" min="0" max="10" />
+            <input @change="handleServingChange" v-model="serving" class="border-0" type="range" min="0" max="10" />
             </form>
             <span class="font-weight-bold indigo-text ml-2 mt-1">10</span>
         </div>  
@@ -29,7 +29,7 @@
             </table>
         </div>
 
-        <button type="button" class="btn btn-primary">Search</button>
+        <button type="button" class="btn btn-primary" @click="handleConfirm">Confirm</button>
     </div>
 </template>
 
@@ -38,6 +38,7 @@
 import 'bootstrap/dist/css/bootstrap.css'
 import Button from '@/components/Button.vue'
 import ingredientData from '../../data/mockIngredients.json';
+import Ingredient from '../components/Ingredient.js'
 
 export default {
   name: 'Home',
@@ -47,6 +48,15 @@ export default {
   methods: {
     getIngredients() {
       this.ingredients = ingredientData
+    },
+    handleTimeChange() {
+      Ingredient.$emit('slider', [this.time, 'time'])
+    },
+    handleServingChange() {
+      Ingredient.$emit('slider', [this.serving, 'serving'])
+    },
+    handleConfirm() {
+      Ingredient.$emit('confirm')
     }
   },
   components: {
