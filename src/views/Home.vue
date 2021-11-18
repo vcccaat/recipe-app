@@ -70,7 +70,7 @@ export default {
       Object.filter = function( obj, predicate) {
         let result = {}, key;
         for (key in obj) {
-            if (obj.hasOwnProperty(key) && predicate(obj[key])) {
+            if (predicate(obj[key])) {
                 result[key] = obj[key];
               }
           }
@@ -102,12 +102,10 @@ export default {
         // if there is a search input, find if there has any matched content
         this.recipeList = {}; // clear the display list
         this.filteredList = {};
-        console.log('this', this.ingredients)
-        this.ingredients.forEach((d, i) => {
+        this.ingredients.forEach((d) => {
           const regStr = "(" + d.toLowerCase() + ")([\\s]*)";
           const reg = new RegExp(regStr);
           for (let i in RecipeData) {
-            
             for (let j in RecipeData[i].ingredients) {
               let name = RecipeData[i].ingredients[j].toLowerCase(); // make it match either lowercase / uppercase
               const recs = name.split(" ").join("")
