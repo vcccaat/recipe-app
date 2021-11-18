@@ -82,8 +82,8 @@
 				:on-remove="handleRemove"
 				:file-list="fileList"
 				list-type="picture">
-				<el-button size="small" type="primary">点击上传</el-button>
-				<div slot="tip" class="el-upload__tip">只能上传jpg/png文件，且不超过500kb</div>
+				<el-button size="small" type="primary">Share my dishes</el-button>
+				<div slot="tip" class="el-upload__tip">Only allowed jpg/png not larger than 500kB</div>
 			</el-upload>
 
 			<button type="button" class="btn btn-danger">Upload My Recipe</button>
