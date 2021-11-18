@@ -1,6 +1,6 @@
 <template>
     <div id="left-panel">
-        <p>Time</p>
+        <h3>how long would you like to spend on this meal?</h3>
         <div class="d-flex justify-content-center my-4">
             <span class="font-weight-bold indigo-text mr-2 mt-1">0</span>
             <form class="range-field w-25">
@@ -10,7 +10,7 @@
         </div>  
         <div>{{time}}</div>
 
-        <p>Serving</p>
+        <h3>How many people do you need to serve?</h3>
         <div class="d-flex justify-content-center my-4">
             <span class="font-weight-bold indigo-text mr-2 mt-1">0</span>
             <form class="range-field w-25">
@@ -28,7 +28,7 @@
             </tr>
             </table>
         </div>
-
+        <button type="button" class="btn btn-primary" @click="handleClear">Clear</button>
         <button type="button" class="btn btn-primary" @click="handleConfirm">Confirm</button>
     </div>
 </template>
@@ -57,6 +57,9 @@ export default {
     },
     handleConfirm() {
       Ingredient.$emit('confirm')
+    },
+    handleClear() {
+      Ingredient.$emit('clear')
     }
   },
   components: {

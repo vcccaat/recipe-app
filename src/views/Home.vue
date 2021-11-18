@@ -56,7 +56,10 @@ export default {
   mounted: function() {
     Ingredient.$on('confirm', () => {
       this.confirm()
-      console.log('confirm', this.ingredients)
+    })
+    Ingredient.$on('clear', () => {
+      this.recipeList = RecipeData;
+      this.filteredList = JSON.parse(JSON.stringify(this.recipeList));
     })
     Ingredient.$on('click-ingredient', data => {
       if (data[1] === false) {

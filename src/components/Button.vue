@@ -18,6 +18,11 @@ export default {
       checked: false
     };
   },
+  mounted: function() {
+    Ingredient.$on('clear', () => {
+      this.checked = false
+    })
+  },
   methods: {
     select: function (){
       if(this.$refs.selectedButton.checked == true) {
