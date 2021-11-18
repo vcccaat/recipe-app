@@ -1,13 +1,14 @@
 <template>
   <div class="cardBox">
-    <b-card :img-src="imgsrc" img-alt="Card image" img-left class="mb-3">
-      <b-card-text>
+    <b-card :img-src="imgsrc" img-alt="Card image" img-left>
+      <card-body>
         <div class="card-content">
           <h1>{{ recipe.name }}</h1>
           <p>Time: {{ recipe.time }} min</p>
           <p>Serving: {{ recipe.serving }}</p>
+          <a :href="url" class="stretched-link"></a>
         </div>
-      </b-card-text>
+      </card-body>
     </b-card>
   </div>
 </template>
@@ -18,19 +19,15 @@ export default {
   data: function () {
     return {
       imgsrc: require("/data/" + this.recipe.cover),
+      url: "/recipe/" + this.recipe.name
     };
   },
   props: {
     recipe: Object,
   },
   created() {
-    //this.imgsrc = require("/data/" + this.recipe.cover);
     //this.$set(this.itemInfo); //父组件传值时无法触发子组件watch监听, 利用set方法触发页面重新渲染
   },
-  watch: {
-    // recipe: function () {},
-  },
-  methods: {},
 };
 </script>
 
@@ -54,7 +51,6 @@ export default {
   object-fit: cover;
   object-position: center;
 } */
-
 .card-img-left {
   width: 350px;
   height: 280px;

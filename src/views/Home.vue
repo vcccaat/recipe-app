@@ -163,7 +163,6 @@ export default {
           regStr = regStr + "(" + input[i] + ")([\\s]*)"; // 跨字匹配
         }
         let reg = new RegExp(regStr);
-
         // Start looping all the recipes
         for (let i in RecipeData) {
           let name = RecipeData[i].name.toLowerCase(); // make it match either lowercase / uppercase
@@ -173,10 +172,8 @@ export default {
             this.filteredList = JSON.parse(JSON.stringify(this.recipeList))
           }
         }
-
         // Show message if there's no result found
         if (JSON.stringify(this.recipeList) == "{}") {
-          console.log("no search result");
           this.showError = true;
           this.errMsg = "Sorry, we didn't find any matched recipes";
         }
