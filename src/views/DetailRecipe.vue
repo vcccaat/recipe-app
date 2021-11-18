@@ -61,21 +61,32 @@
 				</div>
 			</div>
     </div>
- 
+
     <div class="container">
-         <h5 class="title">Ingredients</h5>
-         <ul>
-           <li v-for="item,index in this.recipe['ingredients']" :key="index" class="text-start">
-             {{item}}
-           </li>
-         </ul>
-        <h5 class="title">Steps</h5>
-         <ul>
-           <li v-for="item,index in this.recipe['steps']" :key="index" class="text-start">
-             {{item}}
-           </li>
-         </ul>
-          <button type="button" class="btn btn-danger ">Upload My Recipe</button>
+			<h5 class="title">Ingredients</h5>
+			<ul>
+				<li v-for="item,index in this.recipe['ingredients']" :key="index" class="text-start">
+					{{item}}
+				</li>
+			</ul>
+			<h5 class="title">Steps</h5>
+			<ul>
+				<li v-for="item,index in this.recipe['steps']" :key="index" class="text-start">
+					{{item}}
+				</li>
+			</ul>
+			<el-upload
+				class="upload-demo"
+				action="https://jsonplaceholder.typicode.com/posts/"
+				:on-preview="handlePreview"
+				:on-remove="handleRemove"
+				:file-list="fileList"
+				list-type="picture">
+				<el-button size="small" type="primary">点击上传</el-button>
+				<div slot="tip" class="el-upload__tip">只能上传jpg/png文件，且不超过500kb</div>
+			</el-upload>
+
+			<button type="button" class="btn btn-danger">Upload My Recipe</button>
 		</div>
 	</div>
 </template>
@@ -92,8 +103,15 @@ export default {
 	},
 	methods: {    
     submitRating(){
-      
-    }},
+    },
+		handleRemove(file, fileList) {
+			console.log(file, fileList);
+		},
+		handlePreview(file) {
+			console.log(file);
+		}
+		},
+
 	components: {
 
   },
