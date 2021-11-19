@@ -25,7 +25,6 @@
 						<h5>Step {{ index+1 }}</h5>
 					</div>
 				</div>
-			
 			</div>
 			
 			<button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
@@ -43,50 +42,49 @@
       <div class='col  text-end align-center'><button type="button" class="btn btn-outline-warning  btn-sm">Rating {{this.recipe['rating']}}</button></div>
       </div>
       <div class="container">
-				<div class="row" style="margin: 0px 30px">
-					<div class="col-4">
-						<div class="card">
-							<i class="bi-alarm"></i>
-							{{ this.recipe['time'] }} Min
-						</div>
-					</div>
-
-					<div class="col-4">
-						<div class="card"><i class="bi bi-emoji-smile"></i>{{ this.recipe['difficulty'] }}</div>
-					</div>
-
-					<div class="col-4">
-						<div class="card">{{ this.recipe['serving'] }}<span>Serving</span></div>
-					</div>
+		<div class="row" style="margin: 0px 30px">
+			<div class="col-4">
+				<div class="card">
+					<i class="bi-alarm"></i>
+					{{ this.recipe['time'] }} Min
 				</div>
 			</div>
+
+			<div class="col-4">
+				<div class="card"><i class="bi bi-emoji-smile"></i>{{ this.recipe['difficulty'] }}</div>
+			</div>
+
+			<div class="col-4">
+				<div class="card">{{ this.recipe['serving'] }}<span>Serving</span></div>
+			</div>
+		</div>
+	</div>
     </div>
 
     <div class="container">
-			<h5 class="title">Ingredients</h5>
-			<ul>
-				<li v-for="item,index in this.recipe['ingredients']" :key="index" class="text-start">
-					{{item}}
-				</li>
-			</ul>
-			<h5 class="title">Steps</h5>
-			<ul>
-				<li v-for="item,index in this.recipe['steps']" :key="index" class="text-start">
-					{{item}}
-				</li>
-			</ul>
-			<el-upload
-				class="upload-demo"
-				action="https://jsonplaceholder.typicode.com/posts/"
-				:on-preview="handlePreview"
-				:on-remove="handleRemove"
-				:file-list="fileList"
-				list-type="picture">
-				<el-button size="small" type="primary">Share my dishes</el-button>
-				<div slot="tip" class="el-upload__tip">Only allowed jpg/png not larger than 500kB</div>
-			</el-upload>
-
-			<button type="button" class="btn btn-danger">Upload My Recipe</button>
+		<h5 class="title">Ingredients</h5>
+		<ul>
+			<li v-for="item,index in this.recipe['ingredients']" :key="index" class="text-start">
+				{{item}}
+			</li>
+		</ul>
+		<h5 class="title">Steps</h5>
+		<ul>
+			<li v-for="item,index in this.recipe['steps']" :key="index" class="text-start">
+				{{item}}
+			</li>
+		</ul>
+		<el-upload
+			class="upload-demo"
+			action="https://jsonplaceholder.typicode.com/posts/"
+			:on-preview="handlePreview"
+			:auto-upload='false'
+			:on-remove="handleRemove"
+			:file-list="fileList"
+			list-type="picture">
+			<el-button size="large" type="primary">Share my dishes</el-button>
+			<div slot="tip" class="el-upload__tip">Only allowed png/jpg no larger than 2MB</div>
+		</el-upload>
 		</div>
 	</div>
 </template>
@@ -95,6 +93,14 @@
 import mockData from '../../data/mock_data.json';
 
 export default {
+	data() {
+		return {
+			recipe: {},
+			carousel: [],
+			recipeName: this.$route.params.name,
+			fileList: []
+		};
+	},
 	created() {
 		console.log(this.recipeName)
 		this.recipe = mockData[this.recipeName];
@@ -102,26 +108,17 @@ export default {
 		this.carousel = mockData[this.recipeName]['img'].slice(0,-1);
 	},
 	methods: {    
-    submitRating(){
-    },
+		submitRating(){
+		},
 		handleRemove(file, fileList) {
 			console.log(file, fileList);
 		},
 		handlePreview(file) {
 			console.log(file);
-		}
 		},
-
-	components: {
-
-  },
-	data() {
-		return {
-			recipe: {},
-			carousel: [],
-			recipeName: this.$route.params.name
-		};
 	},
+	components: {
+	}
 };
 </script>
 <style>
