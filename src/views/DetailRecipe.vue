@@ -1,6 +1,9 @@
 <template>
 	<div>
 		<div id="demo" class="carousel slide" data-bs-ride="carousel">
+			<b-modal ref="sharePopup" id="modal-1" title="Thank you!" hide-footer>
+				<p>Thanks for your sharing! Reward Points +1!</p>
+			</b-modal>
 			<div class="carousel-indicators">
 				<button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
 				<button type="button" data-bs-target="#demo" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -77,14 +80,17 @@
 		<el-upload
 			class="upload-demo"
 			action="https://jsonplaceholder.typicode.com/posts/"
+			ref="upload"
 			:on-preview="handlePreview"
 			:auto-upload='false'
 			:on-remove="handleRemove"
-			:file-list="fileList"
+			:on-success="handleSuccess"
+			:file-list="this.fileList"
 			list-type="picture">
 			<el-button size="large" type="primary">Share my dishes</el-button>
 			<div slot="tip" class="el-upload__tip">Only allowed png/jpg no larger than 2MB</div>
 		</el-upload>
+		<el-button @click="handleShare" size="large" type="success">Confirm</el-button>
 		</div>
 	</div>
 </template>
@@ -110,12 +116,23 @@ export default {
 	methods: {    
 		submitRating(){
 		},
+		handleSuccess() {
+			console.log('upload success')
+		},
 		handleRemove(file, fileList) {
 			console.log(file, fileList);
 		},
 		handlePreview(file) {
 			console.log(file);
 		},
+		handleShare() {
+			if (this.$refs.upload.uploadFiles.length > 0) {
+				const currentPoints = localStorage.getItem('rewardPoints')
+				localStorage.setItem('rewardPoints', Number(currentPoints)+1)
+				this.$refs["sharePopup"].show()
+				this.$refs.upload.uploadFiles = []
+			}
+		}
 	},
 	components: {
 	}
