@@ -77,20 +77,52 @@
 				{{item}}
 			</li>
 		</ul>
-		<el-upload
-			class="upload-demo"
-			action="https://jsonplaceholder.typicode.com/posts/"
-			ref="upload"
-			:on-preview="handlePreview"
-			:auto-upload='false'
-			:on-remove="handleRemove"
-			:on-success="handleSuccess"
-			:file-list="this.fileList"
-			list-type="picture">
-			<el-button size="large" type="primary">Share my dishes</el-button>
-			<div slot="tip" class="el-upload__tip">Only allowed png/jpg no larger than 2MB</div>
-		</el-upload>
-		<el-button @click="handleShare" size="large" type="success">Confirm</el-button>
+
+		<el-button round plain size="large" type="primary" icon="el-icon-edit" @click="dialogVisible = true ">Share my feedback</el-button>
+		<el-dialog
+			title="Feedback"
+			:visible.sync="dialogVisible"
+			width="30%"
+			>
+			<div class="block" style="margin-bottom: 10px;">
+				<span class="demonstration">Satisfied with the recipe?</span>
+				<el-rate
+					v-model="rating"
+					:colors="colors">
+				</el-rate>
+			</div>
+			
+			<span class="demonstration">Share your dished for rewards!</span>
+			<el-upload style="padding: 10px;"
+				list-type="picture-card"
+				action="https://jsonplaceholder.typicode.com/posts/"
+				ref="upload"
+				:auto-upload='false'
+				:on-remove="handleRemove"
+				:on-success="handleSuccess"
+				:file-list="this.fileList"
+				>
+				<i slot="default" class="el-icon-plus"></i>
+				<!-- <el-button type="primary">Share my dishes</el-button>
+				<div slot="tip" class="el-upload__tip">Only allowed png/jpg no larger than 2MB</div> -->
+			</el-upload>
+
+			<el-input style="padding:0 50px 0" 
+				type="textarea"
+				:autosize="{ minRows: 2, maxRows: 4}"
+				placeholder="Please type your comments here..."
+				maxlength="200"
+				show-word-limit
+				v-model="comment">
+			</el-input>
+			
+			<span slot="footer" class="dialog-footer">
+				<el-button @click="dialogVisible = false">Cancel</el-button>
+				<el-button @click="handleShare" type="success">Confirm</el-button>
+			</span>
+		</el-dialog>
+
+		
 		</div>
 	</div>
 </template>
@@ -101,10 +133,15 @@ import mockData from '../../data/mock_data.json';
 export default {
 	data() {
 		return {
+			imgVisible: false,
+			dialogVisible: false,
 			recipe: {},
 			carousel: [],
 			recipeName: this.$route.params.name,
-			fileList: []
+			fileList: [],
+			rating: null,
+			comment: "",
+			colors: ['#99A9BF', '#F7BA2A', '#FF9900']
 		};
 	},
 	created() {
@@ -122,9 +159,6 @@ export default {
 		handleRemove(file, fileList) {
 			console.log(file, fileList);
 		},
-		handlePreview(file) {
-			console.log(file);
-		},
 		handleShare() {
 			if (this.$refs.upload.uploadFiles.length > 0) {
 				const currentPoints = localStorage.getItem('rewardPoints')
@@ -132,6 +166,7 @@ export default {
 				this.$refs["sharePopup"].show()
 				this.$refs.upload.uploadFiles = []
 			}
+			this.dialogVisible = false
 		}
 	},
 	components: {
