@@ -83,4 +83,7 @@
 **Jieyu Chen**
 
 - Implemented two sliders and four table of buttons for ingredients.
+- Implemented "Reward points" indicator in the home page and the "Reward point +1" popup.
+- Implemented search, filter, and clear functions for the recipe.
 - Wrote mockIngredients.json.
+- Implemented Storage API for the reward system and the reward logic for file upload.
