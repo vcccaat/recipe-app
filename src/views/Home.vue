@@ -93,12 +93,18 @@ export default {
 	},
 	created() {
 		this.init();
-		this.rewardPoints = 'rewardPoints' in localStorage ? localStorage.getItem('rewardPoints') : 10;
-		this.rewardPoints = Number(this.rewardPoints) + 1;
-		localStorage.setItem('rewardPoints', this.rewardPoints);
 	},
 	mounted: function () {
-		this.$refs['rewardPopup'].show();
+		this.rewardPoints = 'rewardPoints' in localStorage ? localStorage.getItem('rewardPoints') : 10
+    console.log(this.$cookies.get('popped'))
+    if (this.$cookies.get('popped') != 'yes' ){ //cookie 中没有 popped 则赋给他一个值（此时弹框显示）
+        document.cookie = "popped = yes";
+        this.rewardPoints = Number(this.rewardPoints) + 1
+        this.$refs["rewardPopup"].show()
+        this.$cookies.set("popped","yes","1d")
+    }
+    localStorage.setItem('rewardPoints', this.rewardPoints)
+    
 		Ingredient.$on('confirm', () => {
 			this.confirm();
 		});
