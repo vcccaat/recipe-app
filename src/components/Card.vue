@@ -1,68 +1,63 @@
 <template>
-  <div class="cardBox">
-    <b-card :img-src="imgsrc" img-alt="Card image" img-left>
-      <card-body>
-        <div class="card-content">
-          <h1>{{ recipe.name }}</h1>
-          <p>Time: {{ recipe.time }} min</p>
-          <p>Serving: {{ recipe.serving }}</p>
-          <a :href="url" class="stretched-link"></a>
-        </div>
-      </card-body>
-    </b-card>
-  </div>
+	<div class="container">
+		<div class="cardBox">
+			<div class="card-left">
+				<a :href="url">
+					<img :src="imgsrc" alt="Card-image" class="card-left-img" />
+				</a>
+			</div>
+			<div class="card-content">
+				<h1>{{ recipe.name }}</h1>
+				<p>Time: {{ recipe.time }} min</p>
+				<p>Serving: {{ recipe.serving }}</p>
+			</div>
+		</div>
+	</div>
 </template>
 
 <script>
 export default {
-  name: "Card",
-  data: function () {
-    return {
-      imgsrc: require("/data/" + this.recipe.cover),
-      url: "/recipe/" + this.recipe.name
-    };
-  },
-  props: {
-    recipe: Object,
-  },
-  created() {
-    //this.$set(this.itemInfo); //父组件传值时无法触发子组件watch监听, 利用set方法触发页面重新渲染
-  },
+	name: 'Card',
+	data: function () {
+		return {
+			imgsrc: require('/data/' + this.recipe.cover),
+			url: '/recipe/' + this.recipe.name,
+		};
+	},
+	props: {
+		recipe: Object,
+	},
+	created() {
+		//this.$set(this.itemInfo); //父组件传值时无法触发子组件watch监听, 利用set方法触发页面重新渲染
+	},
 };
 </script>
 
 <style>
+.container {
+	/* display: flex\; */
+}
 .cardBox {
-  margin: 100px;
-  margin-bottom: 20px;
-  margin-top: 20px;
+	display: flex;
+	box-shadow: 6px 8px 6px -6px rgb(0 0 0 / 40%);
+	border: 1px solid grey;
+	border-radius: 15px;
+	margin-bottom: 20px;
+	/* height: 50%; */
 }
-
-.card-body {
-  text-align: left;
+.card-left {
+	height: 100%;
+	width: 250px;
 }
-
+.card-left-img {
+	margin: auto;
+	border-radius: 15px;
+	/* height: 5rem; */
+	/* border-bottom-left-radius: 15px;
+	border-top-left-radius: 15px; */
+}
 .card-content {
-  padding: 50px;
-}
-/* 
-.card-img-left {
-  width: 30%;
-  object-fit: cover;
-  object-position: center;
-} */
-.card-img-left {
-  width: 350px;
-  height: 280px;
-  border: 1px solid lightgray;
-  object-fit: cover;
-  object-position: center;
-  vertical-align: middle;
-}
-.card-img-left img {
-  max-width: 100%;
-  max-height: 100%;
-  display: block;
-  margin: auto;
+	text-align: left;
+	padding: 20px;
 }
 </style>

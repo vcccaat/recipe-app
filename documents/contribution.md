@@ -19,9 +19,7 @@
 
 - Worked with team members to conduct team contract
 
-
-
-## Milestone 2: Teamwork
+## Milestone 2:
 
 **Yingshi Zhu**
 
@@ -38,14 +36,13 @@
 - Wrote the personas, value proposition, figma, and do the affinity daigramming
 
 - Conducted user interviews and field studies
-  
 
 **Jieyu Chen**
 
 - Brainstormed with the group and conducted user interviews.
 - Wrote the personas, project themes, figma, and interview notes
 
-## Milestone 3: Teamwork
+## Milestone 3:
 
 **Yingshi Zhu**
 
@@ -60,6 +57,7 @@
 - Conducted the persuasive design of our application
 
 **Sonia Song**
+
 - Final Sketches
 - Participated in brainstorming
 - Reworked the interviews based on the feedback
@@ -67,14 +65,20 @@
 
 **Jieyu Chen**
 
-- Wrote the rationale for the scenarios. 
+- Wrote the rationale for the scenarios.
 - Drafted sketches of the design and discussed with the team.
 - Reworked the value propositions based on the feedback.
 - Proofread the documents and corrected the grammar errors.
 
-## Milestone 4: Teamwork
+## Milestone 4:
 
 **Yingshi Zhu**
+
+- mock data
+- refactor card component
+- refactor home page
+- implement detail recipe page
+- implement reward page
 
 **Yangkai He**
 
@@ -83,4 +87,7 @@
 **Jieyu Chen**
 
 - Implemented two sliders and four table of buttons for ingredients.
+- Implemented "Reward points" indicator in the home page and the "Reward point +1" popup.
+- Implemented search, filter, and clear functions for the recipe.
 - Wrote mockIngredients.json.
+- Implemented Storage API for the reward system and the reward logic for file upload.
