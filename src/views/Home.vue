@@ -5,6 +5,16 @@
         <LeftPanel />
       </div>
       <div class="col-sm-8">
+        <el-popover
+          placement="top-start"
+          width="200"
+          trigger="click"
+          :content="'Your current reward points: ' + this.rewardPoints">
+          <el-button slot="reference">Reward points</el-button>
+        </el-popover>
+        <b-modal ref="rewardPopup" id="modal-1" title="Welcome!" hide-footer>
+          <p>Login First Time Today! Reward Points +1!</p>
+        </b-modal>
         <div class="searchBar">
           <SearchBar
             v-show="showSearch"
@@ -47,13 +57,18 @@ export default {
       filteredList: {},
       ingredients: new Set(),
       time: 0,
-      serving: 0
+      serving: 0,
+      rewardPoints: 0
     };
   },
   created() {
     this.init();
+    this.rewardPoints = 'rewardPoints' in localStorage ? localStorage.getItem('rewardPoints') : 10
+    this.rewardPoints = Number(this.rewardPoints) + 1
+    localStorage.setItem('rewardPoints', this.rewardPoints)
   },
   mounted: function() {
+    this.$refs["rewardPopup"].show()
     Ingredient.$on('confirm', () => {
       this.confirm()
     })
@@ -121,28 +136,6 @@ export default {
             
           }
         })
-
-        // for (let i = 0; i < input.length; i++) {
-        //   regStr = regStr + "(" + input[i] + ")([\\s]*)"; // 跨字匹配
-        // }
-        // let reg = new RegExp(regStr);
-
-        // // Start looping all the recipes
-        // for (let i in RecipeData) {
-        //   let name = RecipeData[i].name.toLowerCase(); // make it match either lowercase / uppercase
-        //   let regMatch = name.match(reg);
-        //   if (regMatch !== null) {
-        //     this.$set(this.recipeList, i, RecipeData[i]); // if matched, add it to the display list
-        //     this.filteredList = JSON.parse(JSON.stringify(this.recipeList))
-        //   }
-        // }
-
-        // Show message if there's no result found
-        // if (JSON.stringify(this.recipeList) == "{}") {
-        //   console.log("no search result");
-        //   this.showError = true;
-        //   this.errMsg = "Sorry, we didn't find any matched recipes";
-        // }
       }
     },
     search: function (input) {
@@ -183,3 +176,8 @@ export default {
   },
 };
 </script>
+<style>
+  .modal-backdrop {
+      opacity: 0.3;
+  }
+</style>
