@@ -12,7 +12,7 @@
           :content="'Your current reward points: ' + this.rewardPoints">
           <el-button slot="reference">Reward points</el-button>
         </el-popover>
-        <b-modal ref="rewardPopup" id="modal-1" title="Welcome!" hide-footer>
+        <b-modal ref="rewardPopup" id="modal-1" title="Welcome!" v-if="showPopup" hide-footer>
           <p>Login First Time Today! Reward Points +1!</p>
         </b-modal>
         <div class="searchBar">
@@ -50,6 +50,7 @@ export default {
   },
   data() {
     return {
+      showPopup: true,
       showSearch: true,
       showError: false,
       errMsg: "",
@@ -63,12 +64,19 @@ export default {
   },
   created() {
     this.init();
-    this.rewardPoints = 'rewardPoints' in localStorage ? localStorage.getItem('rewardPoints') : 10
-    this.rewardPoints = Number(this.rewardPoints) + 1
-    localStorage.setItem('rewardPoints', this.rewardPoints)
   },
   mounted: function() {
-    this.$refs["rewardPopup"].show()
+    this.rewardPoints = 'rewardPoints' in localStorage ? localStorage.getItem('rewardPoints') : 10
+    console.log(this.$cookies.get('popped'))
+    if (this.$cookies.get('popped') != 'yes' ){ //cookie 中没有 popped 则赋给他一个值（此时弹框显示）
+        document.cookie = "popped = yes";
+        this.rewardPoints = Number(this.rewardPoints) + 1
+        this.$refs["rewardPopup"].show()
+        this.$cookies.set("popped","yes","1d")
+    }
+    localStorage.setItem('rewardPoints', this.rewardPoints)
+    //this.$refs["rewardPopup"].show()
+    // this.$bvModal.show('modal-1');
     Ingredient.$on('confirm', () => {
       this.confirm()
     })
@@ -105,6 +113,22 @@ export default {
     })
   },
   methods: {
+    getCookie(Name) { //cookie
+        var search = Name + "=";
+        var returnValue = "";
+        if (document.cookie.length > 0) {
+          var offset = document.cookie.indexOf(search);
+          if (offset !== -1) {
+            offset += search.length;
+            var end = document.cookie.indexOf(";", offset);
+            if (end == -1){
+              end = document.cookie.length;
+            }
+            returnValue = decodeURIComponent(document.cookie.substring(offset, end));
+          }
+        }
+        return returnValue;
+      },
     init: function () {
       this.recipeList = RecipeData;
       this.filteredList = JSON.parse(JSON.stringify(this.recipeList));

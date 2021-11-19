@@ -1,5 +1,8 @@
 import Vue from 'vue'
 import App from './App.vue'
+import VueCookies from 'vue-cookies'
+Vue.use(VueCookies)
+
 import './registerServiceWorker'
 import router from './router'
 import 'jquery/dist/jquery.min.js'
