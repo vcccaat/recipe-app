@@ -40,7 +40,7 @@ export default {
 .cardBox {
 	display: flex;
 	box-shadow: 6px 8px 6px -6px rgb(0 0 0 / 40%);
-	border: 3px solid grey;
+	border: 1px solid grey;
 	border-radius: 15px;
 	margin-bottom: 20px;
 	/* height: 50%; */
