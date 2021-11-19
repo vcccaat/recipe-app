@@ -192,11 +192,15 @@ export default {
 	text-align: right;
 	margin: 20px;
 }
+
 .card-container {
-	display: grid;
+	display: flex;
+	flex-direction: column;
+	width: 850px;
+	/* display: grid;
 	grid-gap: 10px;
 	grid-template-columns: 1fr 1fr;
-	/* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
 }
 a {
 	text-decoration: none !important;

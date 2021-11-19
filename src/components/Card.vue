@@ -1,7 +1,7 @@
 <template>
 	<div class="container">
 		<div class="cardBox">
-			<div class="card-top">
+			<div class="card-left">
 				<a :href="url">
 					<img :src="imgsrc" alt="Card-image" class="card-left-img" />
 				</a>
@@ -34,27 +34,30 @@ export default {
 </script>
 
 <style>
-.cardBox {
-	box-shadow: 6px 8px 6px -6px rgb(0 0 0 / 40%);
-	border: 3px solid black;
-	border-radius: 15px;
-	transition: all 1s;
-	display: block;
-	/* background-color: rgba(16,154,167,.1); */
-	height: 50%;
+.container {
+	/* display: flex\; */
 }
-.card-top {
-	width: 100%;
-	height: 70%;
+.cardBox {
+	display: flex;
+	box-shadow: 6px 8px 6px -6px rgb(0 0 0 / 40%);
+	border: 3px solid grey;
+	border-radius: 15px;
+	margin-bottom: 20px;
+	/* height: 50%; */
+}
+.card-left {
+	height: 100%;
+	width: 250px;
 }
 .card-left-img {
 	margin: auto;
+	border-radius: 15px;
 	/* height: 5rem; */
-	border-top-right-radius: 15px;
-	border-top-left-radius: 15px;
+	/* border-bottom-left-radius: 15px;
+	border-top-left-radius: 15px; */
 }
 .card-content {
 	text-align: left;
-	padding: 7px;
+	padding: 20px;
 }
 </style>

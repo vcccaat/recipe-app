@@ -92,6 +92,7 @@ export default {
 	display: flex;
 	flex-direction: column;
 	min-width: 400px;
+
 	padding: 20px;
 	border-right: 3px solid grey;
 	box-shadow: 6px 8px 6px -6px rgb(0 0 0 / 40%);
