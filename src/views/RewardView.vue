@@ -14,7 +14,7 @@
 						<span>Reward Points</span>
 					</div>
 					<div class="row">
-						<h1>15</h1>
+						<h1>{{rewardPoints}}</h1>
 					</div>
 				</div>
 				<div class="col-3">
@@ -82,13 +82,16 @@
 <script>
 // import Button from '../components/Button.vue';
 export default {
-	created() {},
+	created() {
+		this.rewardPoints = localStorage.getItem('rewardPoints', this.rewardPoints)
+	},
 	methods: {},
 	components: {},
 	data() {
 		return {
 			bowlIcon: require('/public/img/icons/bowl.svg'),
 			vegIcon: require('/public/img/icons/vegetable.svg'),
+			rewardPoints: 10,
 		};
 	},
 };
