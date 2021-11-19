@@ -47,7 +47,7 @@
 					</router-link>
 					<div>
 						<SearchBar v-show="showSearch" @search-sent="search" :errMsg="errMsg" :showError="showError" />
-						<div class="" style="display: inline-block">
+						<div class="">
 							<div class="card-container">
 								<div class="cards" v-for="(item, index) in filteredList" :key="index">
 									<Card :recipe="item" />
@@ -95,16 +95,17 @@ export default {
 		this.init();
 	},
 	mounted: function () {
-		this.rewardPoints = 'rewardPoints' in localStorage ? localStorage.getItem('rewardPoints') : 10
-    console.log(this.$cookies.get('popped'))
-    if (this.$cookies.get('popped') != 'yes' ){ //cookie 中没有 popped 则赋给他一个值（此时弹框显示）
-        document.cookie = "popped = yes";
-        this.rewardPoints = Number(this.rewardPoints) + 1
-        this.$refs["rewardPopup"].show()
-        this.$cookies.set("popped","yes","1d")
-    }
-    localStorage.setItem('rewardPoints', this.rewardPoints)
-    
+		this.rewardPoints = 'rewardPoints' in localStorage ? localStorage.getItem('rewardPoints') : 10;
+		console.log(this.$cookies.get('popped'));
+		if (this.$cookies.get('popped') != 'yes') {
+			//cookie 中没有 popped 则赋给他一个值（此时弹框显示）
+			document.cookie = 'popped = yes';
+			this.rewardPoints = Number(this.rewardPoints) + 1;
+			this.$refs['rewardPopup'].show();
+			this.$cookies.set('popped', 'yes', '1d');
+		}
+		localStorage.setItem('rewardPoints', this.rewardPoints);
+
 		Ingredient.$on('confirm', () => {
 			this.confirm();
 		});
@@ -228,7 +229,7 @@ export default {
 .card-container {
 	display: flex;
 	flex-direction: column;
-	width: 850px;
+	/* width: 850px; */
 	/* display: grid;
 	grid-gap: 10px;
 	grid-template-columns: 1fr 1fr;

@@ -91,7 +91,7 @@ export default {
 #left-panel {
 	display: flex;
 	flex-direction: column;
-	min-width: 400px;
+	/* min-width: 400px; */
 
 	padding: 20px;
 	border-right: 3px solid grey;
