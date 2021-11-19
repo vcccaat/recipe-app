@@ -2,13 +2,14 @@
 	<div class="container">
 		<div class="cardBox">
 			<div class="card-top">
-				<img :src="imgsrc" alt="Card-image" class="card-left-img" />
+				<a :href="url">
+					<img :src="imgsrc" alt="Card-image" class="card-left-img" />
+				</a>
 			</div>
 			<div class="card-content">
 				<h1>{{ recipe.name }}</h1>
 				<p>Time: {{ recipe.time }} min</p>
 				<p>Serving: {{ recipe.serving }}</p>
-				<a :href="url" class="stretched-link"></a>
 			</div>
 		</div>
 	</div>

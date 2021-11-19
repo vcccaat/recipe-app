@@ -1,12 +1,14 @@
 <template>
 	<div class="home">
 		<div class="row">
-			<div class="col-sm-3">
+			<div class="col-sm-4">
 				<LeftPanel />
 			</div>
-			<div class="col-sm-9">
+			<div class="col-sm-8">
 				<div class="header-bar">
-					<i class="bi bi-person-circle" style="font-size: 30px"></i>
+					<router-link to="/reward">
+						<i class="bi bi-person-circle" style="font-size: 30px"></i>
+					</router-link>
 					<div>
 						<SearchBar v-show="showSearch" @search-sent="search" :errMsg="errMsg" :showError="showError" />
 						<div class="" style="display: inline-block">
@@ -194,5 +196,10 @@ export default {
 	display: grid;
 	grid-gap: 10px;
 	grid-template-columns: 1fr 1fr;
+	/* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
+}
+a {
+	text-decoration: none !important;
+	color: #2c3e50 !important;
 }
 </style>
