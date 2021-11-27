@@ -103,8 +103,6 @@
 				:file-list="this.fileList"
 				>
 				<i slot="default" class="el-icon-plus"></i>
-				<!-- <el-button type="primary">Share my dishes</el-button>
-				<div slot="tip" class="el-upload__tip">Only allowed png/jpg no larger than 2MB</div> -->
 			</el-upload>
 
 			<el-input style="padding:0 50px 0" 
@@ -133,7 +131,6 @@ import mockData from '../../data/mock_data.json';
 export default {
 	data() {
 		return {
-			imgVisible: false,
 			dialogVisible: false,
 			recipe: {},
 			carousel: [],
