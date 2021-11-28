@@ -1,5 +1,6 @@
 <template>
 	<div>
+		<!-- Part for Display Feature -->
 		<div id="demo" class="carousel slide" data-bs-ride="carousel">
 			<b-modal ref="sharePopup" id="modal-1" title="Thank you!" hide-footer>
 				<p>Thanks for your sharing! Reward Points +1!</p>
@@ -77,7 +78,8 @@
 				{{item}}
 			</li>
 		</ul>
-
+		
+		<!-- Part for Feedback Feature -->
 		<el-button round plain size="large" type="primary" icon="el-icon-edit" @click="dialogVisible = true ">Share my feedback</el-button>
 		<el-dialog
 			title="Feedback"
@@ -92,6 +94,7 @@
 				</el-rate>
 			</div>
 			
+			<!-- Upload pictures -->
 			<span class="demonstration">Share your dished for rewards!</span>
 			<el-upload style="padding: 10px;"
 				list-type="picture-card"
@@ -99,12 +102,14 @@
 				ref="upload"
 				:auto-upload='false'
 				:on-remove="handleRemove"
+				:on-change="handleChange"
 				:on-success="handleSuccess"
 				:file-list="this.fileList"
 				>
 				<i slot="default" class="el-icon-plus"></i>
 			</el-upload>
 
+			<!--Input comment -->
 			<el-input style="padding:0 50px 0" 
 				type="textarea"
 				:autosize="{ minRows: 2, maxRows: 4}"
@@ -119,7 +124,6 @@
 				<el-button @click="handleShare" type="success">Confirm</el-button>
 			</span>
 		</el-dialog>
-
 		
 		</div>
 	</div>
@@ -138,7 +142,9 @@ export default {
 			fileList: [],
 			rating: null,
 			comment: "",
-			colors: ['#99A9BF', '#F7BA2A', '#FF9900']
+			colors: ['#99A9BF', '#F7BA2A', '#FF9900'],
+			cacheList: [],
+			sendList: []
 		};
 	},
 	created() {
@@ -156,6 +162,11 @@ export default {
 		handleRemove(file, fileList) {
 			console.log(file, fileList);
 		},
+		handleChange(file,fileList) {
+			console.log("1111", file, fileList);
+			this.cacheList.push(URL.createObjectURL(file.raw));
+			//this.imgA = URL.createObjectURL(file.raw);
+		},
 		handleShare() {
 			if (this.$refs.upload.uploadFiles.length > 0) {
 				const currentPoints = localStorage.getItem('rewardPoints')
@@ -163,6 +174,17 @@ export default {
 				this.$refs["sharePopup"].show()
 				this.$refs.upload.uploadFiles = []
 			}
+			if(this.cacheList.length > 0){
+				console.log("要放入的数组", this.cacheList)
+				this.sendList.push(this.cacheList)
+				const parsed = JSON.stringify(this.sendList);
+				localStorage.setItem('feedbackPics', parsed);
+				console.log("放入后的数组",this.sendList)
+				this.cacheList = [];
+			}
+			console.log('sent to localstorage')
+			this.rating = null,
+			this.comment = "",
 			this.dialogVisible = false
 		}
 	},
