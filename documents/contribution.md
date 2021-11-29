@@ -91,3 +91,15 @@
 - Implemented search, filter, and clear functions for the recipe.
 - Wrote mockIngredients.json.
 - Implemented Storage API for the reward system and the reward logic for file upload.
+
+
+## Milestone 5:
+
+**Yingshi Zhu**
+**Yangkai He**
+
+**Sonia Song**
+
+**Jieyu Chen**
+
+- Deployed the app to Heroku.
