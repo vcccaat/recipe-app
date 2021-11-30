@@ -80,7 +80,7 @@
 		</ul>
 		
 		<!-- Part for Feedback Feature -->
-		<el-button round plain size="large" type="primary" icon="el-icon-edit" @click="dialogVisible = true ">Share my feedback</el-button>
+		<el-button round plain size="large" type="primary" icon="el-icon-edit" @click="handleUpload">Share my feedback</el-button>
 		<el-dialog
 			title="Feedback"
 			:visible.sync="dialogVisible"
@@ -124,8 +124,6 @@
 				<el-button @click="handleShare" type="success">Confirm</el-button>
 			</span>
 		</el-dialog>
-
-		<img :src="src" >
 		
 		</div>
 	</div>
@@ -147,7 +145,8 @@ export default {
 			colors: ['#99A9BF', '#F7BA2A', '#FF9900'],
 			cacheList: [],
 			sendList: [],
-			src: ""
+			src: "",
+			noUploadPic: require('/data/img/NoImgUploaded.jpeg')
 		};
 	},
 	created() {
@@ -169,10 +168,19 @@ export default {
 			console.log(file, fileList);
 		},
 		handleChange(file,fileList) {
-			this.cacheList.push(this.recipeName);
-			this.cacheList.push("No comment content.");
+			const isJPG = /\.(?:jpg|png|jpeg)$/.test(file.name.toLowerCase())
+			const isLt2M = file.size / 1024 / 1024 < 2;
+			if (!isJPG) {
+				this.$message.error('Sorry we only support JPG/JPEG/PNG!');
+				fileList.splice(-1,1); //移除选中图片
+				return false;
+			}
+			if (!isLt2M) {
+				this.$message.error('上传头像图片大小不能超过 2MB!');
+				fileList.splice(-1,1); //移除选中图片
+				return false;
+			}
 			console.log("1111", file, fileList);
-			//this.cacheList.push(URL.createObjectURL(file.raw));
 			this.getBase64(file.raw).then(res => {
 				this.cacheList.push(res);
 				this.src = res;
@@ -183,22 +191,45 @@ export default {
 				}
 			})
 		},
-		handleShare() {
+		handleUpload() {
+			this.dialogVisible = true;
+			this.cacheList.push(this.recipeName);
+			this.cacheList.push("No comment content.");
+			this.cacheList.push("no ratings");
+		},
+		handleShare() { // Transfer the feedback content to the profile page
 			if (this.$refs.upload.uploadFiles.length > 0) {
 				const currentPoints = localStorage.getItem('rewardPoints')
 				localStorage.setItem('rewardPoints', Number(currentPoints)+1)
 				this.$refs["sharePopup"].show()
 				this.$refs.upload.uploadFiles = []
 			}
-			if(this.cacheList.length > 0){
-				console.log("要放入的数组", this.cacheList)
-				this.sendList.push(this.cacheList)
-				var parsed = JSON.stringify(this.sendList);
-				localStorage.setItem('feedbackPics', parsed);
-				console.log("放入后的数组",this.sendList)
-				this.cacheList = [];
+			if(this.cacheList.length == 3){	// handle image uploaded
+				console.log("沒上傳圖片")
+				this.cacheList.push(this.noUploadPic);
 			}
+			if(this.comment!=""){	// handle comment uploaded
+				this.cacheList[1] = this.comment;
+			}
+			if (this.rating){	// handle ratings uploaded
+				this.cacheList[2] = this.rating;
+			}
+			console.log("要放入的数组", this.cacheList)
+			if(localStorage.getItem('feedbackPics')){
+				this.sendList = JSON.parse(localStorage.getItem('feedbackPics'))
+				console.log("已有feedback存在,添加中...", this.sendList)
+			}
+			this.sendList.push(this.cacheList)
+			var parsed = JSON.stringify(this.sendList);
+			localStorage.setItem('feedbackPics', parsed);
+			console.log("放入后的数组",this.sendList)
+			this.cacheList = [];
+			
+			///data/img/NoImgUploaded.jpeg
+			
 			console.log('sent to localstorage')
+			console.log('comment:', this.comment)
+
 			this.rating = null,
 			this.comment = "",
 			this.dialogVisible = false
