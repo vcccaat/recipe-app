@@ -124,6 +124,8 @@
 				<el-button @click="handleShare" type="success">Confirm</el-button>
 			</span>
 		</el-dialog>
+
+		<img :src="src" >
 		
 		</div>
 	</div>
@@ -144,7 +146,8 @@ export default {
 			comment: "",
 			colors: ['#99A9BF', '#F7BA2A', '#FF9900'],
 			cacheList: [],
-			sendList: []
+			sendList: [],
+			src: ""
 		};
 	},
 	created() {
@@ -152,6 +155,9 @@ export default {
 		this.recipe = mockData[this.recipeName];
 		this.frontImage = mockData[this.recipeName]['img'].slice(-1)[0];
 		this.carousel = mockData[this.recipeName]['img'].slice(0,-1);
+		// this.sendList.push(this.cacheList)
+		// var parsed = JSON.stringify(this.sendList);
+		// localStorage.setItem('feedback', parsed);
 	},
 	methods: {    
 		submitRating(){
@@ -163,9 +169,19 @@ export default {
 			console.log(file, fileList);
 		},
 		handleChange(file,fileList) {
+			this.cacheList.push(this.recipeName);
+			this.cacheList.push("No comment content.");
 			console.log("1111", file, fileList);
-			this.cacheList.push(URL.createObjectURL(file.raw));
-			//this.imgA = URL.createObjectURL(file.raw);
+			//this.cacheList.push(URL.createObjectURL(file.raw));
+			this.getBase64(file.raw).then(res => {
+				this.cacheList.push(res);
+				this.src = res;
+				const params = res.split(',')
+				console.log(params, 'params')
+				if (params.length > 0) {
+					this.proofImage = params[1]
+				}
+			})
 		},
 		handleShare() {
 			if (this.$refs.upload.uploadFiles.length > 0) {
@@ -177,7 +193,7 @@ export default {
 			if(this.cacheList.length > 0){
 				console.log("要放入的数组", this.cacheList)
 				this.sendList.push(this.cacheList)
-				const parsed = JSON.stringify(this.sendList);
+				var parsed = JSON.stringify(this.sendList);
 				localStorage.setItem('feedbackPics', parsed);
 				console.log("放入后的数组",this.sendList)
 				this.cacheList = [];
@@ -186,7 +202,23 @@ export default {
 			this.rating = null,
 			this.comment = "",
 			this.dialogVisible = false
-		}
+		},
+		getBase64(file) {
+      return new Promise(function(resolve, reject) {
+        let reader = new FileReader();
+        let imgResult = "";
+        reader.readAsDataURL(file);
+        reader.onload = function() {
+          imgResult = reader.result;
+        };
+        reader.onerror = function(error) {
+          reject(error);
+        };
+        reader.onloadend = function() {
+          resolve(imgResult);
+        };
+      });
+    }
 	},
 	components: {
 	}

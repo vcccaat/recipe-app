@@ -90,16 +90,16 @@
 			<div class="row">
         <div class="col-6" style="text-align: left">
           <div class="row">
-            <span>My comment</span>
+            <span>{{displayList[0]}}</span>
           </div>
           <div class="row">
-            <span> abcabc </span>
+            <span> {{displayList[1]}} </span>
           </div>
         </div>
 				<div class="col-6 block">
 					<el-image
 					style="width: 100px; height: 100px; margin: 5px"
-					v-for="(img,i) in item" :key="i" :src="img"
+					v-for="(img,i) in item.slice(2)" :key="i" :src="img"
 					fit="cover"></el-image>
 				</div>
 			</div>
@@ -112,6 +112,7 @@
 export default {
   created() {
     this.rewardPoints = localStorage.getItem("rewardPoints", this.rewardPoints);
+    this.displayList = JSON.parse(localStorage.getItem('feedbackPics'))
   },
 	mounted() {
 		window.addEventListener('storage', (e) => {
