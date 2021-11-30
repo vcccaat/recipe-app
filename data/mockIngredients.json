@@ -1,0 +1,52 @@
+[
+    {
+        "type": "Meat",
+        "ingredients": [
+            "Bacon",
+            "Beaf",
+            "Ham",
+            "Pork",
+            "Sausage",
+            "Beef rid",
+            "Chicken",
+            "+90 more"
+        ]
+    },
+    {
+        "type": "Vegetables",
+        "ingredients": [
+            "Garlic",
+            "Onion",
+            "Tomato",
+            "Carrot",
+            "Patato",
+            "Ginger",
+            "Celery",
+            "+30 more"
+        ]
+    },
+    {
+        "type": "Diary & Eggs",
+        "ingredients": [
+            "Butter",
+            "Egg",
+            "Milk",
+            "Yogurt",
+            "Cream",
+            "Sour cream",
+            "+40 more"
+        ]
+    },
+    {
+        "type": "Spiece & Herbs",
+        "ingredients": [
+            "Basil",
+            "Cilantro",
+            "Thyme",
+            "Cumin",
+            "Paprika",
+            "Cinnamon",
+            "+60 more"
+        ]
+    }
+]
