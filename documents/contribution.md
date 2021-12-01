@@ -89,6 +89,9 @@
 
 **Sonia Song**
 
+- Created Json data structure
+- Mocked data
+
 **Jieyu Chen**
 
 - Implemented two sliders and four table of buttons for ingredients.
@@ -107,6 +110,9 @@
 - Conducted user tesing and discussed with the group on what to improve
 
 **Sonia Song**
+
+- Conducted four user testings and extracted insights from testing
+- Redesigned and refined the sketch and wrote the rationale
 
 **Jieyu Chen**
 
