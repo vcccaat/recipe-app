@@ -31,6 +31,19 @@
   </div> -->
 	<div class="home">
 		<div class="row">
+			<div class="header-bar">
+				<div></div>
+				<div>
+					<el-popover placement="top-start" width="200" trigger="click" :content="'Your current reward points: ' + this.rewardPoints">
+						<el-button slot="reference" style="margin-right: 20px">Reward points</el-button>
+					</el-popover>
+					<router-link to="/reward">
+						<i class="bi bi-person-circle" style="font-size: 30px"></i>
+					</router-link>
+				</div>
+			</div>
+		</div>
+		<div class="row">
 			<div class="col-sm-4">
 				<LeftPanel />
 			</div>
@@ -38,20 +51,12 @@
 				<b-modal ref="rewardPopup" id="modal-1" title="Welcome!" hide-footer>
 					<p>Login First Time Today! Reward Points +1!</p>
 				</b-modal>
-				<div class="header-bar">
-					<el-popover placement="top-start" width="200" trigger="click" :content="'Your current reward points: ' + this.rewardPoints">
-						<el-button slot="reference">Reward points</el-button>
-					</el-popover>
-					<router-link to="/reward">
-						<i class="bi bi-person-circle" style="font-size: 30px"></i>
-					</router-link>
-					<div>
-						<SearchBar v-show="showSearch" @search-sent="search" :errMsg="errMsg" :showError="showError" />
-						<div class="">
-							<div class="card-container">
-								<div class="cards" v-for="(item, index) in filteredList" :key="index">
-									<Card :recipe="item" />
-								</div>
+				<div>
+					<SearchBar v-show="showSearch" @search-sent="search" :errMsg="errMsg" :showError="showError" />
+					<div class="">
+						<div class="card-container">
+							<div class="cards" v-for="(item, index) in filteredList" :key="index">
+								<Card :recipe="item" />
 							</div>
 						</div>
 					</div>
@@ -219,12 +224,17 @@ export default {
 }
 
 .header-bar {
-	text-align: right;
-	margin: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 2vh;
+	/* padding-bottom: 10px; */
+	border-bottom: 2px solid #ddd;
+	box-shadow: 6px 8px 6px -6px rgb(0 0 0 / 20%);
 }
-.header-bar > * {
+/* .header-bar > * {
 	margin: 20px;
-}
+} */
 
 .card-container {
 	display: flex;
