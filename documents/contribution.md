@@ -82,6 +82,11 @@
 
 **Yangkai He**
 
+- Implemented dynamic card component and card view
+- Implemented search bar feature
+- Implemented upload Api and the feedback display feature
+- Utilized cookie to remember the login behavior
+
 **Sonia Song**
 
 **Jieyu Chen**
@@ -97,6 +102,9 @@
 
 **Yingshi Zhu**
 **Yangkai He**
+
+- Continued to complete the feedback interface / link to the profile page / responsive left panel
+- Conducted user tesing and discussed with the group on what to improve
 
 **Sonia Song**
 
