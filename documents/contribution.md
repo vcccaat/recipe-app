@@ -103,3 +103,4 @@
 **Jieyu Chen**
 
 - Deployed the app to Heroku.
+- Conducted one user testing and discussed the findings with the group. Proposed some revisions.

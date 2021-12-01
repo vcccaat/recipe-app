@@ -5,6 +5,11 @@
 npm install
 ```
 
+## Project App URL
+```
+https://facipe.herokuapp.com/
+```
+
 ### Compiles and hot-reloads for development
 ```
 npm run serve
