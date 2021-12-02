@@ -1,5 +1,15 @@
 <template>
 	<div class="home">
+		<div class="header-bar">
+			<div style="margin-left: auto">
+				<el-popover placement="top-start" width="200" trigger="click" :content="'Your current reward points: ' + this.rewardPoints">
+					<el-button slot="reference" style="margin-right: 20px">Reward points</el-button>
+				</el-popover>
+				<router-link to="/reward">
+					<i class="bi bi-person-circle" style="font-size: 30px"></i>
+				</router-link>
+			</div>
+		</div>
 		<el-row>
 			<el-col :xs="xsLeft" :sm="xsLeft" :lg="8">
 				<LeftPanel @movePanel="movePanel" />
@@ -8,21 +18,12 @@
 				<b-modal ref="rewardPopup" id="modal-1" title="Welcome!" hide-footer>
 					<p>Login First Time Today! Reward Points +1!</p>
 				</b-modal>
-				<div class="header-bar">
-					<el-popover placement="top-start" width="200" trigger="click" :content="'Your current reward points: ' + this.rewardPoints">
-						<el-button slot="reference">Reward points</el-button>
-					</el-popover>
-					<router-link to="/reward">
-						<i class="bi bi-person-circle" style="font-size: 30px"></i>
-					</router-link>
-					<div>
-						<SearchBar v-show="showSearch" @search-sent="search" :errMsg="errMsg" :showError="showError" />
-						<div class="">
-							<div class="card-container">
-								<div class="cards" v-for="(item, index) in filteredList" :key="index">
-									<Card :recipe="item" />
-								</div>
-							</div>
+				<div style="margin: 20px">
+					<SearchBar v-show="showSearch" @search-sent="search" :errMsg="errMsg" :showError="showError" />
+
+					<div class="card-container">
+						<div class="cards" v-for="(item, index) in filteredList" :key="index">
+							<Card :recipe="item" />
 						</div>
 					</div>
 				</div>
