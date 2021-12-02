@@ -40,6 +40,6 @@ export default {
 }
 
 .bar {
-	margin: 20px 0px;
+	/* margin: 20px 0px; */
 }
 </style>

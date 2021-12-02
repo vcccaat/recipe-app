@@ -100,11 +100,13 @@
 - Wrote mockIngredients.json.
 - Implemented Storage API for the reward system and the reward logic for file upload.
 
-
 ## Milestone 5:
 
 **Yingshi Zhu**
-**Yangkai He**
+
+- fix bugs and improve responsive design based on user feedback
+- add return button and profile icon in every page
+  **Yangkai He**
 
 - Continued to complete the feedback interface / link to the profile page / responsive left panel
 - Conducted user tesing and discussed with the group on what to improve

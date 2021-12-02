@@ -139,8 +139,8 @@ export default {
 	/* min-width: 400px; */
 
 	padding: 20px;
-	border-right: 3px solid grey;
-	box-shadow: 6px 8px 6px -6px rgb(0 0 0 / 40%);
+	border-right: 3px solid #ddd;
+	/* box-shadow: 6px 8px 6px -6px rgb(0 0 0 / 40%); */
 }
 #left-panel > * {
 	margin: 10px 0;
