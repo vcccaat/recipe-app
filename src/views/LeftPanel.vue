@@ -2,7 +2,7 @@
 	<div >
 		<div id="left-panel" class="fullPanel" v-if="showPanel">
 			<div style="text-align: right">
-				<button @click="onHide" class="bi bi-arrow-bar-left hidden-sm-and-up" style="font-size: 25px"></button>
+				<button @click="onHide" class="bi bi-arrow-bar-left hidden-md-and-up" style="font-size: 25px"></button>
 			</div>
 			<h5>Time I have for the meal (minutes)</h5>
 			<div class="d-flex">
@@ -20,7 +20,7 @@
 				<!-- <span class="">0</span> -->
 				<form class="flex-grow-1">
 					<!-- <input @change="handleServingChange" v-model="serving" style="width: 100%" class="border-0" type="range" min="0" max="10" /> -->
-					<el-slider  @change="handleServingChange" v-model="serving" show-input :max="8"> </el-slider>
+					<el-slider  @change="handleServingChange" v-model="serving" show-input :max="8" :min="1"> </el-slider>
 				</form>
 				<!-- <span class="">10</span> -->
 			</div>
@@ -31,7 +31,7 @@
 				<table class="buttons" v-for="i in Math.ceil(item.ingredients.length / 4)" :key="i">
 					<tr>
 						<td v-for="ind in item.ingredients.slice((i - 1) * 4, i * 4)" :key="ind">
-							<Button :name="ind" :id="ind" />
+							<Button :name="ind" :id="ind" :styler="styler" />
 						</td>
 					</tr>
 				</table>
@@ -58,15 +58,39 @@ export default {
 	data() {
 		return {
 			time: 30,
-			serving: 5,
+			serving: 3,
 			ingredients: [],
+			styler: "",
+			screenWidth: "",
 			showPanel: true
 
 		};
 	},
 	created() {
 		this.getIngredients();
-		
+	},
+	mounted() {
+		this.screenWidth = document.body.clientWidth;
+		if (this.screenWidth <= 438) {
+			this.styler = "el-button el-button--mini btn-outline-primary";
+			console.log("aaa");
+		}
+		else {
+		this.styler = "el-button el-button--medium is-round btn-outline-primary"
+		}
+		window.onresize = () => {
+		return (() => {
+			this.screenWidth = document.body.clientWidth;
+			console.log(this.screenWidth);
+			//this.screenHeight = document.body.clientHeight;
+			if (this.screenWidth <= 438) {
+			this.styler = "el-button el-button--mini btn-outline-primary";
+			}
+			else {
+			this.styler = "el-button el-button--medium is-round btn-outline-primary"
+			}
+		})();
+		};
 	},
 	methods: {
 		onHide() {
@@ -101,12 +125,13 @@ export default {
 
 .buttons {
 	width: 100%;
-	table-layout: fixed;
+	/* table-layout: fixed; */
 	/* border-collapse: collapse; */
 }
 
-.buttons button {
+.buttons label {
 	width: 100%;
+	margin: 0px;
 }
 #left-panel {
 	display: flex;
