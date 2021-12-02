@@ -1,7 +1,13 @@
 <template>
-  <div class="button">
+  <div class="button" style="margin: 1px 2px 0px">
     <input @click="handleClick" type="checkbox" class="btn-check" v-model="checked" :id=id autocomplete="off" ref="selectedButton">
     <label class="btn btn-outline-secondary" :for=id>{{name}}</label>
+    <el-button :size="medium" @click="handleClick" type="checkbox" v-model="checked" :id=id ref="selectedButton" round>
+      {{name}}
+    </el-button>
+    <!-- <label class="btn btn-outline-secondary" :for=id>{{name}}</label> -->
+
+
   </div>
 </template>
 
