@@ -13,9 +13,9 @@ import 'bootstrap/dist/js/bootstrap.min.js'
 
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
+import 'element-ui/lib/theme-chalk/display.css';
 
 Vue.config.productionTip = false;
-Vue.prototype.$EventBus = new Vue();
 
 Vue.use(ElementUI);
 // Make BootstrapVue available throughout your project

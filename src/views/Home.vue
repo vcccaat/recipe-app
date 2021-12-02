@@ -1,68 +1,33 @@
 <template>
-	<!-- <div class="home">
-    <div class="row">
-      <div class="col-sm-4">
-        <LeftPanel />
-      </div>
-      <div class="col-sm-8">
-        <el-popover
-          placement="top-start"
-          width="200"
-          trigger="click"
-          :content="'Your current reward points: ' + this.rewardPoints">
-          <el-button slot="reference">Reward points</el-button>
-        </el-popover>
-        <b-modal ref="rewardPopup" id="modal-1" title="Welcome!" v-if="showPopup" hide-footer>
-          <p>Login First Time Today! Reward Points +1!</p>
-        </b-modal>
-        <div class="searchBar">
-          <SearchBar
-            v-show="showSearch"
-            @search-sent="search"
-            :errMsg="errMsg"
-            :showError="showError"
-          />
-        </div>
-        <div class="cards" v-for="(item, index) in filteredList" :key="index">
-          <Card :recipe="item" />
-        </div>
-      </div>
-    </div>
-  </div> -->
 	<div class="home">
-		<div class="row">
-			<div class="header-bar">
-				<div></div>
-				<div>
+		<el-row>
+			<el-col :xs="xsLeft" :sm="xsLeft" :lg="8">
+				<LeftPanel @movePanel="movePanel" />
+			</el-col>
+			<el-col :xs="xsRight" :sm="xsRight" :lg="16">
+				<b-modal ref="rewardPopup" id="modal-1" title="Welcome!" hide-footer>
+					<p>Login First Time Today! Reward Points +1!</p>
+				</b-modal>
+				<div class="header-bar">
 					<el-popover placement="top-start" width="200" trigger="click" :content="'Your current reward points: ' + this.rewardPoints">
-						<el-button slot="reference" style="margin-right: 20px">Reward points</el-button>
+						<el-button slot="reference">Reward points</el-button>
 					</el-popover>
 					<router-link to="/reward">
 						<i class="bi bi-person-circle" style="font-size: 30px"></i>
 					</router-link>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-sm-4">
-				<LeftPanel />
-			</div>
-			<div class="col-sm-8">
-				<b-modal ref="rewardPopup" id="modal-1" title="Welcome!" hide-footer>
-					<p>Login First Time Today! Reward Points +1!</p>
-				</b-modal>
-				<div>
-					<SearchBar v-show="showSearch" @search-sent="search" :errMsg="errMsg" :showError="showError" />
-					<div class="">
-						<div class="card-container">
-							<div class="cards" v-for="(item, index) in filteredList" :key="index">
-								<Card :recipe="item" />
+					<div>
+						<SearchBar v-show="showSearch" @search-sent="search" :errMsg="errMsg" :showError="showError" />
+						<div class="">
+							<div class="card-container">
+								<div class="cards" v-for="(item, index) in filteredList" :key="index">
+									<Card :recipe="item" />
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-		</div>
+			</el-col>
+		</el-row>
 	</div>
 </template>
 
@@ -85,8 +50,11 @@ export default {
 	},
 	data() {
 		return {
+			xsLeft: 22,
+			xsRight: 2,
 			showSearch: true,
 			showError: false,
+			showPanel: true,
 			errMsg: '',
 			recipeList: {},
 			filteredList: {},
@@ -147,6 +115,15 @@ export default {
 		});
 	},
 	methods: {
+		movePanel: function (showPanel) {
+			if (!showPanel) {
+				this.xsLeft = 2;
+				this.xsRight = 22;
+			} else {
+				this.xsLeft = 22;
+				this.xsRight = 2;
+			}
+		},
 		init: function () {
 			this.recipeList = RecipeData;
 			this.filteredList = JSON.parse(JSON.stringify(this.recipeList));
