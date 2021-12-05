@@ -18,10 +18,9 @@
 				<b-modal ref="rewardPopup" id="modal-1" title="Welcome!" hide-footer>
 					<p>Login First Time Today! Reward Points +1!</p>
 				</b-modal>
-				<div style="margin: 20px">
+				<div :style="cardviewMargin">
 					<SearchBar v-show="showSearch" @search-sent="search" :errMsg="errMsg" :showError="showError" />
-
-					<div class="card-container">
+					<div class="card-container" v-show="!showError">
 						<div class="cards" v-for="(item, index) in filteredList" :key="index">
 							<Card :recipe="item" />
 						</div>
@@ -63,12 +62,27 @@ export default {
 			time: 0,
 			serving: 0,
 			rewardPoints: 0,
+			cardviewMargin: ""
 		};
 	},
 	created() {
 		this.init();
 	},
 	mounted: function () {
+		this.screenWidth = document.body.clientWidth;
+		if (this.screenWidth <= 438) {
+			this.cardviewMargin = "margin: 10px";
+		}
+		else { this.cardviewMargin = "margin: 20px";}
+		window.onresize = () => {
+		return (() => {
+			if (this.screenWidth <= 438) {
+				this.cardviewMargin = "margin: 10px";
+			}
+			else { this.cardviewMargin = "margin: 20px";}
+		})();
+		};
+
 		this.rewardPoints = 'rewardPoints' in localStorage ? localStorage.getItem('rewardPoints') : 10;
 		console.log(this.$cookies.get('popped'));
 		if (this.$cookies.get('popped') != 'yes') {

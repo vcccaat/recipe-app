@@ -36,7 +36,7 @@ export default {
 }
 
 .alertbox {
-	height: 50px;
+	height: 20px;
 }
 
 .bar {
