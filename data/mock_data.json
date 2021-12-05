@@ -73,7 +73,7 @@
         "flavor": "Mild",
         "rating": 4.5,
         "time": 60,
-        "difficulty": "Intermediate",
+        "difficulty": "Medium",
         "serving": "8",
         "ingredients": [
         "5 pounds russet potatoes",
@@ -103,7 +103,7 @@
         "flavor": "Mild",
         "rating": 4.5,
         "time": 30,
-        "difficulty": "Intermediate",
+        "difficulty": "Medium",
         "serving": "2",
         "ingredients": [
             "2 tablespoons paprika",
@@ -147,7 +147,7 @@
         "flavor": "Mild",
         "rating": 4.5,
         "time": 12,
-        "difficulty": "easy",
+        "difficulty": "Medium",
         "serving": "4",
         "ingredients": [
             "1 pound (450g) dry pasta",
@@ -164,9 +164,9 @@
             "img/pasta_1.webp",
             "img/pasta_2.webp",
             "img/pasta_3.webp",
-            "img/pasts_cover.webp"
+            "img/pasta_cover.webp"
         ],
-        "cover": "img/pasts_cover.webp",
+        "cover": "img/pasta_cover.webp",
         "steps": [
             "Place pasta in a large skillet or sauté pan and cover with water and a big pinch of salt. Bring to a boil over high heat, stirring occasionally. Boil until just shy of al dente, about 1 minute less than the package instructions recommend.",
             "Meanwhile, heat garlic and 4 tablespoons (60ml) olive oil in a 12-inch skillet over medium heat, stirring frequently, until garlic is softened but not browned, about 3 minutes. Add tomatoes and cook, stirring, until tomatoes begin to burst. You can help them along by pressing on them with the back of a wooden spoon as they soften.",
@@ -181,7 +181,7 @@
         "flavor": "Mild",
         "rating": 4.5,
         "time": 60,
-        "difficulty": "Intermediate",
+        "difficulty": "Medium",
         "serving": "2",
         "ingredients": [
             "32 ounces (900g) full-fat cream cheese, such as Philadelphia, brought to about 70°F (21°C)",
@@ -204,7 +204,7 @@
             "img/cheese_cake6.webp",
             "img/cheese_cakecover.webp"
         ],
-        "cover": "img/fried_chickencover.webp",
+        "cover": "img/cheese_cakecover.webp",
         "steps": [
             "Adjust oven rack to middle position and preheat oven to 450°F (230°C). Cut two 12- by 16-inch pieces of parchment paper. Arrange the 12- by 16-inch pieces of parchment in an overlapping pattern to line a greased 9- by 3-inch springform cake pan, leaving at least 2 inches of parchment overhanging the rim of the pan on all sides. Set aside.",
             "Combine cream cheese and 9 1/2 ounces (270g) sugar in the bowl of a stand mixer fitted with the paddle attachment. Mix on medium speed, scraping down sides of bowl as needed, until no lumps of cheese remain, sugar is dissolved, and mixture is smooth, 3 to 4 minutes.",
