@@ -39,7 +39,4 @@ export default {
 	height: 20px;
 }
 
-.bar {
-	/* margin: 20px 0px; */
-}
 </style>

@@ -74,14 +74,12 @@ export default {
 			this.cardviewMargin = "margin: 10px";
 		}
 		else { this.cardviewMargin = "margin: 20px";}
-		window.onresize = () => {
-		return (() => {
+		window.addEventListener("resize", () => {
 			if (this.screenWidth <= 438) {
 				this.cardviewMargin = "margin: 10px";
 			}
 			else { this.cardviewMargin = "margin: 20px";}
-		})();
-		};
+		});
 
 		this.rewardPoints = 'rewardPoints' in localStorage ? localStorage.getItem('rewardPoints') : 10;
 		console.log(this.$cookies.get('popped'));

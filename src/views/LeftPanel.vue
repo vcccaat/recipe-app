@@ -73,13 +73,11 @@ export default {
 		this.screenWidth = document.body.clientWidth;
 		if (this.screenWidth <= 438) {
 			this.styler = "el-button el-button--mini btn-outline-primary";
-			console.log("aaa");
 		}
 		else {
 		this.styler = "el-button el-button--medium is-round btn-outline-primary"
 		}
-		window.onresize = () => {
-		return (() => {
+		window.addEventListener("resize", () => {
 			this.screenWidth = document.body.clientWidth;
 			console.log(this.screenWidth);
 			//this.screenHeight = document.body.clientHeight;
@@ -89,8 +87,7 @@ export default {
 			else {
 			this.styler = "el-button el-button--medium is-round btn-outline-primary"
 			}
-		})();
-		};
+		});
 	},
 	methods: {
 		onHide() {
