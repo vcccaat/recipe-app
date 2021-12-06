@@ -166,7 +166,7 @@ export default {
 		};
 	},
 	created() {
-		console.log(this.recipeName);
+		console.log('mockdata', this.recipeName, mockData[this.recipeName]);
 		this.recipe = mockData[this.recipeName];
 		this.frontImage = mockData[this.recipeName]['img'].slice(-1)[0];
 		this.carousel = mockData[this.recipeName]['img'].slice(0, -1);
