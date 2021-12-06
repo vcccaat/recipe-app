@@ -229,14 +229,11 @@ export default {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 2vh;
+	padding: 10px;
 	/* padding-bottom: 10px; */
-	border-bottom: 2px solid #ddd;
+	border-bottom: 1.5px solid #eee;
 	box-shadow: 6px 8px 6px -6px rgb(0 0 0 / 20%);
 }
-/* .header-bar > * {
-	margin: 20px;
-} */
 
 .card-container {
 	display: flex;

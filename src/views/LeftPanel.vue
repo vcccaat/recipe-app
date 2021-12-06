@@ -2,7 +2,7 @@
 	<div >
 		<div id="left-panel" class="fullPanel" v-if="showPanel">
 			<div style="text-align: right">
-				<button @click="onHide" class="bi bi-arrow-bar-left hidden-lg-and-up" style="font-size: 25px"></button>
+				<el-button @click="onHide" size="small" icon="el-icon-caret-left" class="hidden-lg-and-up"></el-button>
 			</div>
 			<h5>Time I have for the meal (minutes)</h5>
 			<div class="d-flex">
@@ -13,7 +13,7 @@
 				</form>
 				<!-- <span class="">100 (Min)</span> -->
 			</div>
-			<div style="color: dimgrey;">{{ time }} Min</div>
+			<div style="color: dimgrey; margin: 0px">{{ time }} Min</div>
 
 			<h5>People need to serve</h5>
 			<div class="d-flex">
@@ -24,7 +24,7 @@
 				</form>
 				<!-- <span class="">10</span> -->
 			</div>
-			<div style="color:dimgrey;">{{ serving }} People</div>
+			<div style="color:dimgrey; margin: 0px">{{ serving }} People</div>
 
 			<div class="Diary" v-for="item in ingredients" :key="item.type">
 				<h5>{{ item.type }}</h5>
@@ -36,12 +36,12 @@
 					</tr>
 				</table>
 			</div>
-			<button type="button" class="btn btn-light" @click="handleClear">Clear</button>
-			<button type="button" class="btn btn-primary" @click="handleConfirm">Confirm</button>
+			<el-button type="info"  @click="handleClear" plain round style="margin-bottom: 0px">Clear</el-button>
+			<el-button type="primary" @click="handleConfirm" round>Confirm</el-button>
 		</div>
 		
 		<div class="hidePanel" v-if="!showPanel">
-			<button @click="onHide" class="bi bi-arrow-bar-right" style="font-size: 25px"></button>
+			<button class="pop-btn el-icon-caret-right" @click="onHide" icon="el-icon-caret-right"></button>
 		</div>
 	</div>
 </template>
@@ -131,15 +131,39 @@ export default {
 	margin: 0px;
 }
 #left-panel {
+	height: 100%;
 	display: flex;
 	flex-direction: column;
 	/* min-width: 400px; */
 
-	padding: 20px;
-	border-right: 3px solid #ddd;
+	padding: 0px 20px 20px 20px;
+	border-right: 1px solid #ddd;
+	box-shadow: 6px 0px 6px -6px rgb(0 0 0 / 40%);
 	/* box-shadow: 6px 8px 6px -6px rgb(0 0 0 / 40%); */
 }
 #left-panel > * {
 	margin: 10px 0;
+}
+
+.hidePanel {
+	margin-top: 50px;
+	text-align: left;
+	font-size: 16px;
+}
+
+.pop-btn::before{
+	position: relative;
+	left: -8px;
+	color: #777;
+}
+
+.pop-btn {
+	width: 18px;
+	height: 50px;
+	background-color: #eee;
+	border: 0.75px solid #ddd;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+	border-left: none;
 }
 </style>
