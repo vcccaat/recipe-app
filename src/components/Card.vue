@@ -67,8 +67,8 @@ export default {
   box-shadow: 6px 8px 6px -8px rgb(0 0 0 / 40%);
   border: 1px solid #bbb;
   border-radius: 15px;
-  margin-bottom: 20px;
-  height: 10em;
+  margin-bottom: 15px;
+  height: 13em;
   /* height: 50%; */
 }
 

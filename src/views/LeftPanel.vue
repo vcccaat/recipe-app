@@ -13,7 +13,7 @@
 				</form>
 				<!-- <span class="">100 (Min)</span> -->
 			</div>
-			<div style="color: dimgrey;">{{ time }} Min</div>
+			<div style="color: dimgrey; margin: 0px">{{ time }} Min</div>
 
 			<h5>People need to serve</h5>
 			<div class="d-flex">
@@ -24,7 +24,7 @@
 				</form>
 				<!-- <span class="">10</span> -->
 			</div>
-			<div style="color:dimgrey;">{{ serving }} People</div>
+			<div style="color:dimgrey; margin: 0px">{{ serving }} People</div>
 
 			<div class="Diary" v-for="item in ingredients" :key="item.type">
 				<h5>{{ item.type }}</h5>
@@ -36,8 +36,8 @@
 					</tr>
 				</table>
 			</div>
-			<button type="button" class="btn btn-light" @click="handleClear">Clear</button>
-			<button type="button" class="btn btn-primary" @click="handleConfirm">Confirm</button>
+			<el-button type="info"  @click="handleClear" plain round style="margin-bottom: 0px">Clear</el-button>
+			<el-button type="primary" @click="handleConfirm" round>Confirm</el-button>
 		</div>
 		
 		<div class="hidePanel" v-if="!showPanel">
