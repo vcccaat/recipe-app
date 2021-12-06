@@ -82,11 +82,11 @@
         ],
         "num_step":5,
         "img": [
-            "img/omelet_1.jpg",
-            "img/omelet_2.jpg",
-            "img/omelet_3.jpg",
-            "img/omelet_4.jpg",
-            "img/omelet_5.jpg"
+            "img/fries_1.jpeg",
+            "img/fries_2.jpeg",
+            "img/fries_3.jpeg",
+            "img/fries_4.jpeg",
+            "img/fries_5.jpeg"
         ],
         "cover": "img/frenchfries.webp",
         "steps": [
@@ -141,8 +141,8 @@
         "Place the plate of cooked chicken in the refrigerator for at least 1 hour, and up to overnight. When ready to serve, reheat the oil to 400°F. Add the chicken pieces and cook, flipping them once halfway through cooking, until completely crisp, about 5 minutes. Transfer to a wire rack set on a rimmed baking sheet to drain, then serve immediately."
         ]
     },
-    "Pasta With Blistered Cherry Tomato Sauce":{
-        "name": "Pasta With Blistered Cherry Tomato Sauce",
+    "Pasta":{
+        "name": "Pasta With Tomato Sauce",
         "tag": "Western",
         "flavor": "Mild",
         "rating": 4.5,
