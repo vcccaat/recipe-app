@@ -69,6 +69,17 @@ export default {
 		this.init();
 	},
 	mounted: function () {
+		// filter function reference: https://stackoverflow.com/questions/5072136/javascript-filter-for-objects/37616104
+		Object.filter = function (obj, predicate) {
+			let result = {},
+				key;
+			for (key in obj) {
+				if (predicate(obj[key])) {
+					result[key] = obj[key];
+				}
+			}
+			return result;
+		};
 		this.screenWidth = document.body.clientWidth;
 		if (this.screenWidth <= 438) {
 			this.cardviewMargin = "margin: 10px";
@@ -98,6 +109,7 @@ export default {
 		Ingredient.$on('clear', () => {
 			this.recipeList = RecipeData;
 			this.filteredList = JSON.parse(JSON.stringify(this.recipeList));
+			this.ingredients = new Set();
 		});
 		Ingredient.$on('click-ingredient', (data) => {
 			if (data[1] === false) {
@@ -107,17 +119,6 @@ export default {
 			}
 		});
 		Ingredient.$on('slider', (data) => {
-			// filter function reference: https://stackoverflow.com/questions/5072136/javascript-filter-for-objects/37616104
-			Object.filter = function (obj, predicate) {
-				let result = {},
-					key;
-				for (key in obj) {
-					if (predicate(obj[key])) {
-						result[key] = obj[key];
-					}
-				}
-				return result;
-			};
 			if (data[1] === 'time') {
 				this.time = data[0];
 				// this.filteredList = Object.filter(this.recipeList, (recipe) => recipe.time <= this.time);
@@ -155,6 +156,8 @@ export default {
 			) {
 				this.recipeList = RecipeData;
 				this.filteredList = JSON.parse(JSON.stringify(this.recipeList));
+				this.filteredList = Object.filter(this.filteredList, (recipe) => (recipe.time <= this.time && recipe.serving >= this.serving));
+				console.log('filtered list', this.filteredList)
 			} else {
 				// if there is a search input, find if there has any matched content
 				this.recipeList = {}; // clear the display list
