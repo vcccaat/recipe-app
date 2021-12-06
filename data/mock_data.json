@@ -1,5 +1,5 @@
 {
-    "Omelet":{
+    "Omelet": {
         "name": "Omelet",
         "tag": "Western",
         "flavor": "Mild",
@@ -16,7 +16,7 @@
             "1/4 c. shredded cheddar",
             "2 tbsp. freshly chopped chives"
         ],
-        "num_step":5,
+        "num_step": 5,
         "img": [
             "img/omelet_1.jpg",
             "img/omelet_2.jpg",
@@ -26,14 +26,14 @@
         ],
         "cover": "img/omelet_5.jpg",
         "steps": [
-        "In a medium bowl, beat eggs until no whites remain, then season with salt, pepper, and a pinch red pepper flakes.",
-        "In a medium non-stick skillet over medium heat, melt butter.",
-        "Pour in eggs and tilt pan so eggs fully cover the entire pan. As eggs start to set, use a rubber spatula to drag cooked edges into center of pan. Tilt pan to let uncooked egg fall to the edge of the pan. ",
-        "Once the bottom is set, but top is still a little wet, sprinkle cheese and chives on one half of omelet.",
-        "Fold other side over cheese and slide omelet onto a plate.  "
+            "In a medium bowl, beat eggs until no whites remain, then season with salt, pepper, and a pinch red pepper flakes.",
+            "In a medium non-stick skillet over medium heat, melt butter.",
+            "Pour in eggs and tilt pan so eggs fully cover the entire pan. As eggs start to set, use a rubber spatula to drag cooked edges into center of pan. Tilt pan to let uncooked egg fall to the edge of the pan. ",
+            "Once the bottom is set, but top is still a little wet, sprinkle cheese and chives on one half of omelet.",
+            "Fold other side over cheese and slide omelet onto a plate.  "
         ]
     },
-    "Burger":{
+    "Burger": {
         "name": "Burger",
         "tag": "Western",
         "flavor": "Mild",
@@ -42,14 +42,14 @@
         "difficulty": "Easy",
         "serving": "1",
         "ingredients": [
-        "Beef",
-        "Salt",
-        "Black pepper",
-        "Lettuce",
-        "Cheese",
-        "Tomato"
+            "Beef",
+            "Salt",
+            "Black pepper",
+            "Lettuce",
+            "Cheese",
+            "Tomato"
         ],
-        "num_step":5,
+        "num_step": 5,
         "img": [
             "img/burger1.jpeg",
             "img/burger2.jpeg",
@@ -58,16 +58,16 @@
         ],
         "cover": "img/hamburger.jpeg",
         "steps": [
-        "The best burgers are made from freshly ground, high-grade beef chuck in an 80/20 mix (meat to fat). ",
-        "Spread the beef out flat and season with salt and pepper. If you have a secret ingredient like Worcestershire sauce or chopped bacon, add it now. ",
-        "Grab 5 to 6 ounces of meat and lightly toss from hand to hand, forming a ball.",
-        "Preheat the grill to medium or medium-high over direct heat. Put the burgers on the grill",
-        "flip when the burger releases from the grate without sticking. ",
-        "For medium burgers, cook for about 5 minutes per side. For well-done, go a little longer.",
-        "To add cheese, move the burgers to the cooler side of the grill, top with cheese and cover the grill for a minute to let the cheese melt. Place the patties on buns, add other toppings and serve."
+            "The best burgers are made from freshly ground, high-grade beef chuck in an 80/20 mix (meat to fat). ",
+            "Spread the beef out flat and season with salt and pepper. If you have a secret ingredient like Worcestershire sauce or chopped bacon, add it now. ",
+            "Grab 5 to 6 ounces of meat and lightly toss from hand to hand, forming a ball.",
+            "Preheat the grill to medium or medium-high over direct heat. Put the burgers on the grill",
+            "flip when the burger releases from the grate without sticking. ",
+            "For medium burgers, cook for about 5 minutes per side. For well-done, go a little longer.",
+            "To add cheese, move the burgers to the cooler side of the grill, top with cheese and cover the grill for a minute to let the cheese melt. Place the patties on buns, add other toppings and serve."
         ]
     },
-    "French Fries":{
+    "French Fries": {
         "name": "French Fries",
         "tag": "Western",
         "flavor": "Mild",
@@ -76,11 +76,11 @@
         "difficulty": "Medium",
         "serving": "8",
         "ingredients": [
-        "5 pounds russet potatoes",
-        "Vegetable or peanut oil, for frying",
-        "Sea salt"
+            "5 pounds russet potatoes",
+            "Vegetable or peanut oil, for frying",
+            "Sea salt"
         ],
-        "num_step":5,
+        "num_step": 5,
         "img": [
             "img/fries_1.jpeg",
             "img/fries_2.jpeg",
@@ -90,14 +90,14 @@
         ],
         "cover": "img/frenchfries.webp",
         "steps": [
-        "Peel and rinse the potatoes. Then cut them into sticks by cutting the potato in 4 or 5 vertical pieces, and then cutting each piece into sticks. ",
-        "When you're ready to make the fries, drain off the water and lay the potatoes on 2 baking sheets lined with paper towels. Blot with paper towels to dry them. ",
-        "Heat a few inches of oil in a heavy pot to 300 degrees F. In 3 or 4 batches, cook the potatoes until soft, 4 to 5 minutes per batch. They should not be brown at this point! You just want to start the cooking process. Remove each batch and drain on new/dry paper towels. ",
-        "Once all the potatoes have been fried at 300 degrees F, turn up the heat until the oil reaches 400 degrees F. When the oil's hot, start frying the potatoes in batches again, cooking until the fries are golden and crisp. Remove the potatoes from the oil and drain on paper towels. ",
-        "Sprinkle with sea salt and dive in! "
+            "Peel and rinse the potatoes. Then cut them into sticks by cutting the potato in 4 or 5 vertical pieces, and then cutting each piece into sticks. ",
+            "When you're ready to make the fries, drain off the water and lay the potatoes on 2 baking sheets lined with paper towels. Blot with paper towels to dry them. ",
+            "Heat a few inches of oil in a heavy pot to 300 degrees F. In 3 or 4 batches, cook the potatoes until soft, 4 to 5 minutes per batch. They should not be brown at this point! You just want to start the cooking process. Remove each batch and drain on new/dry paper towels. ",
+            "Once all the potatoes have been fried at 300 degrees F, turn up the heat until the oil reaches 400 degrees F. When the oil's hot, start frying the potatoes in batches again, cooking until the fries are golden and crisp. Remove the potatoes from the oil and drain on paper towels. ",
+            "Sprinkle with sea salt and dive in! "
         ]
     },
-    "Crispy Fried Chicken":{
+    "Crispy Fried Chicken": {
         "name": "Crispy Fried Chicken",
         "tag": "Western",
         "flavor": "Mild",
@@ -120,7 +120,7 @@
             "1 teaspoon baking powder",
             "4 cups vegetable shortening or peanut oil"
         ],
-        "num_step":7,
+        "num_step": 7,
         "img": [
             "img/fried_chicken1.webp",
             "img/fried_chicken2.webp",
@@ -132,16 +132,16 @@
         ],
         "cover": "img/fried_chickencover.webp",
         "steps": [
-        "Combine the paprika, black pepper, garlic powder, oregano, and cayenne in a small bowl and mix thoroughly with a fork.",
-        "Whisk the buttermilk, egg, 1 tablespoon salt, and 2 tablespoons of the spice mixture in a large bowl. Add the chicken pieces and toss and turn to coat. Transfer the contents of the bowl to a gallon-sized zipper-lock freezer bag and refrigerate for at least 4 hours, and up to overnight, flipping the bag occasionally to redistribute the contents and coat the chicken evenly.",
-        "Whisk together the flour, cornstarch, baking powder, 2 teaspoons salt, and the remaining spice mixture in a large bowl. Add 3 tablespoons of the marinade from the zipper-lock bag and work it into the flour with your fingertips. Remove one piece of chicken from the bag, allowing excess buttermilk to drip off, drop the chicken into the flour mixture, and toss to coat. Continue adding chicken pieces to the flour mixture one at a time until they are all in the bowl. Toss the chicken until every piece is thoroughly coated, pressing with your hands to get the flour to adhere in a thick layer.",
-        "Adjust an oven rack to the middle position and preheat the oven to 350°F. Heat the shortening or oil to 425°F in a 12-inch straight-sided cast-iron chicken fryer or a large wok over medium-high heat. Adjust the heat as necessary to maintain the temperature, being careful not to let the fat get any hotter.",
-        "One piece at a time, transfer the coated chicken to a fine-mesh strainer and shake to remove excess flour. Transfer to a wire rack set on a rimmed baking sheet. Once all the chicken pieces are coated, place skin side down in the pan. The temperature should drop to 300°F; adjust the heat to maintain the temperature at 300°F for the duration of the cooking. Fry the chicken until it’s a deep golden brown on the first side, about 6 minutes; do not move the chicken or start checking for doneness until it has fried for at least 3 minutes, or you may knock off the coating. Carefully flip the chicken pieces with tongs and cook until the second side is golden brown, about 4 minutes longer.",
-        "Transfer chicken to a clean wire rack set in a rimmed baking sheet, season lightly with salt, and place in the oven. Bake until thickest part of breast pieces registers 150°F (65.5°C) on an instant-read thermometer, and thigh/drumstick pieces register 165°F (74°C), 5 to 10 minutes; remove chicken pieces as they reach their target temperature, and transfer to a second wire rack set in a rimmed baking sheet, or a paper towel-lined plate. Season with salt to taste. Serve immediately—or, for extra-crunchy fried chicken, proceed to step 7.",
-        "Place the plate of cooked chicken in the refrigerator for at least 1 hour, and up to overnight. When ready to serve, reheat the oil to 400°F. Add the chicken pieces and cook, flipping them once halfway through cooking, until completely crisp, about 5 minutes. Transfer to a wire rack set on a rimmed baking sheet to drain, then serve immediately."
+            "Combine the paprika, black pepper, garlic powder, oregano, and cayenne in a small bowl and mix thoroughly with a fork.",
+            "Whisk the buttermilk, egg, 1 tablespoon salt, and 2 tablespoons of the spice mixture in a large bowl. Add the chicken pieces and toss and turn to coat. Transfer the contents of the bowl to a gallon-sized zipper-lock freezer bag and refrigerate for at least 4 hours, and up to overnight, flipping the bag occasionally to redistribute the contents and coat the chicken evenly.",
+            "Whisk together the flour, cornstarch, baking powder, 2 teaspoons salt, and the remaining spice mixture in a large bowl. Add 3 tablespoons of the marinade from the zipper-lock bag and work it into the flour with your fingertips. Remove one piece of chicken from the bag, allowing excess buttermilk to drip off, drop the chicken into the flour mixture, and toss to coat. Continue adding chicken pieces to the flour mixture one at a time until they are all in the bowl. Toss the chicken until every piece is thoroughly coated, pressing with your hands to get the flour to adhere in a thick layer.",
+            "Adjust an oven rack to the middle position and preheat the oven to 350°F. Heat the shortening or oil to 425°F in a 12-inch straight-sided cast-iron chicken fryer or a large wok over medium-high heat. Adjust the heat as necessary to maintain the temperature, being careful not to let the fat get any hotter.",
+            "One piece at a time, transfer the coated chicken to a fine-mesh strainer and shake to remove excess flour. Transfer to a wire rack set on a rimmed baking sheet. Once all the chicken pieces are coated, place skin side down in the pan. The temperature should drop to 300°F; adjust the heat to maintain the temperature at 300°F for the duration of the cooking. Fry the chicken until it’s a deep golden brown on the first side, about 6 minutes; do not move the chicken or start checking for doneness until it has fried for at least 3 minutes, or you may knock off the coating. Carefully flip the chicken pieces with tongs and cook until the second side is golden brown, about 4 minutes longer.",
+            "Transfer chicken to a clean wire rack set in a rimmed baking sheet, season lightly with salt, and place in the oven. Bake until thickest part of breast pieces registers 150°F (65.5°C) on an instant-read thermometer, and thigh/drumstick pieces register 165°F (74°C), 5 to 10 minutes; remove chicken pieces as they reach their target temperature, and transfer to a second wire rack set in a rimmed baking sheet, or a paper towel-lined plate. Season with salt to taste. Serve immediately—or, for extra-crunchy fried chicken, proceed to step 7.",
+            "Place the plate of cooked chicken in the refrigerator for at least 1 hour, and up to overnight. When ready to serve, reheat the oil to 400°F. Add the chicken pieces and cook, flipping them once halfway through cooking, until completely crisp, about 5 minutes. Transfer to a wire rack set on a rimmed baking sheet to drain, then serve immediately."
         ]
     },
-    "Pasta":{
+    "Pasta With Tomato Sauce": {
         "name": "Pasta With Tomato Sauce",
         "tag": "Western",
         "flavor": "Mild",
@@ -159,7 +159,7 @@
             "Freshly ground black pepper",
             "Parmesan cheese, for serving"
         ],
-        "num_step":4,
+        "num_step": 4,
         "img": [
             "img/pasta_1.webp",
             "img/pasta_2.webp",
@@ -175,7 +175,7 @@
 
         ]
     },
-    "Basque Cheesecake":{
+    "Basque Cheesecake": {
         "name": "Basque Cheesecake",
         "tag": "Western",
         "flavor": "Mild",
@@ -185,7 +185,7 @@
         "serving": "2",
         "ingredients": [
             "32 ounces (900g) full-fat cream cheese, such as Philadelphia, brought to about 70°F (21°C)",
-            "9 1/2 ounces sugar (about 1 1/3 cups; 270g), plus 1 tablespoon (15g), divided",        
+            "9 1/2 ounces sugar (about 1 1/3 cups; 270g), plus 1 tablespoon (15g), divided",
             "5 large eggs (275g)",
             "2 yolks (30g) from 2 large eggs",
             "8 ounces heavy cream (about 1 cup; 230g)",
@@ -194,7 +194,7 @@
             "1 teaspoon (3g) Diamond Crystal kosher salt; for table salt use half as much by volume or the same weight",
             "Finely grated zest of 1 lemon (about 1 teaspoon; 5g)"
         ],
-        "num_step":7,
+        "num_step": 7,
         "img": [
             "img/cheese_cake1.webp",
             "img/cheese_cake2.webp",
@@ -215,4 +215,4 @@
             "Let cheesecake cool in the pan at room temperature for at least 4 hours before unmolding. Unlatch springform pan and remove pan sides. Holding by parchment overhang, carefully transfer cake to a cutting board or serving plate. Gently peel back parchment from sides of cheesecake, and using a sharp knife, cut into wedges. Serve. Leftover cheesecake can be covered and refrigerated for up to 3 days. Allow cheesecake to come to room temperature before serving"
         ]
     }
-  }
+}

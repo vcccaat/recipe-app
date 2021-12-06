@@ -59,8 +59,8 @@ export default {
 			recipeList: {},
 			filteredList: {},
 			ingredients: new Set(),
-			time: 0,
-			serving: 0,
+			time: 30,
+			serving: 3,
 			rewardPoints: 0,
 			cardviewMargin: ""
 		};
@@ -120,14 +120,20 @@ export default {
 			};
 			if (data[1] === 'time') {
 				this.time = data[0];
-				this.filteredList = Object.filter(this.recipeList, (recipe) => recipe.time <= this.time);
+				// this.filteredList = Object.filter(this.recipeList, (recipe) => recipe.time <= this.time);
 			} else {
 				this.serving = data[0];
-				this.filteredList = Object.filter(this.recipeList, (recipe) => recipe.serving <= this.serving);
+				// this.filteredList = Object.filter(this.recipeList, (recipe) => recipe.serving >= this.serving);
 			}
 		});
 	},
 	methods: {
+		filterOnTime: function (time) {
+			this.filteredList = Object.filter(this.filteredList, (recipe) => recipe.time <= time);
+		},
+		filterOnServing: function (serving) {
+			this.filteredList = Object.filter(this.filteredList, (recipe) => recipe.serving >= serving);
+		},
 		movePanel: function (showPanel) {
 			if (!showPanel) {
 				this.xsLeft = 2;
@@ -168,6 +174,9 @@ export default {
 						}
 					}
 				});
+				this.filterOnServing(this.serving);
+				this.filterOnTime(this.time);
+				console.log('filtered', this.filteredList)
 			}
 		},
 		search: function (input) {

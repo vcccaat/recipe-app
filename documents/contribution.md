@@ -120,3 +120,17 @@
 
 - Deployed the app to Heroku.
 - Conducted one user testing and discussed the findings with the group. Proposed some revisions.
+
+## Milestone 6:
+
+**Yingshi Zhu**
+
+**Yangkai He**
+
+**Sonia Song**
+
+**Jieyu Chen**
+
+- Fixed the bug where the 'Pasta With Tomato Sauce' page cannot be opened.
+- Fixed the bug where the Confirm button will not reflect the recent change on the sliders.
+- Brainstormed, prepared material, and discussed with the group about the presentation.
