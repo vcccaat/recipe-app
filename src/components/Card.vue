@@ -45,12 +45,12 @@ export default {
     window.addEventListener("resize", () => {
       var width = document.body.clientWidth; 
         if (width <= 438) {
-          console.log("变小");
+          //console.log("变小");
           this.cardBox = "row card-box-sm";
           this.left = "col-5 card-left";
           this.right = "col-7 card-content-sm";
         } else {
-          console.log("变大");
+          //console.log("变大");
           this.cardBox = "row card-box-lg";
           this.left = "col-4 card-left";
           this.right = "col-8 card-content";
@@ -87,7 +87,6 @@ export default {
   text-align: center;
   vertical-align: middle;
   overflow: hidden;
-  width: 100%;
   height: 100%;
 }
 

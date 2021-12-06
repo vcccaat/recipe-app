@@ -2,7 +2,7 @@
 	<div >
 		<div id="left-panel" class="fullPanel" v-if="showPanel">
 			<div style="text-align: right">
-				<button @click="onHide" class="bi bi-arrow-bar-left hidden-md-and-up" style="font-size: 25px"></button>
+				<button @click="onHide" class="bi bi-arrow-bar-left hidden-lg-and-up" style="font-size: 25px"></button>
 			</div>
 			<h5>Time I have for the meal (minutes)</h5>
 			<div class="d-flex">
