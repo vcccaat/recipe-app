@@ -237,13 +237,24 @@ export default {
 
 .card-container {
 	display: flex;
-	flex-direction: column;
+	flex-wrap: wrap;
 	/* width: 850px; */
 	/* display: grid;
 	grid-gap: 10px;
 	grid-template-columns: 1fr 1fr;
 	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
 }
+
+.cards{
+	width: 50%;
+}
+
+@media (max-width: 968px){
+  .cards {
+    width: 100%;
+  }
+}
+
 a {
 	text-decoration: none !important;
 	color: #2c3e50 !important;
