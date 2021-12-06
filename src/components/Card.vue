@@ -6,7 +6,7 @@
           <img :src="imgsrc" alt="Card-image" class="card-left-img" />
         </a>
       </div>
-      <div :class="right" style="padding-left: 0px">
+      <div :class="right">
         <h1>{{ recipe.name }}</h1>
         <p>Time: {{ recipe.time }} min</p>
         <p>Serving: {{ recipe.serving }}</p>
@@ -44,7 +44,7 @@ export default {
     }
     window.addEventListener("resize", () => {
       var width = document.body.clientWidth; 
-        if (width <= 438) {
+        if (width <= 550) {
           //console.log("变小");
           this.cardBox = "row card-box-sm";
           this.left = "col-5 card-left";
@@ -64,8 +64,8 @@ export default {
 <style>
 .card-box-lg {
   display: flex;
-  box-shadow: 6px 8px 6px -6px rgb(0 0 0 / 40%);
-  border: 1px solid grey;
+  box-shadow: 6px 8px 6px -8px rgb(0 0 0 / 40%);
+  border: 1px solid #bbb;
   border-radius: 15px;
   margin-bottom: 20px;
   height: 10em;
@@ -74,8 +74,8 @@ export default {
 
 .card-box-sm {
   display: flex;
-  box-shadow: 6px 8px 6px -6px rgb(0 0 0 / 40%);
-  border: 1px solid grey;
+  box-shadow: 6px 8px 6px -8px rgb(0 0 0 / 40%);
+  border: 1px solid #bbb;
   border-radius: 15px;
   margin-bottom: 5px;
   height: 7em;
@@ -106,6 +106,7 @@ export default {
 }
 
 .card-content-sm {
+  padding-left: 0px !important;
   padding: 5px;
   text-align: left;
 }
