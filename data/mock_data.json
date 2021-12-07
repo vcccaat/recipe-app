@@ -27,7 +27,7 @@
 		]
 	},
 	"Burger": {
-		"name": "Burger",
+		"name": "Beef Burger",
 		"tag": "Western",
 		"flavor": "Mild",
 		"rating": 4.8,
@@ -37,7 +37,7 @@
 		"ingredients": ["Beef", "Salt", "Black pepper", "Lettuce", "Cheese", "Tomato"],
 		"num_step": 5,
 		"img": ["img/burger1.jpeg", "img/burger2.jpeg", "img/burger3.jpeg", "img/burger4.jpeg"],
-		"cover": "img/hamburger.jpeg",
+		"cover": "img/burger_cover.jpeg",
 		"steps": [
 			"Step1: Spread the beef out flat and season with salt and pepper. If you have a secret ingredient like Worcestershire sauce or chopped bacon, add it now. ",
 			"Step2: Grab 5 to 6 ounces of meat and lightly toss from hand to hand, forming a ball.",

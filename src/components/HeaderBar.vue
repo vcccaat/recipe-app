@@ -5,7 +5,8 @@
 		<div class="leftPart">
 			<div class="rewardPart">
 				<img class="chiefIcon" :src="chiefIcon" />
-				<p style="font-weight: bold; vertical-align: middle; display: inline">X {{ this.rewardPoints }}</p>
+				<p style="font-weight: bold; vertical-align: middle; display: inline; position: relative; top: 2px;"><i class="el-icon-close
+" style="margin-left:1px"></i> {{ this.rewardPoints }}</p>
 			</div>
 			<!-- <el-popover placement="top-start" width="200" trigger="click" :content="'Your current reward points: ' + this.rewardPoints">
 				<el-button slot="reference" style="margin-right: 20px">
@@ -48,6 +49,8 @@ export default {
 .rewardPart {
 	display: inline-block;
 	width: 100px;
+	position: relative;
+	top: -2px;
 }
 .leftPart {
 }
@@ -57,7 +60,14 @@ export default {
 	justify-content: space-between;
 	padding: 1vh 3vw;
 	/* padding-bottom: 10px; */
-	border-bottom: 1.5px solid #eee;
-	box-shadow: 6px 8px 6px -6px rgb(0 0 0 / 20%);
+	border-bottom: 2px solid #eee;
+	/* box-shadow: 6px 8px 6px -6px rgb(0 0 0 / 20%); */
+}
+
+@media (max-width: 600px){
+	.header-bar{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
 }
 </style>
