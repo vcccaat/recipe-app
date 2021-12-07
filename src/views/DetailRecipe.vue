@@ -88,7 +88,7 @@
 		</div>
 
 		<!-- Part for Feedback Feature -->
-		<el-button style="margin-bottom: 5vh" round plain size="large" type="primary" icon="el-icon-edit" @click="handleUpload">Share my feedback</el-button>
+		<el-button style="margin-bottom: 5vh" round size="large" type="primary" icon="el-icon-edit" @click="handleUpload">Share to earn rewards!</el-button>
 		<el-dialog title="Feedback" :visible.sync="dialogVisible">
 			<div class="block" style="margin-bottom: 10px">
 				<span class="demonstration">Satisfied with the recipe?</span>
