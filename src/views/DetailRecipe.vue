@@ -1,21 +1,6 @@
 <template>
 	<div>
-		<div class="header-bar">
-			<router-link to="/">
-				<i class="bi bi-chevron-left"></i>
-			</router-link>
-			<div>
-				<el-popover placement="top-start" width="200" trigger="click" :content="'Your current reward points: ' + this.rewardPoints">
-					<el-button slot="reference" style="margin-right: 20px">
-						Reward Points
-						<!-- <i class="bi bi-cash-coin" style="font-size: 30px"></i> -->
-					</el-button>
-				</el-popover>
-				<router-link to="/reward">
-					<i class="bi bi-person-circle" style="font-size: 30px"></i>
-				</router-link>
-			</div>
-		</div>
+		<HeaderBar />
 
 		<!-- Part for Display Feature -->
 		<div id="demo" class="carousel slide" data-bs-ride="carousel">
@@ -23,11 +8,12 @@
 				<p>Thanks for your sharing! Reward Points +1!</p>
 			</b-modal>
 			<div class="carousel-indicators" v-for="(item, index) in carousel" :key="index">
-				<button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-				<button type="button" data-bs-target="#demo" data-bs-slide-to="1" aria-label="Slide 2"></button>
-				<button type="button" data-bs-target="#demo" data-bs-slide-to="2" aria-label="Slide 3"></button>
-				<button type="button" data-bs-target="#demo" data-bs-slide-to="3" aria-label="Slide 4"></button>
-				<button type="button" data-bs-target="#demo" data-bs-slide-to="4" aria-label="Slide 5"></button>
+				<div>
+					<button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+				</div>
+				<div v-for="(item, index) in carousel" :key="index">
+					<button type="button" data-bs-target="#demo" :data-bs-slide-to="index + 1"></button>
+				</div>
 			</div>
 			<div class="carousel-inner">
 				<div class="carousel-item active">
@@ -147,8 +133,11 @@
 
 <script>
 import mockData from '../../data/mock_data.json';
-
+import HeaderBar from '@/components/HeaderBar.vue';
 export default {
+	components: {
+		HeaderBar,
+	},
 	data() {
 		return {
 			dialogVisible: false,
@@ -268,7 +257,6 @@ export default {
 			});
 		},
 	},
-	components: {},
 };
 </script>
 <style>

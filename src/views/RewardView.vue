@@ -1,21 +1,6 @@
 <template>
 	<div>
-		<div class="header-bar">
-			<router-link to="/">
-				<i class="bi bi-chevron-left"></i>
-			</router-link>
-			<div>
-				<el-popover placement="top-start" width="200" trigger="click" :content="'Your current reward points: ' + this.rewardPoints">
-					<el-button slot="reference" style="margin-right: 20px">
-						Reward Points
-						<!-- <i class="bi bi-cash-coin" style="font-size: 30px"></i> -->
-					</el-button>
-				</el-popover>
-				<router-link to="/reward">
-					<i class="bi bi-person-circle" style="font-size: 30px"></i>
-				</router-link>
-			</div>
-		</div>
+		<HeaderBar />
 		<div class="container">
 			<div class="row">
 				<div class="col">
@@ -119,6 +104,8 @@
 
 <script>
 // import Button from '../components/Button.vue';
+import HeaderBar from '@/components/HeaderBar.vue';
+
 export default {
 	created() {
 		this.rewardPoints = localStorage.getItem('rewardPoints', this.rewardPoints);
@@ -134,7 +121,9 @@ export default {
 		});
 	},
 	methods: {},
-	components: {},
+	components: {
+		HeaderBar,
+	},
 	data() {
 		return {
 			bowlIcon: require('/public/img/icons/bowl.svg'),
