@@ -52,8 +52,8 @@ export default {
 	position: relative;
 	top: -2px;
 }
-.leftPart {
-}
+/* .leftPart {
+} */
 .header-bar {
 	display: flex;
 	align-items: center;

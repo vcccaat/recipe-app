@@ -10,19 +10,18 @@
 
 			<div class="card cardReward">
 				<div class="row">
-					<div class="col-3"></div>
-					<div class="col-3" style="text-align: left">
+					<!-- <div class="col-3"></div> -->
+					<div class="col-6" style="text-align: center;">
 						<div class="row">
-							<span>Reward Points</span>
+							<span style="margin-top: 8px">Reward Points</span>
 						</div>
 						<div class="row">
-							<h1>{{ rewardPoints }}</h1>
+							<h1 style="font-weight: bold;">{{ rewardPoints }}</h1>
 						</div>
 					</div>
-					<div class="col-3">
+					<div class="col-6" style="text-align: center;">
 						<img class="svg" :src="bowlIcon" />
 					</div>
-					<div class="col-3"></div>
 				</div>
 			</div>
 			<div class="row"><h5 style="text-align: left">Rewards</h5></div>
@@ -130,6 +129,7 @@ export default {
 			vegIcon: require('/public/img/icons/vegetable.svg'),
 			rewardPoints: 10,
 			displayList: [],
+			colors: ['#99A9BF', '#F7BA2A', '#FF9900']
 		};
 	},
 };
@@ -140,7 +140,10 @@ export default {
 	height: 80px;
 }
 .cardReward {
-	border: 3px solid black !important;
+	/* border: 3px solid black !important; */
+	box-shadow: 6px 8px 6px -10px rgb(0 0 0 / 40%);
+	border: 1px solid #aaa !important;
+	border-radius: 6px !important;
 	padding: 20px;
 	margin-bottom: 20px;
 }
@@ -148,5 +151,20 @@ export default {
 	width: fit-content;
 	/* align-items: flex-end; */
 	float: right;
+}
+@media (max-width: 600px){
+	h5 {
+		font-size: 18px !important;
+	}
+	.redeemBtn {
+	width: fit-content;
+	font-size: 13px !important;
+	/* align-items: flex-end; */
+	float: right;
+	}
+	.cardReward {
+		padding: 15px;
+		margin-bottom: 15px;
+	}
 }
 </style>
