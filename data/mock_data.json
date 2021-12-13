@@ -361,5 +361,70 @@
             "Blot tomato cavities with paper towels, then nestle them into potatoes in baking dish so that they remain upright. Fill tomatoes with rice mixture, set tops on tomatoes, and drizzle with remaining 1 tablespoon (15ml) of olive oil.",
             "Roast tomatoes until they are very tender and rice is cooked through, 25 to 30 minutes. Turn oven to broil, remove tops from tomatoes (keeping them in baking dish) to expose rice, and broil until rice and potatoes are lightly charred and crispy, 5 to 7 minutes (keep a close eye as broiler intensity can vary significantly from one oven to the next). Remove baking dish from oven, and let cool for at least 10 minutes. Serve warm or at room temperature."
         ]
+	},
+    "Thai-Style Green Papaya Salad": {
+		"name": "Thai-Style Green Papaya Salad",
+		"tag": "Western",
+		"flavor": "Mild",
+		"rating": 4.5,
+		"time": 20,
+		"difficulty": "Easy",
+		"serving": "4",
+		"ingredients": [
+            "2 small garlic cloves (6g)",
+            "2 to 3 fresh Thai chiles (2 to 3g total), stemmed",
+            "1 tablespoon (8g) dried shrimp",
+            "1 tablespoon plus 2 teaspoons (35g) palm sugar, softened",
+            "2 tablespoons (30g) roasted unsalted peanuts, divided",
+            "4 cherry tomatoes (about 2 ounces; 60g), halved",
+            "2 long beans (about 30g), ends trimmed, cut crosswise into 2-inch pieces",
+            "3 tablespoons (45ml) fresh lime juice from 2 limes",
+            "2 tablespoons (30ml) fish sauce",
+            "2 cups (6 ounces; 170g) shredded green papaya, from 1 green papaya",
+            "Cooked sticky rice, for serving"
+		],
+		"num_step": 4,
+		"img": ["img/Papaya_Salad_1.webp", "img/Papaya_Salad_2.webp", "img/Papaya_Salad_3.webp", "img/Papaya_Salad_4.webp","img/Papaya_Salad_cover.webp"],
+		"cover": "img/Papaya_Salad_cover.webp",
+		"steps": [
+            "In a clay or wooden mortar, combine garlic and chiles and pound with wooden pestle until slightly slightly broken down, making sure to keep the pestle as close to the chiles as possible to avoid splattering chile juices over yourself, about 30 seconds. Add dried shrimp and 1 tablespoon (15g) peanuts and continue to pound until slightly broken down, taking care not to over-pound and form a peanut paste, about 30 seconds.",
+            "Add palm sugar and continue to pound lightly while also working the pestle in a circular motion while applying gentle pressure to help dissolve the palm sugar, about 30 seconds. Add long beans and pound until slightly broken down, 15 to 30 seconds. Add tomatoes and pound gently just until the tomatoes release their juices, about 15 seconds.",
+            "Add lime juice and fish sauce and stir with pestle using a circular motion until well combined and palm sugar is fully dissolved, about 15 seconds. Add green papaya. Holding a large spoon in your non-dominant hand while holding the pestle in your dominant hand, pound down the sides of the mortar (not the center) while simultaneously using the spoon to move the ingredients back and forth in the mortar until ingredients are well combined and green papaya has begun to absorb the dressing, about 30 seconds. Take care not to over-pound the green papaya or it will lose its crisp texture.",
+            "Add remaining 1 tablespoon (15g) peanuts and pound gently just until they are slightly broken down. Transfer salad to a serving plate, and serve immediately with sticky rice."
+        ]
+	},
+    "Thai Green Curry with Chicken": {
+		"name": "Thai Green Curry with Chicken",
+		"tag": "Western",
+		"flavor": "Mild",
+		"rating": 4.5,
+		"time": 25,
+		"difficulty": "Medium",
+		"serving": "4",
+		"ingredients": [
+            "1 1/2 cups (355ml) full-fat coconut milk, such as Aroy-D, divided",
+            "10 fresh or frozen makrut lime leaves, divided",
+            "2 tablespoons (30ml) virgin coconut oil",
+            "4 ounces (1/2 cup; 115g) homemade or store-bought green curry paste",
+            "1 tablespoon plus 2 teaspoons (35g) palm sugar",
+            "3 tablespoons (45ml) fish sauce",
+            "1 pound (450g) boneless skinless chicken thighs, cut into 2-inch pieces",
+            "Kosher salt",
+            "5 Thai eggplants (about 5 1/4 ounces; 150g total), stemmed, quartered, and placed in a small bowl of water",
+            "1 packed cup (about 1 ounce; 30g) fresh sweet basil leaves (a.k.a. Thai basil)",
+            "Cooked jasmine rice, for serving"
+		],
+		"num_step": 6,
+		"img": ["img/curry_1.webp", "img/curry_2.webp", "img/curry_3.webp", "img/curry_4.webp","img/curry_5.webp","img/curry_6.webp","img/curry_cover.webp"],
+		"cover": "img/curry_cover.webp",
+		"steps": [
+            "In a small bowl, whisk together 1/2 cup (120ml) coconut milk and 1/2 cup (120ml) water; set thinned coconut milk mixture aside. Remove and discard the mid-rib from the makrut lime leaves; set 8 of the leaves aside. Stack remaining 2 makrut lime leaves, fold in half widthwise, then slice into hair-thin strips; set aside separately.",
+            "In a 3-quart saucepan, combine coconut oil with 1/2 cup (120ml) coconut milk and bring to a simmer over medium heat. Cook, stirring often with a rubber spatula, until thickened slightly, about 1 minute. ","Add chicken thigh pieces to bowl and, using clean hands, toss with marinade until evenly coated. Transfer chicken to prepared baking sheet, arranging pieces in a single, even layer in the aluminum-foil boat.",
+            "Add curry paste, stir vigorously to combine, and use a rubber spatula to scrape sides of the saucepan to fully incorporate paste. Raise heat to medium-high and cook, stirring and scraping constantly until paste mixture begins to spit (which indicates that water content has been cooked off, and mixture has begun to fry in coconut oil), about 1 minute. Lower heat back to medium, and continue to cook while gradually adding remaining 1/2 cup (120ml) coconut milk in 2-tablespoon (30ml) increments, until paste darkens slightly and the fat begins to separate from curry paste, 5 to 6 minutes.",
+            "Add fish sauce and palm sugar, and stir until palm sugar is fully dissolved, about 30 seconds. Lightly season chicken on all sides with salt, add to saucepan with reserved whole makrut lime leaves, and stir to evenly coat with curry paste mixture. Add reserved thinned coconut milk mixture and bring to a simmer. Cook, stirring occasionally, until chicken is cooked through and tender and liquid has thickened slightly, about 10 minutes.",
+            "Add eggplants, and continue to cook, adjusting heat as needed to maintain a simmer, until eggplants are just cooked through but still have some bite to them, about 3 minutes. Remove from heat, add sweet basil, and stir until wilted and incorporated.",
+            "Transfer curry to a large serving bowl or divide between individual bowls, and garnish with reserved thinly-sliced makrut lime leaves. Serve with cooked jasmine rice."
+        ]
 	}
+
 }
