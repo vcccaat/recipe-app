@@ -176,5 +176,190 @@
 			"Increase oven temperature to 500°F (260°C) and continue baking until surface is burnished milk chocolate-brown, and outer edge of cheesecake feels slightly firm, though the innermost ring of cheesecake will wobble quite freely if you shake the pan, 20 to 25 minutes longer. The cheesecake will be done when the very center registers between 150 and 155°F (65.5 to 68°C) on an instant-read thermometer inserted to a depth of 2-inches.",
 			"Let cheesecake cool in the pan at room temperature for at least 4 hours before unmolding. Unlatch springform pan and remove pan sides. Holding by parchment overhang, carefully transfer cake to a cutting board or serving plate. Gently peel back parchment from sides of cheesecake, and using a sharp knife, cut into wedges. Serve. Leftover cheesecake can be covered and refrigerated for up to 3 days. Allow cheesecake to come to room temperature before serving"
 		]
+	},
+    "Charred Brussels Sprouts": {
+		"name": "Charred Brussels Sprouts",
+		"tag": "Western",
+		"flavor": "Mild",
+		"rating": 4.5,
+		"time": 15,
+		"difficulty": "Easy",
+		"serving": "4-6",
+		"ingredients": [
+			"3 tablespoons (45ml) honey",
+            "3 tablespoons (45ml) toasted sesame oil",
+            "2 tablespoons (30ml) brewed double-strength coffee or espresso",           
+            "2 tablespoons (30ml) cider vinegar",
+            "1 tablespoon plus 2 teaspoons (25ml) fish sauce",          
+            "1 garlic clove (5g), finely grated or minced",
+            "1/4 cup (32g) toasted sesame seeds",
+            "1 1/2 teaspoons (6g) freshly ground black pepper",
+            "3 tablespoons (45ml) vegetable oil",
+            "1 pound (450g) Brussels sprouts, trimmed and separated into individual leaves",
+            "1/2 large leek, white and light green parts only, rinsed and sliced into thin 3- by 1/2-inch strips (5 1/4 ounces; 150g total)",       
+            "3 tablespoons (45ml) Dijon mustard"
+		],
+		"num_step": 4,
+		"img": ["img/Charred_Brussels_Sprouts_1.webp", "img/Charred_Brussels_Sprouts_2.webp", "img/Charred_Brussels_Sprouts_3.webp", "img/Charred_Brussels_Sprouts_cover.webp"],
+		"cover": "img/Charred_Brussels_Sprouts_cover.webp",
+		"steps": [
+            "In a large bowl, whisk together honey, sesame oil, coffee, fish sauce, cider vinegar, and garlic. Stir in sesame seeds and black pepper; set aside.",
+            "In a large cast iron or carbon steel skillet, heat oil over high heat until just smoking. Carefully add Brussels sprouts leaves to the pan, spreading them into as even a layer as possible. Cook, stirring and shaking the pan occasionally, until leaves are charred in spots and bright green, 2 to 3 minutes. Working quickly, transfer Brussels sprouts to a rimmed baking sheet or large plate, spread in an even single layer, and set aside to cool to room temperature, about 5 minutes.",
+            "Once Brussels sprouts have cooled, add to bowl with dressing, along with leeks and Dijon. Using clean hands, scrunch, mix, and massage together until vegetables are evenly coated with dressing and slightly softened, about 30 seconds.",
+            "Divide salad between small individual serving bowls and serve. If not serving right away, salad can be refrigerated in an airtight container for up to 1 day; bring to room temperature before serving."
+        ]
+	},
+    "Creamy Cucumber Salad": {
+		"name": "Creamy Cucumber Salad",
+		"tag": "Western",
+		"flavor": "Mild",
+		"rating": 4.5,
+		"time": 20,
+		"difficulty": "Easy",
+		"serving": "4",
+		"ingredients": [
+			"1 pound (450g) Persian cucumbers (about 5 cucumbers), ends trimmed, cut into 3- by 5/8-inch spears (see note)",
+            "3/4 teaspoon Diamond Crystal kosher salt, divided; for table salt, use half as much by volume",
+            "1 tablespoon (15g) tahini paste",
+            "1 tablespoon (15ml) fresh lemon juice plus 1/4 teaspoon grated zest from 1 lemon, divided",
+            "2 tablespoons (6g) finely chopped fresh dill, plus fronds for garnishing",
+            "1 small garlic clove, finely grated or minced",
+            "1/2 shallot (20g), finely minced"
+		],
+		"num_step": 4,
+		"img": ["img/cucumber_1.webp", "img/cucumber_2.webp", "img/cucumber_3.webp", "img/cucumber_cover.webp"],
+		"cover": "img/cucumber_cover.webp",
+		"steps": [
+            "In a large bowl, add cucumber spears and 1/4 teaspoon salt and toss to combine. Transfer cucumbers to a colander and set inside large bowl. Cover and refrigerate for 30 minutes.",
+            "Pat cucumbers dry with paper towels or a clean kitchen towel; set aside. Discard any accumulated liquid and wipe out bowl.",
+            "In now-empty bowl, add tahini and lemon juice and whisk to combine; the mixture will seize and turn pasty. Add 1 1/2 teaspoons cold water and whisk until a smooth sauce forms. Add remaining 1/2 teaspoon salt, lemon zest, dill, garlic, and shallot, and whisk to combine. The sauce should very slowly lose its shape if you let ribbons of it drop from the whisk into the bowl (if sauce is too thick, whisk in cold water in 1/4-teaspoon increments to achieve desired consistency).",
+            "Add cucumber spears and toss until evenly coated with sauce. Transfer to a serving plate, garnish with dill, and serve."
+        ]
+	},
+    "Butter Chicken": {
+		"name": "Butter Chicken",
+		"tag": "Western",
+		"flavor": "Mild",
+		"rating": 4.5,
+		"time": 30,
+		"difficulty": "Medium",
+		"serving": "4-6",
+		"ingredients": [
+            "1 tablespoon kasuri methi (fenugreek leaves) or, alternatively, 2 teaspoons fenugreek seeds",
+            "1/4 cup (60ml) plain Greek yogurt, store-bought or homemade",
+            "1 tablespoon garam masala, store-bought or homemade",
+            "2 teaspoons Diamond Crystal kosher salt (if using table salt, use half as much)",
+            "1 teaspoon kala namak (black salt)",
+            "One 1-inch piece fresh ginger (1/2 ounce; 14g), peeled and finely grated",
+            "2 pounds (900g) boneless, skinless chicken thighs (about 4), cut into bite-size, 1-inch pieces"
+			
+		],
+		"num_step": 5,
+		"img": ["img/Butter_chicken_1.webp", "img/Butter_chicken_2.webp", "img/Butter_chicken_3.webp", "img/Butter_chicken_4.webp","img/Butter_chicken_cover.webp"],
+		"cover": "img/Butter_chicken_cover.webp",
+		"steps": [
+            "In a small skillet, toast fenugreek leaves (or fenugreek seeds, if using) over medium heat, tossing them constantly, until quite fragrant, about 30 seconds. Transfer toasted leaves to spice grinder or mortar and pestle and grind to fine powder. Set aside.",
+            "In the center of a rimmed baking sheet, create a roughly 9- by 13-inch aluminum-foil boat with 1-inch sides, and set aside. (Alternatively, if you have a 1/4 rimmed baking sheet, use that instead, omitting foil.) In a medium mixing bowl, stir together yogurt, garam masala, salt, black salt, grated ginger, and ground fenugreek leaves.",
+            "Add chicken thigh pieces to bowl and, using clean hands, toss with marinade until evenly coated. Transfer chicken to prepared baking sheet, arranging pieces in a single, even layer in the aluminum-foil boat.",
+            "Meanwhile, adjust oven rack to about 3 inches below broiler element and preheat broiler on high. Transfer chicken to broiler. Cook, checking the chicken frequently to ensure it's not burning, until chicken is charred in spots and is fully cooked through, about 14 minutes (time will vary depending on the strength of the broiler). Remove chicken from broiler and set aside.",
+            "Add reserved broiled chicken along with any juices in the sheet pan to sauce and stir until chicken is well incorporated and warmed through. Ladle chicken and sauce into serving bowl and drizzle with additional heavy cream. Serve immediately with rice alongside."
+        ]
+	},
+    "Penne alla Vodka": {
+		"name": "Penne alla Vodka",
+		"tag": "Western",
+		"flavor": "Mild",
+		"rating": 4.5,
+		"time": 40,
+		"difficulty": "Medium",
+		"serving": "4",
+		"ingredients": [
+            "3 tablespoons (45g) unsalted butter",
+            "1 medium (8-ounce; 225g) yellow onion, diced",
+            "3 medium cloves garlic, thinly sliced",
+            "Pinch red pepper flakes",
+            "Kosher salt",
+            "One 4 1/2-ounce (130g) tube concentrated tomato paste or 6-ounce (170g) can tomato paste",
+            "One 14 1/2-ounce (411g) can whole peeled tomatoes",
+            "1 cup (240ml) heavy cream",
+            "1 pound (450g) short tubular pasta, such as rigatoni or penne",
+            "1/4 cup (60ml) vodka, plus more if desired",
+            "2 ounces (55g) grated Parmigiano-Reggiano, plus more for serving"
+		],
+		"num_step": 6,
+		"img": ["img/Penne_alla_Vodka_1.webp", "img/Penne_alla_Vodka_2.webp", "img/Penne_alla_Vodka_3.webp", "img/Penne_alla_Vodka_4.webp","img/Penne_alla_Vodka_5.webp","img/Penne_alla_Vodka_6.webp"],
+		"cover": "img/Penne_alla_Vodka_cover.webp",
+		"steps": [
+            "In a large (3- or 4-quart) saucepan or small Dutch oven, melt butter over medium heat. Add onions, garlic, and red pepper flakes, season lightly with salt, and cook, stirring frequently, until onions are very soft but not browned, about 15 minutes; lower heat if needed to prevent browning.",
+            "Add tomato paste and cook, stirring, until tomato paste is fragrant and thick, about 3 minutes. Stir in canned tomatoes with their liquid. Bring to a simmer, then cook, stirring often and crushing the whole tomatoes roughly with a spoon, until sauce has thickened slightly, about 10 minutes.",
+            "Add cream, and stir to incorporate. Transfer sauce to a blender, and blend until very smooth (you may be able to make an immersion blender work, but in our tests the sauce level was too low to safely avoid splattering). Wipe out pot, then return blended sauce to it. Season lightly with salt.",
+            "In a medium pot of salted boiling water, cook pasta until just shy of al dente, about 3 minutes less than the package directs. About 1 minute before you transfer pasta to sauce, add vodka to tomato sauce and bring to a gentle simmer over medium heat.",
+            "Using a spider skimmer or slotted spoon, transfer pasta directly to sauce pot along with 1/2 cup (120ml) pasta water (alternatively, reserve 2 cups pasta water, then drain pasta in a colander, then add to sauce with 1/2 cup of the reserved water). Increase heat to high, and cook, stirring constantly, until pasta is well coated in sauce and reaches the al dente stage, about 3 minutes. If sauce thickens too much before pasta is ready, add more pasta water in 1/4 cup (60ml) increments as needed.",
+            "Remove from heat and stir in cheese until thoroughly incorporated into a smooth and creamy sauce. Taste for salt, and season with more if needed. If you can't detect the vodka at all, you can add a few drops more and stir it in before serving; exactly how boozy you want the sauce is a question of taste, but be careful because a heavy hand will ruin the dish. Spoon pasta and sauce onto warmed serving plates and top with additional grated cheese. Serve immediately."
+        ]
+	},
+    "Creamy Tomato Soup": {
+		"name": "Creamy Tomato Soup",
+		"tag": "Western",
+		"flavor": "Mild",
+		"rating": 4.5,
+		"time": 15,
+		"difficulty": "Easy",
+		"serving": "4-6",
+		"ingredients": [
+            "1/2 cup extra virgin olive oil, divided",
+            "2 cloves garlic, grated on a microplane grater",
+            "1 small onion, finely sliced (about 1 cup)",
+            "1 teaspoon dried oregano",
+            "1/2 teaspoon red pepper flakes",
+            "2 slices white bread, crusts removed, torn into rough 1/2-inch pieces",
+            "2 (28-ounce) cans whole peeled tomatoes packed in juice",
+            "Kosher salt and freshly ground black pepper",
+            "Minced chives, basil, or parsley as garnish",
+            "Toasted bread or grilled cheese for serving"
+		],
+		"num_step": 2,
+		"img": ["img/tomato_soup_cover.webp"],
+		"cover": "img/tomato_soup_cover.webp",
+		"steps": [
+            "Heat 2 tablespoons olive oil in a large saucepan over medium high heat until shimmering. Add garlic, onions, oregano, and red pepper flakes. Cook, stirring frequently until onions are softened but not browned, about 4 minutes. Add bread and tomatoes. Roughly mash tomatoes with a whisk or a potato masher. Add 2 cups water. Bring to a boil over high heat, then reduce to a simmer. Cook for 5 minutes.", 
+            "Transfer half of soup to the jar of a blender. Blend soup, starting at low speed and gradually increasing to high (be careful starting up, it can shoot out the top of the blender—open the vent and hold a kitchen towel over the lid to prevent blowout). With blender running on high, gradually trickle in half of remaining olive oil. Season soup to taste with salt and pepper. Transfer to a large bowl and repeat with remaining half of soup and olive oil. Ladle into individual serving bowls, top with minced herbs, drizzle with more olive oil, and serve with toast or grilled cheese."
+        ]
+	},
+    "Roman Rice-Stuffed Tomatoes": {
+		"name": "Roman Rice-Stuffed Tomatoes",
+		"tag": "Western",
+		"flavor": "Mild",
+		"rating": 4.5,
+		"time": 50,
+		"difficulty": "Hard",
+		"serving": "4",
+		"ingredients": [
+            "1 1/2 pounds (675g) Yukon gold potatoes, peeled and cut into 1-inch pieces",
+            "1/4 cup (60ml) extra-virgin olive oil, divided",
+            "1 sprig fresh rosemary, cut into 3 pieces",
+            "Kosher salt and freshly ground black pepper",
+            "6 beefsteak tomatoes (8 to 10 ounces each; 225 to 285g)",
+            "Homemade chicken stock or low-sodium broth or vegetable stock, if needed",
+            "1 large shallot (50g), minced",
+            "1 medium garlic clove (5g), minced",
+            "3/4 cup (6 ounces; 165g) risotto rice, such as arborio or carnaroli",
+            "1 tablespoon (15g) tomato paste",
+            "1 to 2 teaspoons (5 to 10ml) fish sauce, such as colatura",
+            "1/2 ounce fresh basil leaves (1 loosely packed cup; 15g), roughly chopped"
+		],
+		"num_step": 8,
+		"img": ["img/Pomodori_1.webp", "img/Pomodori_2.webp", "img/Pomodori_3.webp", "img/Pomodori_4.webp","img/Pomodori_5.webp","img/Pomodori_6.webp","img/Pomodori_cover.webp"],
+		"cover": "img/Pomodori_cover.webp",
+		"steps": [
+            "Adjust oven rack to upper middle position and preheat oven to 375°F (190°C). In a large baking dish, combine potatoes, rosemary, and 2 tablespoons (30ml) olive oil. Season with salt and pepper, then toss to combine. Spread potatoes in an even, single layer. Roast until a knife meets little resistance when inserted into a piece of potato, about 30 minutes. Set baking dish aside to cool; keep oven on.",
+            "Meanwhile, using a sharp knife, cut top 1/2 inch off stem end of tomatoes and set aside. Carefully run knife along the cavity of the tomato to loosen core and pulp, then use a spoon to carefully scoop them out into a bowl. Repeat with remaining tomatoes. Season insides of tomatoes and their tops with salt, and place them upside down on wire rack rack set inside a rimmed baking sheet. Set tomatoes aside.",
+            "Using a food mill, pass reserved tomato pulp into a non-reactive container; discard seeds. (Alternatively, you can blend the tomato pulp with a food processor or blender, though it'll retain some seeds and will be a lighter color due to incorporated air.) Measure yield of tomato pulp by transferring it to a liquid measuring cup; you should have about 2 1/4 cups (530ml); if you don't have that much, add low-sodium chicken broth or vegetable stock to reach that volume.",
+            "In a 3-quart stainless steel saucier, heat 1 tablespoon (15ml) olive oil over medium heat until shimmering. Add shallots, season lightly with salt, and cook, stirring frequently with a rubber spatula, until shallots are softened but not browned, about 3 minutes. Add garlic and continue to cook, stirring frequently, until garlic is softened as well, about 1 minute longer.",
+            "Add rice and cook, stirring, until rice is evenly coated in oil and toasted but not browned, 2 to 3 minutes. (Rice grains should start to look like tiny ice cubes: translucent around the edges and cloudy in the center.) Stir in tomato paste and continue to cook, stirring, until tomato paste evenly coats rice mixture and turns rust-colored, about 1 minute longer.",
+            "Add tomato pulp, increase heat to medium-high, and cook rice at a steady simmer, stirring frequently, until rice is just beginning to soften, about 10 minutes. Remove from heat, stir in fish sauce (if using) and basil, and season with salt.",
+            "Blot tomato cavities with paper towels, then nestle them into potatoes in baking dish so that they remain upright. Fill tomatoes with rice mixture, set tops on tomatoes, and drizzle with remaining 1 tablespoon (15ml) of olive oil.",
+            "Roast tomatoes until they are very tender and rice is cooked through, 25 to 30 minutes. Turn oven to broil, remove tops from tomatoes (keeping them in baking dish) to expose rice, and broil until rice and potatoes are lightly charred and crispy, 5 to 7 minutes (keep a close eye as broiler intensity can vary significantly from one oven to the next). Remove baking dish from oven, and let cool for at least 10 minutes. Serve warm or at room temperature."
+        ]
 	}
 }
