@@ -104,7 +104,13 @@ export default {
 			Ingredient.$emit('slider', [this.serving, 'serving']);
 		},
 		handleConfirm() {
+			var width = document.body.clientWidth;
+			console.log(width)
 			Ingredient.$emit('confirm');
+			if( width < 600 ){
+				this.showPanel = false;
+				this.$emit('movePanel', this.showPanel)
+			}
 		},
 		handleClear() {
 			Ingredient.$emit('clear');
@@ -119,7 +125,6 @@ export default {
 // slider reference: https://mdbootstrap.com/snippets/jquery/mdbootstrap/944578
 </script>
 <style>
-
 .buttons {
 	width: 100%;
 	/* table-layout: fixed; */
@@ -141,8 +146,16 @@ export default {
 	box-shadow: 6px 0px 6px -6px rgb(0 0 0 / 40%);
 	/* box-shadow: 6px 8px 6px -6px rgb(0 0 0 / 40%); */
 }
+
+
 #left-panel > * {
 	margin: 10px 0;
+}
+
+@media (max-width: 968px){
+	#left-panel > * {
+		margin: 5px 0;
+	}
 }
 
 .hidePanel {

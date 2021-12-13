@@ -1,15 +1,6 @@
 <template>
 	<div class="home">
-		<div class="header-bar">
-			<div style="margin-left: auto">
-				<el-popover placement="top-start" width="200" trigger="click" :content="'Your current reward points: ' + this.rewardPoints">
-					<el-button slot="reference" style="margin-right: 20px">Reward points</el-button>
-				</el-popover>
-				<router-link to="/reward">
-					<i class="bi bi-person-circle" style="font-size: 30px"></i>
-				</router-link>
-			</div>
-		</div>
+		<HeaderBar />
 		<el-row>
 			<el-col :xs="xsLeft" :sm="xsLeft" :lg="8">
 				<LeftPanel @movePanel="movePanel" />
@@ -38,6 +29,7 @@ import RecipeData from '/data/mock_data.json';
 import LeftPanel from '@/views/LeftPanel.vue';
 // Right panel components:
 import SearchBar from '@/components/SearchBar.vue';
+import HeaderBar from '@/components/HeaderBar.vue';
 import Card from '@/components/Card.vue';
 import Ingredient from '../components/Ingredient.js';
 
@@ -47,6 +39,7 @@ export default {
 		LeftPanel,
 		SearchBar,
 		Card,
+		HeaderBar,
 	},
 	data() {
 		return {
@@ -62,7 +55,7 @@ export default {
 			time: 30,
 			serving: 3,
 			rewardPoints: 0,
-			cardviewMargin: ""
+			cardviewMargin: '',
 		};
 	},
 	created() {
@@ -82,14 +75,16 @@ export default {
 		};
 		this.screenWidth = document.body.clientWidth;
 		if (this.screenWidth <= 438) {
-			this.cardviewMargin = "margin: 10px";
+			this.cardviewMargin = 'margin: 10px';
+		} else {
+			this.cardviewMargin = 'margin: 20px';
 		}
-		else { this.cardviewMargin = "margin: 20px";}
-		window.addEventListener("resize", () => {
+		window.addEventListener('resize', () => {
 			if (this.screenWidth <= 438) {
-				this.cardviewMargin = "margin: 10px";
+				this.cardviewMargin = 'margin: 10px';
+			} else {
+				this.cardviewMargin = 'margin: 20px';
 			}
-			else { this.cardviewMargin = "margin: 20px";}
 		});
 
 		this.rewardPoints = 'rewardPoints' in localStorage ? localStorage.getItem('rewardPoints') : 10;
@@ -156,8 +151,8 @@ export default {
 			) {
 				this.recipeList = RecipeData;
 				this.filteredList = JSON.parse(JSON.stringify(this.recipeList));
-				this.filteredList = Object.filter(this.filteredList, (recipe) => (recipe.time <= this.time && recipe.serving >= this.serving));
-				console.log('filtered list', this.filteredList)
+				this.filteredList = Object.filter(this.filteredList, (recipe) => recipe.time <= this.time && recipe.serving >= this.serving);
+				console.log('filtered list', this.filteredList);
 			} else {
 				// if there is a search input, find if there has any matched content
 				this.recipeList = {}; // clear the display list
@@ -179,7 +174,7 @@ export default {
 				});
 				this.filterOnServing(this.serving);
 				this.filterOnTime(this.time);
-				console.log('filtered', this.filteredList)
+				console.log('filtered', this.filteredList);
 			}
 		},
 		search: function (input) {
@@ -223,16 +218,6 @@ export default {
 <style>
 .modal-backdrop {
 	opacity: 0.3;
-}
-
-.header-bar {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding: 10px;
-	/* padding-bottom: 10px; */
-	border-bottom: 1.5px solid #eee;
-	box-shadow: 6px 8px 6px -6px rgb(0 0 0 / 20%);
 }
 
 .card-container {

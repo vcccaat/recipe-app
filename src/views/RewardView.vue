@@ -1,21 +1,6 @@
 <template>
 	<div>
-		<div class="header-bar">
-			<router-link to="/">
-				<i class="bi bi-chevron-left"></i>
-			</router-link>
-			<div>
-				<el-popover placement="top-start" width="200" trigger="click" :content="'Your current reward points: ' + this.rewardPoints">
-					<el-button slot="reference" style="margin-right: 20px">
-						Reward Points
-						<!-- <i class="bi bi-cash-coin" style="font-size: 30px"></i> -->
-					</el-button>
-				</el-popover>
-				<router-link to="/reward">
-					<i class="bi bi-person-circle" style="font-size: 30px"></i>
-				</router-link>
-			</div>
-		</div>
+		<HeaderBar />
 		<div class="container">
 			<div class="row">
 				<div class="col">
@@ -25,19 +10,18 @@
 
 			<div class="card cardReward">
 				<div class="row">
-					<div class="col-3"></div>
-					<div class="col-3" style="text-align: left">
+					<!-- <div class="col-3"></div> -->
+					<div class="col-6" style="text-align: center;">
 						<div class="row">
-							<span>Reward Points</span>
+							<span style="margin-top: 8px">Reward Points</span>
 						</div>
 						<div class="row">
-							<h1>{{ rewardPoints }}</h1>
+							<h1 style="font-weight: bold;">{{ rewardPoints }}</h1>
 						</div>
 					</div>
-					<div class="col-3">
+					<div class="col-6" style="text-align: center;">
 						<img class="svg" :src="bowlIcon" />
 					</div>
-					<div class="col-3"></div>
 				</div>
 			</div>
 			<div class="row"><h5 style="text-align: left">Rewards</h5></div>
@@ -97,7 +81,7 @@
 			<div class="row"><h5 style="text-align: left">My comments</h5></div>
 			<div class="card cardReward" v-for="(item, index) in displayList" :key="index">
 				<div class="row">
-					<div class="col-6" style="text-align: left; padding-left: 50px">
+					<div class="col-6" style="text-align: left; padding-left: 20px">
 						<div class="row">
 							<h3 style="margin-bottom: 2px">{{ item[0] }}</h3>
 						</div>
@@ -108,7 +92,7 @@
 							<span style="margin: 2px 3px 2px"> {{ item[1] }} </span>
 						</div>
 					</div>
-					<div class="col-6 block" style="text-align: right; padding-right: 50px">
+					<div class="col-6 block" style="text-align: right; padding-right: 20px">
 						<el-image style="width: 100px; height: 100px; margin: 5px" v-for="(img, i) in item.slice(3)" :key="i" :src="img" fit="cover"></el-image>
 					</div>
 				</div>
@@ -119,6 +103,8 @@
 
 <script>
 // import Button from '../components/Button.vue';
+import HeaderBar from '@/components/HeaderBar.vue';
+
 export default {
 	created() {
 		this.rewardPoints = localStorage.getItem('rewardPoints', this.rewardPoints);
@@ -134,13 +120,16 @@ export default {
 		});
 	},
 	methods: {},
-	components: {},
+	components: {
+		HeaderBar,
+	},
 	data() {
 		return {
 			bowlIcon: require('/public/img/icons/bowl.svg'),
 			vegIcon: require('/public/img/icons/vegetable.svg'),
 			rewardPoints: 10,
 			displayList: [],
+			colors: ['#99A9BF', '#F7BA2A', '#FF9900']
 		};
 	},
 };
@@ -151,7 +140,10 @@ export default {
 	height: 80px;
 }
 .cardReward {
-	border: 3px solid black !important;
+	/* border: 3px solid black !important; */
+	box-shadow: 6px 8px 6px -10px rgb(0 0 0 / 40%);
+	border: 1px solid #aaa !important;
+	border-radius: 6px !important;
 	padding: 20px;
 	margin-bottom: 20px;
 }
@@ -159,5 +151,20 @@ export default {
 	width: fit-content;
 	/* align-items: flex-end; */
 	float: right;
+}
+@media (max-width: 600px){
+	h5 {
+		font-size: 18px !important;
+	}
+	.redeemBtn {
+	width: fit-content;
+	font-size: 13px !important;
+	/* align-items: flex-end; */
+	float: right;
+	}
+	.cardReward {
+		padding: 15px;
+		margin-bottom: 15px;
+	}
 }
 </style>
