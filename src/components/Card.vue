@@ -124,7 +124,7 @@ export default {
   color: white;
   position: absolute;
   text-align: left;
-  padding: 20px;
+  padding: 15px 20px 15px;
 }
 
 .card-content > * {
