@@ -66,6 +66,7 @@ export default {
 		};
 	},
 	created() {
+		this.rewardPoints = Number(this.rewardPoints) + 1;
 		this.init();
 	},
 	mounted: function () {
@@ -102,7 +103,7 @@ export default {
 		if (this.$cookies.get('popped') != 'yes') {
 			//cookie 中没有 popped 则赋给他一个值（此时弹框显示）
 			document.cookie = 'popped = yes';
-			this.rewardPoints = Number(this.rewardPoints) + 1;
+			
 			// this.$refs['rewardPopup'].show();
 			this.$message({
 				message: 'Login First Time Today! Reward Points +1!',

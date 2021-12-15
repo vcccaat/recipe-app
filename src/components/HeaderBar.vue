@@ -28,11 +28,8 @@ export default {
 	data() {
 		return {
 			chiefIcon: require('/public/img/icons/chief.svg'),
-			rewardPoints: 0,
+			rewardPoints: localStorage.getItem('rewardPoints') || 10
 		};
-	},
-	mounted: function () {
-		this.rewardPoints = localStorage.getItem('rewardPoints');
 	},
 	methods: {},
 };
