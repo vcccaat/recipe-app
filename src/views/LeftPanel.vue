@@ -7,7 +7,7 @@
 			<h5>Time I have for the meal (minutes)</h5>
 			<div class="d-flex">
 				<!-- <span class="">0</span> -->
-				<form class="flex-grow-1">
+				<form class="flex-grow-1" style="z-index: 1" >
 					<!-- <input @change="handleTimeChange" v-model="time" style="width: 100%" type="range" min="0" max="100" /> -->
 					<el-slider  @change="handleTimeChange" v-model="time" show-input :step="5" :max="60"> </el-slider>
 				</form>

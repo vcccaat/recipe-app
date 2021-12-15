@@ -1,5 +1,5 @@
 <template>
-	<div class="header-bar">
+	<div class="header-bar" style="z-index: 2">
 		<router-link to="/"> <i class="bi bi-house-door homeIcon"></i></router-link>
 
 		<div class="leftPart">
