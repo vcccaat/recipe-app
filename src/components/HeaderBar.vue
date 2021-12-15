@@ -15,7 +15,7 @@
 			</el-popover> -->
 			<div style="vertical-align: middle; display: inline">
 				<router-link to="/reward">
-					<i class="bi bi-person-circle personIcon"></i>
+					<img class="profileIcon" :src="profileIcon" />
 				</router-link>
 			</div>
 		</div>
@@ -28,6 +28,7 @@ export default {
 	data() {
 		return {
 			chiefIcon: require('/public/img/icons/chief.svg'),
+			profileIcon: require('/public/img/icons/profile.svg'),
 			rewardPoints: localStorage.getItem('rewardPoints') || 10
 		};
 	},
@@ -39,7 +40,10 @@ export default {
 	width: 30px;
 	height: 30px;
 }
-.personIcon,
+.profileIcon {
+	width: 30px;
+	height: 30px;
+}
 .homeIcon {
 	font-size: 25px;
 }
