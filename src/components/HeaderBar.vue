@@ -59,9 +59,12 @@ export default {
 	align-items: center;
 	justify-content: space-between;
 	padding: 1vh 3vw;
-	/* padding-bottom: 10px; */
 	border-bottom: 2px solid #eee;
-	/* box-shadow: 6px 8px 6px -6px rgb(0 0 0 / 20%); */
+	top: 0;
+	position: fixed;
+	z-index: 1;
+	background-color: white;
+	width: 100%;
 }
 
 @media (max-width: 600px){
