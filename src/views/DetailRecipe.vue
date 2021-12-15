@@ -3,7 +3,7 @@
 		<HeaderBar />
 
 		<!-- Part for Display Feature -->
-		<div class="container" style="padding: 0px !important;">
+		<div class="container" style="padding: 0px !important; margin-top:55px;">
 		<div id="demo" class="carousel slide" data-bs-ride="carousel">
 			<!-- <b-modal ref="sharePopup" id="modal-1" title="Thank you!" hide-footer>
 				<p>Thanks for your sharing! Reward Points +1!</p>
