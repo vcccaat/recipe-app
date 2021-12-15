@@ -247,7 +247,8 @@ export default {
 .left-panel {
 	float:left;
     margin-bottom:0px;
-	overflow:hidden;
+	/* overflow:hidden; */
+	overflow-y: scroll;
     /* overflow: auto; */
 	/* flex-grow: 1; */
 }

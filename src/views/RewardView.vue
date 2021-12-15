@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<HeaderBar />
-		<div class="container">
+		<div class="container" style="margin-top:55px;">
 			<div class="row">
 				<div class="col">
 					<h2 class="title" style="font-weight: 800">Profile</h2>
