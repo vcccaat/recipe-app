@@ -1,6 +1,6 @@
 <template>
-	<div >
-		<div id="left-panel" class="fullPanel" v-if="showPanel">
+	<div class="fullPanel">
+		<div id="left-panel" v-if="showPanel">
 			<div style="text-align: right">
 				<el-button @click="onHide" size="small" icon="el-icon-caret-left" class="hidden-lg-and-up"></el-button>
 			</div>
@@ -71,7 +71,7 @@ export default {
 	},
 	mounted() {
 		this.screenWidth = document.body.clientWidth;
-		if (this.screenWidth <= 438) {
+		if (this.screenWidth <= 950) {
 			this.styler = "el-button el-button--mini btn-outline-primary";
 		}
 		else {
@@ -81,7 +81,7 @@ export default {
 			this.screenWidth = document.body.clientWidth;
 			console.log(this.screenWidth);
 			//this.screenHeight = document.body.clientHeight;
-			if (this.screenWidth <= 438) {
+			if (this.screenWidth <= 950) {
 			this.styler = "el-button el-button--mini btn-outline-primary";
 			}
 			else {
@@ -125,6 +125,9 @@ export default {
 // slider reference: https://mdbootstrap.com/snippets/jquery/mdbootstrap/944578
 </script>
 <style>
+.fullPanel {
+	height: 100%;
+}
 .buttons {
 	width: 100%;
 	/* table-layout: fixed; */
@@ -140,11 +143,9 @@ export default {
 	display: flex;
 	flex-direction: column;
 	/* min-width: 400px; */
-
 	padding: 0px 20px 20px 20px;
 	border-right: 1px solid #ddd;
 	box-shadow: 6px 0px 6px -6px rgb(0 0 0 / 40%);
-	/* box-shadow: 6px 8px 6px -6px rgb(0 0 0 / 40%); */
 }
 
 

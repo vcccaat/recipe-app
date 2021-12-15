@@ -80,6 +80,7 @@ export default {
   padding: 7px !important;
 }
 .card-box-lg {
+  width: 100%;
   display: flex;
   box-shadow: 6px 8px 6px -8px rgb(0 0 0 / 40%);
   /* border: 1px solid #bbb; */
@@ -91,6 +92,7 @@ export default {
 }
 
 .card-left {
+  width:100%;
   display: table-cell;
   text-align: center;
   vertical-align: middle;
@@ -113,7 +115,7 @@ export default {
   box-shadow: 6px 8px 6px -8px rgb(0 0 0 / 40%);
   /* border: 1px solid #bbb; */
   border-radius: 15px;
-  margin-bottom: 5px;
+  /* margin-bottom: 5px; */
   height: 8em;
   /* height: 50%; */
 }
@@ -125,6 +127,7 @@ export default {
   position: absolute;
   text-align: left;
   padding: 15px 20px 15px;
+  overflow: hidden;
 }
 
 .card-content > * {
@@ -136,8 +139,8 @@ export default {
   height: 100%;
   width: 100%;
   color: white;
-  position: absolute;
   text-align: left;
+  overflow: hidden;
   padding: 6px 12px 10px;
 }
 .card-content-sm > * {
@@ -154,4 +157,12 @@ export default {
   margin: 0px;
   padding: 0px;
 }
+
+@media (min-width: 576px) {
+  .container, .container-md, .container-sm {
+      max-width: 880px !important;
+  }
+}
+
+
 </style>

@@ -4,7 +4,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col">
-					<h2 class="title" style="font-weight: 800">Rewards</h2>
+					<h2 class="title" style="font-weight: 800">Profile</h2>
 				</div>
 			</div>
 
@@ -83,13 +83,13 @@
 				<div class="row">
 					<div class="col-6" style="text-align: left; padding-left: 20px">
 						<div class="row">
-							<h3 style="margin-bottom: 2px">{{ item[0] }}</h3>
+							<h4 style="margin-bottom: 5px; font-weight: bold">{{ item[0] }}</h4>
 						</div>
 						<div class="row">
 							<el-rate disabled v-model="item[2]" :colors="colors"> </el-rate>
 						</div>
 						<div class="row">
-							<span style="margin: 2px 3px 2px"> {{ item[1] }} </span>
+							<span style="margin: 5px 3px 2px"> {{ item[1] }} </span>
 						</div>
 					</div>
 					<div class="col-6 block" style="text-align: right; padding-right: 20px">

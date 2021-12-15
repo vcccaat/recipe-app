@@ -30,13 +30,16 @@ export default {
 </script>
 
 <style>
+.search {
+	padding: 0 7px 0;
+}
 .el-alert {
 	color: darkred;
 	margin: 8px;
 }
 
 .alertbox {
-	height: 20px;
+	height: 5px;
 }
 
 </style>

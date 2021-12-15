@@ -3,10 +3,12 @@
 		<HeaderBar />
 
 		<!-- Part for Display Feature -->
+		<div class="container" style="padding: 0px !important;">
 		<div id="demo" class="carousel slide" data-bs-ride="carousel">
-			<b-modal ref="sharePopup" id="modal-1" title="Thank you!" hide-footer>
+			<!-- <b-modal ref="sharePopup" id="modal-1" title="Thank you!" hide-footer>
 				<p>Thanks for your sharing! Reward Points +1!</p>
-			</b-modal>
+			</b-modal> -->
+			
 			<div class="carousel-indicators" v-for="(item, index) in carousel" :key="index">
 				<div>
 					<button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -43,12 +45,13 @@
 				<span class="visually-hidden">Next</span>
 			</button>
 		</div>
+		</div>
 		<div class="container">
 			<div class="row">
-				<div class="col">
-					<h3 class="title">{{ this.recipe['name'] }}</h3>
+				<div class="col-8">
+					<h3 class="title" style="margin: 0 0 10px; font-weight: bold;">{{ this.recipe['name'] }}</h3>
 				</div>
-				<div class="col text-end align-center">
+				<div class="col-4 text-end align-center">
 					<button type="button" class="btn btn-outline-warning btn-sm">Rating {{ this.recipe['rating'] }}</button>
 				</div>
 			</div>
@@ -199,14 +202,18 @@ export default {
 			this.dialogVisible = true;
 			this.cacheList.push(this.recipeName);
 			this.cacheList.push('No comment content.');
-			this.cacheList.push('no ratings');
+			this.cacheList.push(NaN);
 		},
 		handleShare() {
 			// Transfer the feedback content to the profile page
 			if (this.$refs.upload.uploadFiles.length > 0) {
 				const currentPoints = localStorage.getItem('rewardPoints');
 				localStorage.setItem('rewardPoints', Number(currentPoints) + 1);
-				this.$refs['sharePopup'].show();
+				// this.$refs['sharePopup'].show();
+				this.$message({
+				message: 'Thanks for your sharing! Reward Points +1!',
+				type: 'success'
+				});
 				this.$refs.upload.uploadFiles = [];
 			}
 			if (this.cacheList.length == 3) {

@@ -1,14 +1,19 @@
 <template>
 	<div class="home">
 		<HeaderBar />
-		<el-row>
-			<el-col :xs="xsLeft" :sm="xsLeft" :lg="8">
+		<div class="main-container">
+			<el-col class="left-panel" :xs="xsLeft" :sm="10" :md="10" :lg="8">
+			<!-- <div class="left-panel"> -->
 				<LeftPanel @movePanel="movePanel" />
+			<!-- </div> -->
 			</el-col>
-			<el-col :xs="xsRight" :sm="xsRight" :lg="16">
-				<b-modal ref="rewardPopup" id="modal-1" title="Welcome!" hide-footer>
+
+			<el-col class="right-panel" :xs="xsRight" :sm="14" :md="14" :lg="16">
+			<!-- <div class="right-panel" v-show="showRight">	 -->
+				<!-- <b-modal ref="rewardPopup" id="modal-1" title="Welcome!" hide-footer>
 					<p>Login First Time Today! Reward Points +1!</p>
-				</b-modal>
+				</b-modal> -->
+				
 				<div :style="cardviewMargin">
 					<SearchBar v-show="showSearch" @search-sent="search" :errMsg="errMsg" :showError="showError" />
 					<div class="card-container" v-show="!showError">
@@ -17,8 +22,9 @@
 						</div>
 					</div>
 				</div>
+			<!-- </div> -->
 			</el-col>
-		</el-row>
+		</div>
 	</div>
 </template>
 
@@ -43,8 +49,8 @@ export default {
 	},
 	data() {
 		return {
-			xsLeft: 22,
-			xsRight: 2,
+			xsLeft: 23,
+			xsRight: 1,
 			showSearch: true,
 			showError: false,
 			showPanel: true,
@@ -56,6 +62,7 @@ export default {
 			serving: 3,
 			rewardPoints: 0,
 			cardviewMargin: '',
+			showRight: true
 		};
 	},
 	created() {
@@ -74,16 +81,19 @@ export default {
 			return result;
 		};
 		this.screenWidth = document.body.clientWidth;
-		if (this.screenWidth <= 438) {
-			this.cardviewMargin = 'margin: 10px';
+		if (this.screenWidth <= 768) {
+			this.cardviewMargin = 'margin: 10px 5px 0';
 		} else {
 			this.cardviewMargin = 'margin: 20px';
 		}
 		window.addEventListener('resize', () => {
-			if (this.screenWidth <= 438) {
-				this.cardviewMargin = 'margin: 10px';
+			this.screenWidth = document.body.clientWidth;
+			if (this.screenWidth <= 768) {
+				this.cardviewMargin = 'margin: 5px';
+				console.log(this.cardviewMargin)
 			} else {
 				this.cardviewMargin = 'margin: 20px';
+				console.log(this.cardviewMargin)
 			}
 		});
 
@@ -93,7 +103,11 @@ export default {
 			//cookie 中没有 popped 则赋给他一个值（此时弹框显示）
 			document.cookie = 'popped = yes';
 			this.rewardPoints = Number(this.rewardPoints) + 1;
-			this.$refs['rewardPopup'].show();
+			// this.$refs['rewardPopup'].show();
+			this.$message({
+				message: 'Login First Time Today! Reward Points +1!',
+				type: 'success'
+			});
 			this.$cookies.set('popped', 'yes', '1d');
 		}
 		localStorage.setItem('rewardPoints', this.rewardPoints);
@@ -132,11 +146,11 @@ export default {
 		},
 		movePanel: function (showPanel) {
 			if (!showPanel) {
-				this.xsLeft = 2;
-				this.xsRight = 22;
+				this.xsLeft = 1;
+				this.xsRight = 23;
 			} else {
-				this.xsLeft = 22;
-				this.xsRight = 2;
+				this.xsLeft = 23;
+				this.xsRight = 1;
 			}
 		},
 		init: function () {
@@ -216,6 +230,31 @@ export default {
 };
 </script>
 <style>
+
+.main-container {
+	width:100%;
+	position:absolute;
+	top: 60px;
+    left: 0;
+    bottom:0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	/* align-items: stretch; */
+}
+
+.left-panel {
+	float:left;
+    margin-bottom:0px;
+	overflow:hidden;
+    /* overflow: auto; */
+	/* flex-grow: 1; */
+}
+.right-panel {
+	/* flex-grow: 8; */
+	overflow-y: scroll;
+}
+
 .modal-backdrop {
 	opacity: 0.3;
 }
@@ -234,7 +273,7 @@ export default {
 	width: 50%;
 }
 
-@media (max-width: 968px){
+@media (max-width: 1280px){
   .cards {
     width: 100%;
   }
