@@ -19,7 +19,7 @@ Our users are people with limited time for cooking and need help on dealing with
 
 ### - Methodologies:
 
-We conducted 15 semi-structured interviews and six contextual interviews with several follow-up questions. According to our contextual interview and part of the semi-structured interviews, we showed an affinity diagram accordingly. We chose the six users from the 15 semi-structured interviews. We continued to do the contextual interview with those willing to participate in the field studies and who have used the recipe needs. We asked them several questions in the contextual interviews and simulated how they would typically interact with the recipe at their home.
+We conducted 15 semi-structured interviews and seven contextual interviews with several follow-up questions. According to our contextual interview and part of the semi-structured interviews, we showed an affinity diagram accordingly. We chose the seven users from the 15 semi-structured interviews. We continued to do the contextual interview with those willing to participate in the field studies and who have used the recipe needs. We asked them several questions in the contextual interviews and simulated how they would typically interact with the recipe at their home.
 
 Semi-structured interviews can enable us to find a significant number of insights in a short period of time. At the same time, they allow the interviewees to give open-ended responses to gain more in-depth information. After refining the goal, using contextual interviews enables us to gain focused insights. They enable us to observe the details about the interaction between participants and the target objects. And since participants would be in a familiar environment, they tend to relax and be authentic. Also, in-depth questions enable us to gain real insights.
 
@@ -42,6 +42,8 @@ Semi-structured interviews can enable us to find a significant number of insight
 
 6. Mr. Li is a 25 yrs old software engineer, he lives alone in an apartment and usually cooks 7 times a week. He is an intermediate cooker. He loves to spend sparse time finding new tastes and recipes. Meanwhile, he is busy at work. Sp during the weekdays, he prefers to cook a quick and easy meal with existing ingredients. And explore more tastes during the weekend.
    Main findings: interviewee prefers to cook a quick and easy meal with existing ingredients especially during weekdays.
+
+7. Diamond is a 39-year-old Uber driver. I conduted the interview on the taxi. He cooks every day for his family. She is married with two daughters. He cooks for 20 hours or so. Most of the time he cooks based on his knowledge. Recently he is preparing for his daughter's birthday and would like to learn something new using online recipes. He used the app the Chunky Chef. He found it useful and thorough but took too much time to read. He also wants to save money and would like to directly input what ingredients he has got in his fridge.
 
 Link to the detailed [Interview Notes](./interview-notes.md)
 
