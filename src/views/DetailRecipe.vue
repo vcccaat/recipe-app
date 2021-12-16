@@ -135,6 +135,7 @@
 </template>
 
 <script>
+import Ingredient from "../components/Ingredient.js";
 import mockData from '../../data/mock_data.json';
 import HeaderBar from '@/components/HeaderBar.vue';
 export default {
@@ -187,7 +188,6 @@ export default {
 				fileList.splice(-1, 1); //移除选中图片
 				return false;
 			}
-			console.log('1111', file, fileList);
 			this.getBase64(file.raw).then((res) => {
 				this.cacheList.push(res);
 				this.src = res;
@@ -218,7 +218,6 @@ export default {
 			}
 			if (this.cacheList.length == 3) {
 				// handle image uploaded
-				console.log('沒上傳圖片');
 				this.cacheList.push(this.noUploadPic);
 			}
 			if (this.comment != '') {
@@ -229,7 +228,6 @@ export default {
 				// handle ratings uploaded
 				this.cacheList[2] = this.rating;
 			}
-			console.log('要放入的数组', this.cacheList);
 			if (localStorage.getItem('feedbackPics')) {
 				this.sendList = JSON.parse(localStorage.getItem('feedbackPics'));
 				console.log('已有feedback存在,添加中...', this.sendList);
@@ -240,10 +238,7 @@ export default {
 			console.log('放入后的数组', this.sendList);
 			this.cacheList = [];
 
-			///data/img/NoImgUploaded.jpeg
-
-			console.log('sent to localstorage');
-			console.log('comment:', this.comment);
+			Ingredient.$emit('reward');
 
 			(this.rating = null), (this.comment = ''), (this.dialogVisible = false);
 		},

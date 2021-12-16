@@ -23,6 +23,7 @@
 </template>
 
 <script>
+import Ingredient from "./Ingredient.js";
 export default {
 	name: 'HeaderBar',
 	data() {
@@ -30,6 +31,11 @@ export default {
 			chiefIcon: require('/public/img/icons/chief.svg'),
 			rewardPoints: localStorage.getItem('rewardPoints') || 10
 		};
+	},
+	created: function() {
+		Ingredient.$on('reward', () => {
+			this.rewardPoints = localStorage.getItem('rewardPoints')
+		})
 	},
 	methods: {},
 };

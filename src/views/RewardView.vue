@@ -102,7 +102,6 @@
 </template>
 
 <script>
-// import Button from '../components/Button.vue';
 import HeaderBar from '@/components/HeaderBar.vue';
 
 export default {

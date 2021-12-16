@@ -23,7 +23,6 @@ export default {
 	methods: {
 		sendSearch: function () {
 			this.$emit('search-sent', this.input);
-			console.log('Sent search input: ', this.input);
 		},
 	},
 };
