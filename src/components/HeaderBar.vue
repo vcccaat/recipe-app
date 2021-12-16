@@ -48,8 +48,8 @@ export default {
 <style>
 .logo,
 .logoIcon {
-	width: 100px;
-	height: 40px;
+	width: 65px;
+	height: 30px;
 }
 .chiefIcon {
 	width: 30px;
