@@ -149,6 +149,7 @@
 ## Final submission
 
 **Yingshi Zhu**
+
 - Finalized prototype development documentation.
 - Conducted tests for app and make adjustments to the app
 - Went through and updated the documents for milestones.
@@ -173,5 +174,6 @@
 - Fixed bugs about "the reward point display none when first-time login".
 - Went through the requirements and feedback and summarized a to-do list for the team.
 - Initiated and lead the group discussion about the to-do lists.
+- Conducted user research with Uber drivers and added notes.
 - Wrote the feature list and modified the rationale.
 - Deployed the app.
