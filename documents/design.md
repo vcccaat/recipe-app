@@ -9,7 +9,7 @@ Main content:
 
 ## Brainstorming Note
 
-we brainstorm the main features of our app and how it meet user requirement
+we brainstorm the main features of our app and how it meet user requirements
 ![](whiteboard.jpg)
 
 ## Revisions to Prior Work
