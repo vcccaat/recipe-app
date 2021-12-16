@@ -21,23 +21,25 @@ Sample of our development tracking diagram![dev-track](dev-tracking.png)
 DUE Features and implementation
 
 Nov 14 sprint backlogs 1
-design landing pages for both mac and mobiles - Sonia
-design reward system - Sonia
-write json files - Sonia
-search page to recipe page routing + search page cards - Yangkai
-implement search page components - Jieyu
-implement recipe page - Jieyu
-beautify the app with css - Yingshi
-implement reward system - Yingshi
+
+- design landing pages for both mac and mobiles - Sonia
+- design reward system - Sonia
+- write json files - Sonia
+- search page to recipe page routing + search page cards - Yangkai
+- implement search page components - Jieyu
+- implement recipe page - Jieyu
+- beautify the app with css - Yingshi
+- implement reward system - Yingshi
 
 Nov 20 sprint backlogs 2
-mobile page - Yingshi
-search function left - Jieyu
-search function right - Yangkai
-routing - Yangkai
-feedback - Yingshi
-clearAll button - Jieyu
-modify documentations, sketches - ALl
+
+- mobile page - Yingshi
+- search function left - Jieyu
+- search function right - Yangkai
+- routing - Yangkai
+- feedback - Yingshi
+- clearAll button - Jieyu
+- modify documentations, sketches - ALl
 
 Nov 25 - Merge all pages and add router, ensure basic functionality
 
