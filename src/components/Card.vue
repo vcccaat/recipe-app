@@ -48,7 +48,6 @@ export default {
       this.cardBox = " card-box-sm";
       this.left = " card-left";
       this.right = " card-content-sm";
-      console.log("bbb");
     } else {
       // this.cardBox = "row card-box-lg";
       // this.left = "col-4 card-left";

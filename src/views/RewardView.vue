@@ -112,9 +112,9 @@ export default {
 	mounted() {
 		window.addEventListener('storage', (e) => {
 			if (e.key && e.key == 'feedbackPics' && e.newValue) {
-				console.log('storage值发生变化后触发:', e);
+				//console.log('storage值发生变化后触发:', e);
 				this.displayList = JSON.parse(e.newValue);
-				console.log(this.displayList);
+				//console.log(this.displayList);
 			}
 		});
 	},
