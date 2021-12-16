@@ -1,5 +1,5 @@
 ## Interview Notes 
-Six user interviews 
+Notes from six user interviews 
 
 ### Interview 1
 
@@ -111,115 +111,114 @@ I first watched the 5min video recipe before I started preparing the ingrediants
 ## Interview 3
 
 - Introductory questions
- 
+
 - What is your age?
- 
+
 21
- 
+
 - How often do you cook?
- 
+
 Frequently, about 5-6 days a week.
- 
+
 - How much time do you spend on cooking each week?
- 
+
 Not too sure, either have enough time, or very limited time.
- 
+
 - Do you cook based on your knowledge or based on something new you learned?
- 
+
 knowledge mostly
- 
+
 - How do you learn to cook?
- 
+
 Recipe application, or some social applications
- 
+
 - How do you define your ability in cooking? Novice, intermediate, or excellent?
- 
+
 intermediate, kinda experienced
- 
+
 - (If comfortable) What is your relationship status (e.g., single, married, etc.)?
- 
+
 In a relationship
- 
+
 - Deep Dive Questions
- 
+
 - Do you like to explore new recipes? Why?
- 
+
 Yes, it would be too boring if I just repeat what I know everyday, so I try new recipes occasionally and I find it super fun if I make it good. Also some posts of the dishes are super attractive on the applications so that makes me want to try it, especially when the comments said it's easy to make and tastes good!
- 
+
 - Do you use recipes to help you cook?
- 
+
 Yes, that’s the main tool I use for cooking and that helped a lot in developing my skills on cooking.
- 
+
 - Have you used any recipe apps? Do you like them? Why?
- 
-Yes, there are a lot of professional apps and they tell you nearly everything you need for cooking. 
- 
+
+Yes, there are a lot of professional apps and they tell you nearly everything you need for cooking.
+
 - Can you recall the last time that you used the recipe? Can you mimic the situation? Thank you!
- 
-First I would just go through the contents and try to remember the key points. Then I would follow every step when cooking (and yes sometimes it’s hard to switch off your hands because it’s too oily to touch the phone but I have to) and try not to make mistakes. Also I have to use my knowledge to judge the dosage of the sauce and seasonings because the description is often not very clear for them. And then just follow the steps, it’s also kinda important to control the whole process based on your experience because ingredients and the cooker you used can not be exactly the same from the recipe applications. 
- 
+
+First I would just go through the contents and try to remember the key points. Then I would follow every step when cooking (and yes sometimes it’s hard to switch off your hands because it’s too oily to touch the phone but I have to) and try not to make mistakes. Also I have to use my knowledge to judge the dosage of the sauce and seasonings because the description is often not very clear for them. And then just follow the steps, it’s also kinda important to control the whole process based on your experience because ingredients and the cooker you used can not be exactly the same from the recipe applications.
+
 - Closing remarks
- 
+
 - This concludes the interview. Do you have any questions for us? Would you be interested in participating in future studies with us for this project?
 - Only the five members of our team will have access to the audio recording and the notes from today’s meeting. We will change your name and any identifying details in any report we write. When we are done analyzing the data collected during this interview, we will delete the audio recording for your privacy. Thank you so much for your participation in the interview! Have a wonderful day!
 
 ### Interview 4
 
- 
 - Introductory questions
- 
+
 - What is your age?
- 
+
 21
- 
+
 - How often do you cook?
- 
+
 About 1 time per 2 days when I regularly cook.
- 
+
 - How much time do you spend on cooking each week?
- 
+
 Usually not too much since I only cook for myself and I don't have too much time.
- 
+
 - Do you cook based on your knowledge or based on something new you learned?
- 
+
 both!
- 
+
 - How do you learn to cook?
- 
+
 Recipe application, or videos
- 
+
 - How do you define your ability in cooking? Novice, intermediate, or excellent?
- 
+
 Novice lol
- 
+
 - (If comfortable) What is your relationship status (e.g., single, married, etc.)?
- 
+
 In a relationship
- 
+
 - Deep Dive Questions
- 
+
 - Do you like to explore new recipes? Why?
- 
+
 Not really because I’m not so good at cooking and I don’t have much time, and I try it sometimes. I would like to practice on some dishes that I already know if they taste good and sometimes I would like to just make some minor modifications to see if they could be improved. And I would try some new recipe if my friend tells me it’s easy and good.
- 
+
 - Do you use recipes to help you cook?
- 
+
 Ofc that’s how I cook.
- 
+
 - Have you used any recipe apps? Do you like them? Why?
- 
+
 Yes and they are okay but there are some places to improve because some just don’t give you detailed explanations or description of the ingredients. And some are just hard to search for what I really need.
- 
+
 - Can you recall the last time that you used the recipe? Can you mimic the situation? Thank you!
- 
+
 Yeah I was going to make a chicken and potato stir fry and I got all the ingredients from the supermarket. When I opened the recipe I realized that it takes like half an hour to marinate the chicken but I was super hungry so I just made it like 10 minutes maybe. And I’m not sure about the ratio of chicken and potatoes. I followed all the instruction like when I cook my eyes were switching from the wok and the phone again and again… Luckily the meal taste good, one more thing is that I was going to utilize the ingredients left but I have no idea how to do that, if I could just put the ingredients I left on the fridge to the app and it would provide me of some recipes made of them that would be more than great.
- 
+
 - Closing remarks
- 
+
 - This concludes the interview. Do you have any questions for us? Would you be interested in participating in future studies with us for this project?
 - Only the five members of our team will have access to the audio recording and the notes from today’s meeting. We will change your name and any identifying details in any report we write. When we are done analyzing the data collected during this interview, we will delete the audio recording for your privacy. Thank you so much for your participation in the interview! Have a wonderful day!
 
-#1 
+#1
 
 Would you cook?
 
@@ -253,7 +252,7 @@ What do you like about the current product?
 
 I used the google. I like it since it’s informative
 
- What do you dislike about the current product?
+What do you dislike about the current product?
 
 I dislike it since it can not tell what I want. I am super busy these days and just want a quick recipe to do. But I do not know how to find it, and it wastes a lot of time.
 
@@ -279,13 +278,13 @@ Yes
 
 Would you use recipes to help your cooking?
 
-Yes 
+Yes
 
 What do you like about the current product?
 
 I used the red. I like it since it’s informative and also contains many quick meal option
 
- What do you dislike about the current product?
+What do you dislike about the current product?
 
 The information overload but it’s not a recipe app so ….
 
@@ -297,16 +296,16 @@ Yes
 
 Would you use recipes to help your cooking?
 
-Yes 
+Yes
 
 What do you like about the current product?
 
 I used xiachufang. I like it since it have what i wna t? I guess…. Like i can find many recipes
 
- What do you dislike about the current product?
+What do you dislike about the current product?
 
 Don’t like the UI
- 
+
 #7
 
 Would you cook?
@@ -321,13 +320,13 @@ Yes
 
 Would you use recipes to help your cooking?
 
-Yes 
+Yes
 
 What do you like about the current product?
 
 I used GOOGLE to search mostly. I like it because you can google almost everything
 
- What do you dislike about the current product?
+What do you dislike about the current product?
 
 The information overload and i still have no idea how to mix and match the ingredients that ti realdy have
 
@@ -339,13 +338,13 @@ Yes
 
 Would you use recipes to help your cooking?
 
-Not often but I will google it if needed 
+Not often but I will google it if needed
 
 What do you like about the current product?
 
 I don;t like it tha tmich but it canwork
 
- What do you dislike about the current product?
+What do you dislike about the current product?
 
 I guess hard to find a diere one: quick and easy and clear
 
@@ -363,13 +362,13 @@ Yes
 
 Would you use recipes to help your cooking?
 
-Yes 
+Yes
 
 What do you like about the current product?
 
-I used the red. I like it since it’s informative 
+I used the red. I like it since it’s informative
 
- What do you dislike about the current product?
+What do you dislike about the current product?
 
 Spend a lot of time thinking about how to cook by ingredient that I have
 
@@ -388,7 +387,7 @@ Yes
 Would you use recipes to help your cooking?
 
 I THINk so but i will just ask my mom for the recipe
- 
+
 #14
 
 Would you cook?
@@ -397,13 +396,13 @@ Yes
 
 Would you use recipes to help your cooking?
 
-Yes 
+Yes
 
 What do you like about the current product?
 
-Iwill just search in the browser or youtube. I like it since it’s informative 
+Iwill just search in the browser or youtube. I like it since it’s informative
 
- What do you dislike about the current product?
+What do you dislike about the current product?
 
 It sepdns a lot of time on choosing one
 

@@ -146,6 +146,9 @@
 ## Final submission
 
 **Yingshi Zhu**
+- Finalized prototype development documentation.
+- Conducted tests for app and make adjustments to the app
+- Went through and updated the documents for milestones.
 
 **Yangkai He**
 
