@@ -46,6 +46,9 @@ Semi-structured interviews can enable us to find a significant number of insight
 7. Diamond is a 39-year-old Uber driver. I conduted the interview on the taxi. He cooks every day for his family. She is married with two daughters. He cooks for 20 hours or so. Most of the time he cooks based on his knowledge. Recently he is preparing for his daughter's birthday and would like to learn something new using online recipes. He used the app the Chunky Chef. He found it useful and thorough but took too much time to read. He also wants to save money and would like to directly input what ingredients he has got in his fridge.
    Main findings: interviewee wants to save money by utilizing what he already has in his fridge instead of buying something new.
 
+8. Miss. Olivia is a 24 years old UX Researcher and has worked for 2 years. She spends about 5 hours a week cooking and she thinks she is at an intermediate level. She usually prepares the food 1 day prior to working and she tends to cook easy and low-calorie food. She is willing to discover new recipes but she tends to investigate more on the recipes about how other peoples think so she would like to know how other people like the recipe. Also, she is a bit tired of the recipe applications nowadays with too many unnecessary features and buttons that cost her extra time to check what she really needs, she just wants it simple and works fast. 
+   Main findings: interviewee wants to know more about how other people think about the recipes online and wants a simple and easy-to-use application without too many unnecessary features and buttons.
+
 Link to the detailed [Interview Notes](./interview-notes.md)
 
 ### Semi-structured interview
