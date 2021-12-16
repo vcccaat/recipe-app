@@ -1,24 +1,24 @@
 <template>
 	<div class="fullPanel">
 		<div id="left-panel" v-if="showPanel">
-			<div style="text-align: right">
-				<el-button @click="onHide" size="small" icon="el-icon-caret-left" class="hidden-lg-and-up"></el-button>
+			<div style="text-align: right;">
+				<el-button @click="onHide" size="small" icon="el-icon-caret-left" class="hidden-md-and-up"></el-button>
 			</div>
 			<h5 style="font-weight:bold;">Time I have for the meal (minutes)</h5>
-			<div class="d-flex">
+			<div class="d-flex" style="margin-bottom: 20px">
 				<form class="flex-grow-1" style="z-index: 1" >
 					<el-slider  @change="handleTimeChange" v-model="time" show-input :step="5" :max="60"> </el-slider>
 				</form>
 			</div>
-			<div style="color: dimgrey; margin: 0px">{{ time }} Minutes</div>
+			<!-- <div style="color: dimgrey; margin: 0px">{{ time }} Minutes</div> -->
 
 			<h5 style="font-weight:bold;">People need to serve</h5>
-			<div class="d-flex">
+			<div class="d-flex" style="margin-bottom: 20px">
 				<form class="flex-grow-1">
 					<el-slider  @change="handleServingChange" v-model="serving" show-input :max="8" :min="1"> </el-slider>
 				</form>
 			</div>
-			<div style="color:dimgrey; margin: 0px">{{ serving }} People</div>
+			<!-- <div style="color:dimgrey; margin: 0px">{{ serving }} People</div> -->
 
 			<h5 style="font-weight:bold;">Pick the ingredients I have</h5>
 			<div class="ingredients" v-for="item in ingredients" :key="item.type">
@@ -122,6 +122,9 @@ export default {
 // slider reference: https://mdbootstrap.com/snippets/jquery/mdbootstrap/944578
 </script>
 <style>
+ .el-input--small {
+	pointer-events: none !important;
+ }
 .fullPanel {
 	height: 100%;
 }
