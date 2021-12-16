@@ -49,34 +49,34 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-8">
-					<h3 class="title" style="margin: 0 0 10px; font-weight: bold;">{{ this.recipe['name'] }}</h3>
+					<h3 class="title" style="margin: 10px 0 20px; font-weight: bold;">{{ this.recipe['name'] }}</h3>
 				</div>
-				<div class="col-4 text-end align-center">
+				<div class="col-4 text-end align-center" style="margin: 5px 0 20px;">
 					<button type="button" class="btn btn-outline-warning btn-sm">Rating {{ this.recipe['rating'] }}</button>
 				</div>
 			</div>
 			<div class="container">
 				<div class="row" style="margin: 0px 30px">
 					<div class="col-4">
-						<div class="card">
+						<div class="card" style="padding: 5px;">
 							<i class="bi-alarm"></i>
 							{{ this.recipe['time'] }} Min
 						</div>
 					</div>
 
 					<div class="col-4">
-						<div class="card"><i class="bi bi-emoji-smile"></i>{{ this.recipe['difficulty'] }}</div>
+						<div class="card" style="padding: 5px;"><i class="bi bi-emoji-smile"></i>{{ this.recipe['difficulty'] }}</div>
 					</div>
 
 					<div class="col-4">
-						<div class="card">{{ this.recipe['serving'] }}<span>Serving</span></div>
+						<div class="card" style="padding: 5px;">{{ this.recipe['serving'] }}<span>Serving</span></div>
 					</div>
 				</div>
 			</div>
 		</div>
 
 		<div class="container">
-			<h5 class="title">Ingredients</h5>
+			<h5 class="title" style="margin-top: 5px">Ingredients</h5>
 			<ul>
 				<li v-for="(item, index) in this.recipe['ingredients']" :key="index" class="text-start">
 					{{ item }}
@@ -99,7 +99,7 @@
 			</div>
 
 			<!-- Upload pictures -->
-			<span class="demonstration">Share your dished for rewards!</span>
+			<span class="demonstration">Share picture of your dishes for rewards!</span>
 			<el-upload
 				style="padding: 10px"
 				list-type="picture-card"
@@ -116,7 +116,6 @@
 
 			<!--Input comment -->
 			<el-input
-				style="padding: 0 50px 0"
 				type="textarea"
 				:autosize="{ minRows: 2, maxRows: 4 }"
 				placeholder="Please type your comments here..."
@@ -173,9 +172,12 @@ export default {
 			console.log('upload success');
 		},
 		handleRemove(file, fileList) {
-			console.log(file, fileList);
+			console.log("file:", file, "filelist:", fileList);
+			this.cacheList.splice(-1,1);
+			// return false;
 		},
 		handleChange(file, fileList) {
+			console.log("file:", file, "filelist:", fileList);
 			const isJPG = /\.(?:jpg|png|jpeg)$/.test(file.name.toLowerCase());
 			const isLt2M = file.size / 1024 / 1024 < 2;
 			if (!isJPG) {
@@ -197,6 +199,8 @@ export default {
 					this.proofImage = params[1];
 				}
 			});
+						console.log("cache:", this.cacheList)
+
 		},
 		handleUpload() {
 			this.dialogVisible = true;
@@ -205,6 +209,10 @@ export default {
 			this.cacheList.push(NaN);
 		},
 		handleShare() {
+			if (this.cacheList.length == 3 && this.comment == '' && !this.rating){
+				this.$message.error("Please don't leave a blank feedback.");
+				return
+			}
 			// Transfer the feedback content to the profile page
 			if (this.$refs.upload.uploadFiles.length > 0) {
 				const currentPoints = localStorage.getItem('rewardPoints');
@@ -262,6 +270,16 @@ export default {
 };
 </script>
 <style>
+.el-textarea {
+	width: 50% !important;
+}
+
+@media (max-width: 768px){
+  .el-textarea {
+	width: 100% !important;
+	}
+}
+
 .container {
 	padding: 5px;
 }
