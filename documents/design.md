@@ -5,7 +5,7 @@ Main content:
 - Brainstorming Note
 - Revisions to Prior Work
 - Design sketches and rationale
-- Persuasive desgin and rationale
+- Persuasive desgin and rationale (11.15 revision)
 
 ## Brainstorming Note
 
@@ -85,12 +85,48 @@ Jason needs a quick dinner that can be prepared within 15 minutes using what he 
 
 Amy likes to explore new recipes. She can tap the "Trending" button in the app to see the highly-rated recipes. She can save a recipe she likes for later use. By clicking the "Saved" button, she can see what she has saved and refer to them for cooking. Amy cares about the taste of food, and she can actually see the taste such as "spicy" when she browses the app. She can also see what type of cuisine it is, such as "Asian".
 
-#### Two sliders
+#### Two sliders (11.15 revision)
 
 One slider is "Time I have for the meal (minutes)". The other one is the number of people to serve. There is a control on the right side of the slider where users can click plus or minus.
 Rationale: We use sliders so that users can directly drag it and it is easier for them to know the range of time requirements in our app. We add controllers to cater for different users' preferences.
 
-#### Checkboxes for ingredients
+#### Checkboxes for ingredients (11.15 revision)
+
+We categorized the ingredients into "Meat", "Vegetables", "Diary & Eggs", and "Spice & Herbs". Users can click on checkboxes and select one or more ingredients they have in their refridgerator.
+Rationale: Our interviewee Jason wants to utilize what he has in his fridge. These checkboxes allow users to select what they already have quickly without typing. We categorize them so that it is easy for users to find the ingredients in our checkboxes.
+
+#### Search function: "Clear" and "Confirm" buttons (11.15 revision)
+
+A click on the "Clear" button will set every checkbox for ingredients into "unchecked".
+Rationale: There are many checkboxes and it is time-consuming to uncheck all of them by hand. A "Clear" button is efficient and cater for the needs for our busy users that want to save time using our app.
+
+A click on the "Confirm" button will trigger the search function in our app. The recipe cards on the right will be filtered and only those that fits in the time range, can serve more people than required, and contain the ingredients that users input will be displayed.
+Rationale: Our users want to figure out what they can cook with the ingredients they have and in the time range they have.
+
+#### Search box (11.15 revision)
+
+Users can also type in the search input field if tehy have something in mind. After "Enter" or click "Search", The search box can match the name of the recipe.
+Rationale: Sometimes users have something specific in mind and they want to directly input the name of the cuisine.
+
+#### Recipe Card (11.15 revision)
+
+Recipe cards show the name of the recipe, the photos, the required time, and how many people it can serve. Clicking on the recipe card will redirect the users to the recipe details page.
+Rationale: Users want to know the required time, how many people it can serve, and the overal quality of it. A picture as a background of the recipe card can give users a rough idea about what this dish is about. This saves time for users.
+
+#### Recipe Details Page: Photo Gallery (11.15 revision)
+
+A photo gallery on top of the recipe details page. Users can click the left arrow or right arrow to navigate through these photos. There is an overview photo and several photos matching each step of the recipe.
+Rationale: Users want to see pictures of each step.
+
+#### Recipe Details Page: Basic Info - Name, Time, Difficulty, People to Serve, Ratings
+
+We show the name of the recipe, time to cook, difficulties, people to serve, and the rating to inform users about the recipes.
+Rationale: People want to know how difficult it is to decide whether they can handle it or not. Users want to know the rating so that they can judge how good a recipe is.
+
+#### Recipe Details Page: Ingredients and Steps
+
+We show the name of the recipe, time to cook, difficulties, people to serve, and the rating to inform users about the recipes.
+Rationale: Users want the app to explicitly show what ingredients they need so that they know what to prepare. Detailed steps help them cook better.
 
 ## Final Sketch
 
