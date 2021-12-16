@@ -1,21 +1,21 @@
 # Milestone5  Evaluation & Deployment
 
-Main Content: 
+- Main Content:
 - User Testing Feedback Summary
 - User Testing Documentation
-- Revision to Design 
-##  User Testing Feedback Summary
+- Revision to Design
 
+### User Testing Feedback Summary
 - Users want a visually appealing and intuitive user interface
-- Users are confusing with the meaning of servings, a rewording might be needed
-- Pictures in the recipe pages are not easy-to-read and they intuitively thought the image could swipe to change which they cannot.
-- Users are not able to back to the last step or back to home page
+- Users are confused with the meaning of servings.  A rewording might be needed
+- Pictures in the recipe pages are not easy-to-read and they intuitively thought the image could swipe to change, which they cannot.
+- Users are not able to go back to the last step or back to the home page
 - The readability and interactivity of the text about steps is poor
-- Users want more information about rating: Is the rating about the taste or quality of the recipe?
+- Users want more rating information: Is the rating about the taste or quality of the recipe?
 - Users want to know how many people give the rating.
 - The entrance of rewards is confusing: users would regard the reward button as the entrance, but the access is the profile icon.
 - Some users will not choose a specific time instead of a specific time like 23 min
-- Users do not see the “Confirm” and “Clear” buttons. They are not intuitive and people need to scroll down to see them.
+- Users do not see the "Confirm" and "Clear" buttons. They are not intuitive and people need to scroll down to see them.
 
 ## User Testing Documentation
 ### Participants 1: Male 26
