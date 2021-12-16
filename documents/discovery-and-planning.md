@@ -1,4 +1,14 @@
-# Milestone 2
+# Milestone 2 Discovery & Planning
+
+Main content:
+- Users
+- Gathering Information by interviews
+- Affinity Diagram from interviews
+- Problem identified
+- Value Propositions
+- Scenarios
+- Personas
+- Project Themes
 
 ## Users of the Product
 
@@ -128,9 +138,10 @@ Jason is a lawyer who enjoys cooking in his own place but he has a tight time sc
 Amy is a food-science student at Cornell University and she loves to explore new recipes. She cooks nearly everyday, and she cares about the taste of the meal. Facipe allows Amy to explore variety of recipes based on her ingredient keywords input. After Amy selects a recipe, the detail page outlines the estimated time takes to cook, uer reviews and rating of this recipe, as well as incorporate with clear instructions with picture demo to guide you step by step on how to make this cuisine. She genuinely think that this recipe app meet all her goals.
 
 ## Persona
-
+First Persona
 ![](Persona1.jpg)
 
+Second Persona
 ![](Persona2.jpg)
 
 ## Project Themes

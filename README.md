@@ -19,17 +19,17 @@ Recipe app
 Facipe
 
 ## Table of Contents
+App URL: https://facipe.herokuapp.com/
 
 - [Team Contract](documents/team-contract.md)
-- [Contribute](documents/contribution.md)
+- [Contribution](documents/contribution.md)
 - [Interview Notes](documents/interview-notes.md)
-- [Project App URL](https://facipe.herokuapp.com/)
 - Milestone 2 [Discovery and Planning](documents/discovery-and-planning.md)
 - [Affinity Diagram](documents/affinity_diagram.jpg)
 - Milestone 3 [Design](documents/design.md)
 - [brainstorm and sketches](documents/brainstorm-and-sketches.md)
 - Milestone 4 [High-Fidelity Prototype](documents/prototype-development.md)
-- Milestone 5 [user-testing-and-revision](documents/user-testing-and-revision.md)
+- Milestone 5 [Evaluation & Deployment](documents/evaluation-and-deployment.md)
 
 ## Project setup
 
