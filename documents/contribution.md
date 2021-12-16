@@ -124,9 +124,10 @@
 ## Milestone 6:
 
 **Yingshi Zhu**
+
 - Modified layout and fixed display bug
 - Brainstormed, prepared material, and discussed with the group about the presentation.
-**Yangkai He**
+  **Yangkai He**
 
 **Sonia Song**
 
@@ -134,4 +135,19 @@
 
 - Fixed the bug where the 'Pasta With Tomato Sauce' page cannot be opened.
 - Fixed the bug where the Confirm button will not reflect the recent change on the sliders.
-- Brainstormed, prepared material, and discussed with the group about the presentation.
+- Came up with an outline for the presentation. Initiated and lead the meeting. Brainstormed, prepared material, and discussed with the group about the presentation.
+
+## Final submission
+
+**Yingshi Zhu**
+**Yangkai He**
+
+**Sonia Song**
+
+**Jieyu Chen**
+
+- Collected feeback from the presentation. Made the top bar fixed.
+- Fixed bugs about "the reward point display none when first-time login".
+- Went through the requirements and feedback and summarized a to-do list for the team.
+- Initiated and lead the group discussion about the to-do lists.
+- Wrote the feature list and modified the rationale.
