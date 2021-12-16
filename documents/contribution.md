@@ -127,7 +127,12 @@
 
 - Modified layout and fixed display bug
 - Brainstormed, prepared material, and discussed with the group about the presentation.
-  **Yangkai He**
+
+**Yangkai He**
+
+- Updated new version recipe card gallery.
+- Finished feedback feature with interface / local storage / connection to profile page.
+- Completed whole reponsive features for all parts, and styling.
 
 **Sonia Song**
 
@@ -136,11 +141,18 @@
 - Fixed the bug where the 'Pasta With Tomato Sauce' page cannot be opened.
 - Fixed the bug where the Confirm button will not reflect the recent change on the sliders.
 - Came up with an outline for the presentation. Initiated and lead the meeting. Brainstormed, prepared material, and discussed with the group about the presentation.
+- Deployed the app.
 
 ## Final submission
 
 **Yingshi Zhu**
+
 **Yangkai He**
+
+- Fixed bugs and errors of feedback feature / reponsive panel.
+- Finalized the CSS styling for all parts.
+- Finalized the fixed position and dynamic styling for left panel and responsive layout.
+- Went through and updated the documents for milestones.
 
 **Sonia Song**
 
@@ -151,3 +163,4 @@
 - Went through the requirements and feedback and summarized a to-do list for the team.
 - Initiated and lead the group discussion about the to-do lists.
 - Wrote the feature list and modified the rationale.
+- Deployed the app.
