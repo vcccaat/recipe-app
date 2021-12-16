@@ -1,12 +1,14 @@
 # Milestone3 Design
 
 Main content:
+
 - Brainstorming Note
 - Revisions to Prior Work
 - Design sketches and rationale
 - Persuasive desgin and rationale
 
 ## Brainstorming Note
+
 we brainstorm the main features of our app and how it meet user requirement
 ![](whiteboard.jpg)
 
@@ -75,7 +77,7 @@ So our application is going to make the user feel that cooking could be simple a
 
 We are also going to create a reward system. When the users cook more often or utilize the ingredients more, they would get more points for the badge “fast cooking chief” or “expert of utilizing ingredients” to prompt the user to utilize the ingredients as much as possible and cook by themselves more instead of ordering takeaways.
 
-## Rationale
+## Feature List and Rationale
 
 Our app name is Facipe. It's main users are those who have limited time in cooking and want to make the best use of the ingredients that they already have. We choose these audience based on our interviews with the users where we learned that people want to find a recipe based on existing ingredients. Moreover, people want step-by-step instructions with visual presentations. They hope that they can know how much time a recipe will take so that they can better manage their schedules. That's why we create Facipe which provides thorough step-by-step recipes to help users make delicious dishes. Each dish is labelled with estimated time and tastes. Users can also see the comments and people's ratings. Let's take a closer look at the scenarios and how our product resolves users' pain points.
 
@@ -83,6 +85,13 @@ Jason needs a quick dinner that can be prepared within 15 minutes using what he 
 
 Amy likes to explore new recipes. She can tap the "Trending" button in the app to see the highly-rated recipes. She can save a recipe she likes for later use. By clicking the "Saved" button, she can see what she has saved and refer to them for cooking. Amy cares about the taste of food, and she can actually see the taste such as "spicy" when she browses the app. She can also see what type of cuisine it is, such as "Asian".
 
+#### Two sliders
+
+One slider is "Time I have for the meal (minutes)". The other one is the number of people to serve. There is a control on the right side of the slider where users can click plus or minus.
+Rationale: We use sliders so that users can directly drag it and it is easier for them to know the range of time requirements in our app. We add controllers to cater for different users' preferences.
+
+#### Checkboxes for ingredients
 
 ## Final Sketch
+
 ![final_sketch](final_sketch.jpg)
