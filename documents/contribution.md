@@ -136,6 +136,9 @@
 
 **Sonia Song**
 
+- Updated mock data structure and added new data.
+- Brainstormed, prepared material, and discussed with the group about the presentation.
+
 **Jieyu Chen**
 
 - Fixed the bug where the 'Pasta With Tomato Sauce' page cannot be opened.
@@ -158,6 +161,11 @@
 - Went through and updated the documents for milestones.
 
 **Sonia Song**
+
+- Went through and updated the documents for milestones.
+- Updated mock data.
+- Refined the wireframe and final sketch.
+- Designed logo and modified icons' CSS.
 
 **Jieyu Chen**
 
