@@ -76,7 +76,7 @@ export default {
 		}
 		window.addEventListener("resize", () => {
 			this.screenWidth = document.body.clientWidth;
-			console.log(this.screenWidth);
+			//console.log(this.screenWidth);
 			//this.screenHeight = document.body.clientHeight;
 			if (this.screenWidth <= 950) {
 			this.styler = "el-button el-button--mini btn-outline-primary";
@@ -102,7 +102,7 @@ export default {
 		},
 		handleConfirm() {
 			var width = document.body.clientWidth;
-			console.log(width)
+			//console.log(width)
 			Ingredient.$emit('confirm');
 			if( width < 600 ){
 				this.showPanel = false;

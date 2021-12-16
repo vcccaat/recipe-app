@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<HeaderBar />
-		<div class="container" style="margin-top:55px;">
+		<div class="container" style="margin-top:50px; width: 100%;">
 			<div class="row">
 				<div class="col">
 					<h2 class="title" style="font-weight: 800">Profile</h2>
@@ -112,9 +112,9 @@ export default {
 	mounted() {
 		window.addEventListener('storage', (e) => {
 			if (e.key && e.key == 'feedbackPics' && e.newValue) {
-				console.log('storage值发生变化后触发:', e);
+				//console.log('storage值发生变化后触发:', e);
 				this.displayList = JSON.parse(e.newValue);
-				console.log(this.displayList);
+				//console.log(this.displayList);
 			}
 		});
 	},

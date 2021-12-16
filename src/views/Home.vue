@@ -84,15 +84,12 @@ export default {
 			this.screenWidth = document.body.clientWidth;
 			if (this.screenWidth <= 768) {
 				this.cardviewMargin = 'margin: 5px';
-				console.log(this.cardviewMargin)
 			} else {
 				this.cardviewMargin = 'margin: 20px';
-				console.log(this.cardviewMargin)
 			}
 		});
 
 		this.rewardPoints = 'rewardPoints' in localStorage ? localStorage.getItem('rewardPoints') : 10;
-		console.log(this.$cookies.get('popped'));
 		if (this.$cookies.get('popped') != 'yes') {
 			//cookie 中没有 popped 则赋给他一个值（此时弹框显示）
 			document.cookie = 'popped = yes';
@@ -160,7 +157,7 @@ export default {
 				this.recipeList = RecipeData;
 				this.filteredList = JSON.parse(JSON.stringify(this.recipeList));
 				this.filteredList = Object.filter(this.filteredList, (recipe) => recipe.time <= this.time && recipe.serving >= this.serving);
-				console.log('filtered list', this.filteredList);
+				//console.log('filtered list', this.filteredList);
 			} else {
 				// if there is a search input, find if there has any matched content
 				this.recipeList = {}; // clear the display list
@@ -182,7 +179,7 @@ export default {
 				});
 				this.filterOnServing(this.serving);
 				this.filterOnTime(this.time);
-				console.log('filtered', this.filteredList);
+				//console.log('filtered', this.filteredList);
 			}
 		},
 		search: function (input) {

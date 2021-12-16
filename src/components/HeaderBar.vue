@@ -1,7 +1,8 @@
 <template>
-	<div class="header-bar" style="z-index: 2">
-		<router-link to="/"> <img class="profileIcon" :src="homeIcon" /></router-link>
-		<div class="logo">
+	<div class="header-bar" style="z-index: 2; margin-top: 2px; width: 100%;">
+		<router-link to="/"> <img class="profileIcon" style="position: relative;
+	top: -2px;" :src="homeIcon" /></router-link>
+		<div class="logo" style="position: relative; top: 1px;">
 				<img class="logoIcon" :src="logoIcon" />
 		</div>
 		<div class="leftPart">
@@ -15,7 +16,7 @@
 					Reward Points
 				</el-button>
 			</el-popover> -->
-			<div style="vertical-align: middle; display: inline">
+			<div style="vertical-align: middle; display: inline; position: relative; top: -1px;">
 				<router-link to="/reward">
 					<img class="profileIcon" :src="profileIcon" />
 				</router-link>
