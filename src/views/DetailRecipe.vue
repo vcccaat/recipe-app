@@ -199,19 +199,20 @@ export default {
 					this.proofImage = params[1];
 				}
 			});
-						console.log("cache:", this.cacheList)
+			console.log("cache:", this.cacheList)
 
 		},
 		handleUpload() {
 			this.dialogVisible = true;
+			this.cacheList = [];
 			this.cacheList.push(this.recipeName);
 			this.cacheList.push('No comment content.');
 			this.cacheList.push(NaN);
 		},
 		handleShare() {
-			if (this.cacheList.length == 3 && this.comment == '' && !this.rating){
+			if (this.$refs.upload.uploadFiles.length == 0 && this.comment == '' && !this.rating){
 				this.$message.error("Please don't leave a blank feedback.");
-				return
+				return false;
 			}
 			// Transfer the feedback content to the profile page
 			if (this.$refs.upload.uploadFiles.length > 0) {
