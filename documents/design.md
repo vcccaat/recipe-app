@@ -130,4 +130,4 @@ Rationale: Users want the app to explicitly show what ingredients they need so t
 
 ## Final Sketch
 
-![final_sketch](final_sketch.jpg)
+![final_sketch](sketches/final_sketch.jpg)
