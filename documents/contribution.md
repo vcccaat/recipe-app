@@ -127,7 +127,12 @@
 
 - Modified layout and fixed display bug
 - Brainstormed, prepared material, and discussed with the group about the presentation.
-  **Yangkai He**
+
+**Yangkai He**
+
+- Updated new version recipe card gallery.
+- Finished feedback feature with interface / local storage / connection to profile page.
+- Completed whole reponsive features for all parts, and styling.
 
 **Sonia Song**
 
@@ -140,7 +145,13 @@
 ## Final submission
 
 **Yingshi Zhu**
+
 **Yangkai He**
+
+- Fixed bugs and errors of feedback feature / reponsive panel.
+- Finalized the CSS styling for all parts.
+- Finalized the fixed position and dynamic styling for left panel and responsive layout.
+- Went through and updated the documents for milestones.
 
 **Sonia Song**
 
