@@ -11,7 +11,7 @@ Main content:
 
 we brainstorm the main features of our app and how it meet user requirements
 ![](whiteboard.jpg)
-More on the brainstorming process can refer to [this doc](documents/brainstorm-and-sketches.md)
+More on the brainstorming process can refer to [this doc](brainstorm-and-sketches.md)
 
 
 ## Revisions to Prior Work
