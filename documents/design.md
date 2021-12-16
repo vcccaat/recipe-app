@@ -1,7 +1,13 @@
 # Milestone3 Design
 
-## Brainstorming Note
+Main content:
+- Brainstorming Note
+- Revisions to Prior Work
+- Design sketches and rationale
+- Persuasive desgin and rationale
 
+## Brainstorming Note
+we brainstorm the main features of our app and how it meet user requirement
 ![](whiteboard.jpg)
 
 ## Revisions to Prior Work
@@ -76,3 +82,7 @@ Our app name is Facipe. It's main users are those who have limited time in cooki
 Jason needs a quick dinner that can be prepared within 15 minutes using what he has in his fridge. By clicking the "Quick Meal" button on the app, Jason can use the slide bar and tell the app how much time he has. Facipe can filter the recipes that takes less than 15 minutes for Jason. Jason can also click the ingredients he has in the filter. All the recipes are provided with photos on the browsing page. The photos are labelled with estimated time on their upper left corner. Jason can look at the rating and pictures to decide which one he wants. He can click a recipe to go to the details page. In the details page, he can see a step-by-step instruction which allows him to prepare his food in a given time frame using what he already has in his fridge.
 
 Amy likes to explore new recipes. She can tap the "Trending" button in the app to see the highly-rated recipes. She can save a recipe she likes for later use. By clicking the "Saved" button, she can see what she has saved and refer to them for cooking. Amy cares about the taste of food, and she can actually see the taste such as "spicy" when she browses the app. She can also see what type of cuisine it is, such as "Asian".
+
+
+## Final Sketch
+![final_sketch](final_sketch.jpg)

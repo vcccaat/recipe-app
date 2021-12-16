@@ -1,6 +1,10 @@
-# Milestone5 Evaluation & Deployment
+# Milestone5  Evaluation & Deployment
 
-### Key Takeaways:
+Main Content: 
+- User Testing Feedback Summary
+- User Testing Documentation
+- Revision to Design 
+##  User Testing Feedback Summary
 
 - Users want a visually appealing and intuitive user interface
 - Users are confusing with the meaning of servings, a rewording might be needed
@@ -13,6 +17,7 @@
 - Some users will not choose a specific time instead of a specific time like 23 min
 - Users do not see the “Confirm” and “Clear” buttons. They are not intuitive and people need to scroll down to see them.
 
+## User Testing Documentation
 ### Participants 1: Male 26
 
 Assume you are the lawyer who enjoys cooking in his own place but has a tight time schedule this semester. You have a meeting scheduled at 8 pm, and would like to make a quick dinner using some available ingredients so that you can save your time.  
@@ -95,13 +100,14 @@ Follow-Up Questions
 How would you rate the overall experience from 1 to 10? What do you like about it? What do you dislike about it?
 4 like the concept and dislike it . I mentioned before.
 
-Revision:
+## Revision on Design:
 
-![](Revision1.jpg)
 
-![](Revision2.jpg)
+revised main page and detailed recipe page![revised sketch](Revision1.jpg)
 
-## Design rationale:
+revised user feedback modal ![revised sketch](Revision2.jpg)
+
+### Rationale:
 
 - Based on the user testing, we refine and change our sketches based on user testing insights:
 - We changed the rating system since users would like to know more about the rating. We add a rating for taste specifically and a rate for the quality of the recipe.

@@ -124,7 +124,8 @@
 ## Milestone 6:
 
 **Yingshi Zhu**
-
+- Modified layout and fixed display bug
+- Brainstormed, prepared material, and discussed with the group about the presentation.
 **Yangkai He**
 
 **Sonia Song**
