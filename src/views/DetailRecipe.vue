@@ -99,7 +99,7 @@
 			</div>
 
 			<!-- Upload pictures -->
-			<span class="demonstration">Share picture of your dishes for rewards!</span>
+			<span class="demonstration" style="font-weight:bold">Share picture of your dishes for rewards!</span>
 			<el-upload
 				style="padding: 10px"
 				list-type="picture-card"
