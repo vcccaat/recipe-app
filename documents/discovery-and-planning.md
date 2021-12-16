@@ -43,6 +43,7 @@ Semi-structured interviews can enable us to find a significant number of insight
 6. Mr. Li is a 25 yrs old software engineer, he lives alone in an apartment and usually cooks 7 times a week. He is an intermediate cooker. He loves to spend sparse time finding new tastes and recipes. Meanwhile, he is busy at work. Sp during the weekdays, he prefers to cook a quick and easy meal with existing ingredients. And explore more tastes during the weekend.
    Main findings: interviewee prefers to cook a quick and easy meal with existing ingredients especially during weekdays.
 
+Link to the detailed [Interview Notes](documents/interview-notes.md)
 ### Semi-structured interview
 
 #1 He is an ECE grad student who learned to cook from his mom

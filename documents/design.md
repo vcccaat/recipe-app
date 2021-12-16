@@ -2,15 +2,17 @@
 
 Main content:
 
-- Brainstorming Note
+- Brainstorming Process
 - Revisions to Prior Work
 - Design sketches and rationale
 - Persuasive desgin and rationale (11.15 revision)
 
-## Brainstorming Note
+## Brainstorming Process
 
 we brainstorm the main features of our app and how it meet user requirements
 ![](whiteboard.jpg)
+More on the brainstorming process can refer to [this doc](brainstorm-and-sketches.md)
+
 
 ## Revisions to Prior Work
 
@@ -129,4 +131,6 @@ We show the name of the recipe, time to cook, difficulties, people to serve, and
 Rationale: Users want the app to explicitly show what ingredients they need so that they know what to prepare. Detailed steps help them cook better.
 
 ## Final Sketch
+We incorporated the above features and persuasive design into the following final sketch:
+
 ![final_sketch](sketches/final_sketch.jpg)
