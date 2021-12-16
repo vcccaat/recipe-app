@@ -4,30 +4,25 @@
 			<div style="text-align: right">
 				<el-button @click="onHide" size="small" icon="el-icon-caret-left" class="hidden-lg-and-up"></el-button>
 			</div>
-			<h5>Time I have for the meal (minutes)</h5>
+			<h5 style="font-weight:bold;">Time I have for the meal (minutes)</h5>
 			<div class="d-flex">
-				<!-- <span class="">0</span> -->
 				<form class="flex-grow-1" style="z-index: 1" >
-					<!-- <input @change="handleTimeChange" v-model="time" style="width: 100%" type="range" min="0" max="100" /> -->
 					<el-slider  @change="handleTimeChange" v-model="time" show-input :step="5" :max="60"> </el-slider>
 				</form>
-				<!-- <span class="">100 (Min)</span> -->
 			</div>
-			<div style="color: dimgrey; margin: 0px">{{ time }} Min</div>
+			<div style="color: dimgrey; margin: 0px">{{ time }} Minutes</div>
 
-			<h5>People need to serve</h5>
+			<h5 style="font-weight:bold;">People need to serve</h5>
 			<div class="d-flex">
-				<!-- <span class="">0</span> -->
 				<form class="flex-grow-1">
-					<!-- <input @change="handleServingChange" v-model="serving" style="width: 100%" class="border-0" type="range" min="0" max="10" /> -->
 					<el-slider  @change="handleServingChange" v-model="serving" show-input :max="8" :min="1"> </el-slider>
 				</form>
-				<!-- <span class="">10</span> -->
 			</div>
 			<div style="color:dimgrey; margin: 0px">{{ serving }} People</div>
 
-			<div class="Diary" v-for="item in ingredients" :key="item.type">
-				<h5>{{ item.type }}</h5>
+			<h5 style="font-weight:bold;">Pick the ingredients I have</h5>
+			<div class="ingredients" v-for="item in ingredients" :key="item.type">
+				<h6>{{ item.type }}</h6>
 				<table class="buttons" v-for="i in Math.ceil(item.ingredients.length / 4)" :key="i">
 					<tr>
 						<td v-for="ind in item.ingredients.slice((i - 1) * 4, i * 4)" :key="ind">
@@ -36,8 +31,10 @@
 					</tr>
 				</table>
 			</div>
-			<el-button type="info"  @click="handleClear" plain round style="margin-bottom: 0px">Clear</el-button>
-			<el-button type="primary" @click="handleConfirm" round>Confirm</el-button>
+			<div class="d-flex buttons">
+				<el-button class="flex-grow-1" type="info"  @click="handleClear" plain round style="margin-bottom: 0px">Clear</el-button>
+				<el-button class="flex-grow-1" type="primary" @click="handleConfirm" round>Confirm</el-button>
+			</div>
 		</div>
 		
 		<div class="hidePanel" v-if="!showPanel">
@@ -160,7 +157,9 @@ export default {
 }
 
 .hidePanel {
-	margin-top: 50px;
+	position: absolute;
+	top: 60px;
+	/* margin-top: 5px; */
 	text-align: left;
 	font-size: 16px;
 }

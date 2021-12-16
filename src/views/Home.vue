@@ -3,17 +3,10 @@
 		<HeaderBar />
 		<div class="main-container">
 			<el-col class="left-panel" :xs="xsLeft" :sm="10" :md="10" :lg="8">
-			<!-- <div class="left-panel"> -->
 				<LeftPanel @movePanel="movePanel" />
-			<!-- </div> -->
 			</el-col>
 
-			<el-col class="right-panel" :xs="xsRight" :sm="14" :md="14" :lg="16">
-			<!-- <div class="right-panel" v-show="showRight">	 -->
-				<!-- <b-modal ref="rewardPopup" id="modal-1" title="Welcome!" hide-footer>
-					<p>Login First Time Today! Reward Points +1!</p>
-				</b-modal> -->
-				
+			<el-col class="right-panel" :xs="xsRight" :sm="14" :md="14" :lg="16">				
 				<div :style="cardviewMargin">
 					<SearchBar v-show="showSearch" @search-sent="search" :errMsg="errMsg" :showError="showError" />
 					<div class="card-container" v-show="!showError">
