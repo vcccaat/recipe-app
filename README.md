@@ -14,6 +14,10 @@ Yingshi Zhu, Yangkai He, Sonia Song, Jieyu Chen
 
 Recipe app
 
+## Project Name
+
+Facipe
+
 ## Table of Contents
 
 - [Team Contract](documents/team-contract.md)
