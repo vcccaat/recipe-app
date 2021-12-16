@@ -45,48 +45,6 @@ Semi-structured interviews can enable us to find a significant number of insight
 
 Link to the detailed [Interview Notes](./interview-notes.md)
 
-### Semi-structured interview
-
-#1 He is an ECE grad student who learned to cook from his mom
-
-#2 She is a busy student who rarely cooks
-
-#3 She is a frequent cook and wants to have a quick and easy meal recipe
-
-#4 He is a super busy student and would like to cook extreme easy meals without recipes
-
-#5 He is a senior student in information science and desire recipes of a quick and easy meal
-
-#6 He is a frequent recipe user and has the requirement of the design of the recipes
-
-#7 She is a busy student who doesn’t cook
-
-#8 He is a regular recipe user that desire to cook based on ingredients he already has
-
-#9 She cooks almost every day and wants to have straightforward, quick, and easy recipes
-
-#10 He never cooked
-
-#11 She uses social media to find the recipe and desire to cook by existing ingredients
-
-#12 He is rarely cook
-
-#13 She learns to cook from her mom and rarely uses recipes
-
-#14 He often cook by himself and want to choose a recipe ASAP
-
-#15 She rarely cook
-
-### The key takeaways from semi-structured interviews:
-
-- People desire a handy recipe app
-
-- People want to make quick meals, especially in the prelim seasons
-
-- People would typically go shopping for ingredients once a week and would choose to cook whatever they have
-
-- People would search for help for good cook/friends
-
 ### The key takeaways from contextual interviews:
 
 - People desire for finding a recipe based on existing ingredients
@@ -108,7 +66,52 @@ Link to the detailed [Interview Notes](./interview-notes.md)
 - People would like to have the instruction for the whole process that can be followed.
 - User will look at the recipe review section to determine if a recipe is worth to try.
 
+### Semi-structured interview
+We conducted 15 quick semi-structured interviews and we only recorded the information related to our topic.
+
+#1 He is an ECE grad student who learned to cook from his roommate. He never tried to install a recipe app, but he is willing to try if there are some special recipe on it.
+
+#2 She is a busy student who rarely cooks, but if a recipe can advise her how to cook in a faster manner, she is more than willing to try out.
+
+#3 She cook frequently, she usually looks at google search result and sometimes checks youtube video tutorial, she prefers video content than pure text, and image content are also preferable.
+
+#4 He is a super busy student and would like to cook extreme easy meals without recipes, such as sandwich or frozen dumplings.
+
+#5 He is a senior student in information science and desire recipes of a quick and easy meal. He often go to Phillips hall to buy simple cooked food. If a recipe app provides feature of searching fast recipe, he is willing to try out.
+
+#6 He is a frequent recipe user, and he is on diet, he usually looks for low calorie food. 
+
+#7 She is a busy student who doesn’t cook, she might not install a recipe app, she thinks canteen and restuarants are sufficient. 
+
+#8 He is a regular recipe user, he also has left over ingredients in the fridge, so he prefer a way to help him minimizes the chance of fresh food and vegetable expire before they get cooked.
+
+#9 She cooks almost every day and wants to make the meal taste good, at the same time can be easily prepared.
+
+#10 He never cooked, so he has no demand for a recipe app.
+
+#11 She uses social media to explore good meal such as youtube video and tiktok. She is interested in making these food by herself.
+
+#12 He is rarely cook, he tried out new recipe only once or twice found in google search, and he thinks he don't need a recipe app. 
+
+#13 She learns to cook from her mom and she already knows a lot of recipe, so she don't rely on any recipe app.
+
+#14 He recently start cooking by himself and he really lack of recipe, so a recipe app would be a great help.
+
+#15 She rarely cook, so he has no demand for a recipe app.
+
+### The key takeaways from semi-structured interviews:
+During the semi-structured interviews, we found over 30% of the interviewers rarely cook and might not use a recipe app. Some of them are willing to install a recipe app if it provides certain featuers. The rest of the interviewers desire recipes that can save their time, either from their friend or online resources.
+
+- People want to make quick meals, especially in the prelim seasons
+
+- A handy recipe app would be preferable
+
+- People would search for help from friends or online search
+
+- People would typically go shopping for ingredients once a week and would choose to cook whatever they have
+
 ### Affinity Diagram:
+This is the affinity diagram we concluded from our semi-structured interviews and contextual interviews.
 
 ![](affinity_diagram.jpg)
 
