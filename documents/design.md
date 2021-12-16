@@ -118,12 +118,12 @@ Rationale: Users want to know the required time, how many people it can serve, a
 A photo gallery on top of the recipe details page. Users can click the left arrow or right arrow to navigate through these photos. There is an overview photo and several photos matching each step of the recipe.
 Rationale: Users want to see pictures of each step.
 
-#### Recipe Details Page: Basic Info - Name, Time, Difficulty, People to Serve, Ratings
+#### Recipe Details Page: Basic Info - Name, Time, Difficulty, People to Serve, Ratings (11.15 revision)
 
 We show the name of the recipe, time to cook, difficulties, people to serve, and the rating to inform users about the recipes.
 Rationale: People want to know how difficult it is to decide whether they can handle it or not. Users want to know the rating so that they can judge how good a recipe is.
 
-#### Recipe Details Page: Ingredients and Steps
+#### Recipe Details Page: Ingredients and Steps (11.15 revision)
 
 We show the name of the recipe, time to cook, difficulties, people to serve, and the rating to inform users about the recipes.
 Rationale: Users want the app to explicitly show what ingredients they need so that they know what to prepare. Detailed steps help them cook better.

@@ -1,6 +1,7 @@
 # Milestone 2 Discovery & Planning
 
 Main content:
+
 - Users
 - Gathering Information by interviews
 - Affinity Diagram from interviews
@@ -131,13 +132,14 @@ we choosed to focus on the first two problems we identified.
 
 Our app(Facipe) enriches people's life by providing high-quality recipes that make the most of their limited time and ingredients. Facipe tells users the possible dishes they can make in a given amount of time. Users can know how to save money and prevent wasting food by entering what they have as ingredients. By providing step-by-step instructions visually, Facipe helps users cook better.
 
-## Scenarios
+## Scenarios (11.16 revision)
 
-Jason is a lawyer who enjoys cooking in his own place but he has a tight time schedule this semester. He has a meeting sheduled at 8pm, and he would like to make a quick dinner using some avialble ingredients so that he can save his time. Using Facipe app, Jason finds the ideal recipe by one search. Jason simply inputs the ingredients' name and time he plans to cook. The app will recommend a list of recipes that satisfy all his constraints. Jason is so glad that he can finish his dinner in 15min without the trouble to buy extra ingredients to prepare for this meal. He goes to his meeting on time.
+Jason is a lawyer who enjoys cooking in his own place but he has a tight time schedule. He has a meeting sheduled at 8pm, and he would like to make a quick dinner using some avialble ingredients so that he can save his time. Jason goes to our Facipe app for the first time today and is awarded one point. This motivates him to come to Facipe again tomorrow. Jason has 15 minutes before going to work and he has got chicken, beef, tomato, and egg in his refrigerator. He clicks the “Confirm” button and can see three recipes out there. He can see four recipes that satisfy his needs. They are Burger, Pasta with Tomato Sauce, Creamy Tomato Soup, and Omelets. He picks Omelet because it seems the most convenient one. Jason can also type in the search input field if he has something in mind. For example, Jason can type “Omelet” and the filter is applied. Jason clicks the recipe card and is redirected to the recipe details page. He sees the detailed steps with nice pictures and follows them to make a delicious meal. Our Facipe app helps Jason save time.
 
 Amy is a double majored student at Cornell University and she is super busy on weekdays. She cooks nearly everyday and she loves to share her dishes. Yesterday she just used up most of major ingredients and she woke up a bit late today so she doesn't have time to prepare food but just using the stuff left in her fridge. She doesn't have time to open her laptop so she opens up Facipe app on her phone (it's a reponsive application so it fully supports mobile devices). She slides the time bar to 15 minutes and 1 person to serve, and selected what she has in her fridge: beef, onion and potatoes. She can see several recipes and she chooses the beef burger. After she followed the instructions and finished the recipe, she feels the burger is easy to cook and taste really good so she taps the share button and leaves a comment with a photo of what she made, she can even earn reward by sharing the comment with pictures.
 
 ## Persona
+
 First Persona
 ![](Persona1.jpg)
 

@@ -141,6 +141,7 @@
 - Fixed the bug where the 'Pasta With Tomato Sauce' page cannot be opened.
 - Fixed the bug where the Confirm button will not reflect the recent change on the sliders.
 - Came up with an outline for the presentation. Initiated and lead the meeting. Brainstormed, prepared material, and discussed with the group about the presentation.
+- Deployed the app.
 
 ## Final submission
 
@@ -162,3 +163,4 @@
 - Went through the requirements and feedback and summarized a to-do list for the team.
 - Initiated and lead the group discussion about the to-do lists.
 - Wrote the feature list and modified the rationale.
+- Deployed the app.
