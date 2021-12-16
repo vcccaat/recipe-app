@@ -26,8 +26,9 @@ Facipe
 - [Project App URL](https://facipe.herokuapp.com/)
 - Milestone 2 [Discovery and Planning](documents/discovery-and-planning.md)
 - [Affinity Diagram](documents/affinity_diagram.jpg)
-- Milestone 3 [design-and-evaluation](documents/design-and-evaluation.md)
-- Brainstorm [brainstorm](documents/brainstorm-and-sketches.md)
+- Milestone 3 [Design](documents/design.md)
+- [brainstorm and sketches](documents/brainstorm-and-sketches.md)
+- Milestone 4 [High-Fidelity Prototype](documents/prototype-development.md)
 - Milestone 5 [user-testing-and-revision](documents/user-testing-and-revision.md)
 
 ## Project setup
