@@ -129,5 +129,4 @@ We show the name of the recipe, time to cook, difficulties, people to serve, and
 Rationale: Users want the app to explicitly show what ingredients they need so that they know what to prepare. Detailed steps help them cook better.
 
 ## Final Sketch
-
 ![final_sketch](sketches/final_sketch.jpg)

@@ -1,7 +1,9 @@
 <template>
 	<div class="header-bar" style="z-index: 2">
-		<router-link to="/"> <i class="bi bi-house-door homeIcon"></i></router-link>
-
+		<router-link to="/"> <img class="profileIcon" :src="homeIcon" /></router-link>
+		<div class="logo">
+				<img class="logoIcon" :src="logoIcon" />
+		</div>
 		<div class="leftPart">
 			<div class="rewardPart">
 				<img class="chiefIcon" :src="chiefIcon" />
@@ -28,6 +30,8 @@ export default {
 	name: 'HeaderBar',
 	data() {
 		return {
+			logoIcon: require('/public/img/icons/logo_tag.svg'),
+			homeIcon: require('/public/img/icons/home.svg'),
 			chiefIcon: require('/public/img/icons/chief.svg'),
 			profileIcon: require('/public/img/icons/profile.svg'),
 			rewardPoints: localStorage.getItem('rewardPoints') || 10
@@ -42,6 +46,11 @@ export default {
 };
 </script>
 <style>
+.logo,
+.logoIcon {
+	width: 100px;
+	height: 40px;
+}
 .chiefIcon {
 	width: 30px;
 	height: 30px;
